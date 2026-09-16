@@ -317,19 +317,19 @@ a {
   flex-direction: column;
 }
 .about-text {
-  padding: 32px 40px;
+  padding: 40px;
   flex: 1;
 }
 .about-text h2 {
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 32px;
   font-weight: 700;
   max-width: 540px;
   margin: 0 0 16px;
 }
 .about-text p {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 28px;
   max-width: 540px;
   margin: 0;
 }
@@ -371,16 +371,21 @@ a {
 }
 .about-image-crop {
   width: 100%;
-  aspect-ratio: 615 / 640;
+  min-height: 0;
+  padding: 40px 40px 0;
   overflow: hidden;
-  flex: 0 0 auto;
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .about-image-crop img {
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
+  width: min(416px, 100%);
+  height: auto;
+  aspect-ratio: 416 / 439;
+  object-fit: contain;
+  object-position: center bottom;
 }
 .about-caption {
   margin: 0;
@@ -392,11 +397,11 @@ a {
   font-style: italic;
 }
 .about-cv {
-  min-height: 112px;
+  min-height: 76px;
   padding: 24px 40px;
   display: flex;
   align-items: center;
-  flex: 1;
+  flex: 0 0 auto;
   border-top: 1px solid var(--line);
   font-size: 20px;
   line-height: 28px;
