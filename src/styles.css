@@ -151,7 +151,8 @@ a {
   flex-direction: column;
 }
 .work-grid {
-  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-rows: auto auto auto;
+  align-content: start;
 }
 .work-grid .work-card {
   display: grid;
@@ -159,7 +160,12 @@ a {
   grid-row: span 3;
 }
 .work-grid .muted-project .coming {
-  grid-row: 2 / 4;
+  grid-row: 2;
+}
+.work-grid .work-card > .dot-field {
+  flex: none;
+  min-height: 0;
+  align-self: start;
 }
 .eyebrow {
   font-size: 14px;
@@ -215,12 +221,12 @@ a {
   padding: 16px;
   background: #ebebeb;
   width: 100%;
+  height: fit-content;
 }
 .image-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 16/10;
-  object-fit: cover;
+  height: auto;
 }
 .case-link {
   min-height: 76px;
@@ -238,13 +244,14 @@ a {
 }
 .coming {
   flex: 1;
-  padding: 24px 40px 100px;
+  padding: 24px 40px;
   display: flex;
-  align-items: center;
+  align-items: stretch;
 }
 .coming div {
   width: 100%;
-  aspect-ratio: 1.55;
+  height: 100%;
+  min-height: 0;
   background: #fcfcfc;
   border: 16px solid #ebebeb;
   color: #858585;
@@ -610,6 +617,14 @@ a {
   }
   .work-grid .muted-project .coming {
     grid-row: auto;
+  }
+  .coming {
+    padding: 24px 40px 100px;
+    align-items: center;
+  }
+  .coming div {
+    height: auto;
+    aspect-ratio: 1.55;
   }
   .about-visual {
     min-height: 620px;
