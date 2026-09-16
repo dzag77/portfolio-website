@@ -158,9 +158,6 @@ a {
   flex-direction: column;
 }
 @media (min-width: 801px) {
-  .about-image-crop img {
-    width: 68%;
-  }
   .work-grid {
     grid-template-rows: auto minmax(0, 1fr) auto minmax(0, 1fr) auto;
   }
@@ -399,6 +396,11 @@ a {
   aspect-ratio: 416 / 439;
   object-fit: contain;
   object-position: center bottom;
+}
+@media (min-width: 801px) {
+  .about-image-crop img {
+    width: 68%;
+  }
 }
 .about-caption {
   margin: 0;
