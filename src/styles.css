@@ -158,6 +158,9 @@ a {
   flex-direction: column;
 }
 @media (min-width: 801px) {
+  .about-image-crop img {
+    width: 68%;
+  }
   .work-grid {
     grid-template-rows: auto minmax(0, 1fr) auto minmax(0, 1fr) auto;
   }
