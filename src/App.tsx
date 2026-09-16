@@ -214,10 +214,17 @@ function About() {
           </div>
         </section>
         <section className="about-visual">
-          <img
-            src={`${A}/about/about-panel.png`}
-            alt="Illustrated portrait of Denys and personal interests"
-          />
+          <div className="about-image-crop">
+            <img
+              src={`${A}/about/about-panel.png`}
+              alt="Illustrated portrait of Denys"
+            />
+          </div>
+          <p className="about-caption dot-field">
+            Outside of product design, I enjoy exploring interior design and
+            Japanese culture, drawing inspiration from their emphasis on
+            balance, attention to detail, and simplicity.
+          </p>
         </section>
       </div>
     </Shell>
