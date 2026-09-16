@@ -369,6 +369,16 @@ a {
   display: flex;
   flex-direction: column;
 }
+.about-portrait-block {
+  min-height: 0;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--page);
+  background-image: radial-gradient(circle, #cfcfcf 0.7px, transparent 0.8px);
+  background-size: 12px 12px;
+  background-position: left top;
+}
 .about-image-crop {
   width: 100%;
   min-height: 0;
@@ -403,6 +413,7 @@ a {
   align-items: center;
   flex: 0 0 auto;
   border-top: 1px solid var(--line);
+  background: var(--page);
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
