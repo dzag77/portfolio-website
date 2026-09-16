@@ -214,9 +214,9 @@ function About() {
           </div>
         </section>
         <section className="about-visual">
-          <div className="about-image-crop">
+          <div className="about-image-crop dot-field">
             <img
-              src={`${A}/about/about-panel.png`}
+              src={`${A}/shared/denys-portrait.png`}
               alt="Illustrated portrait of Denys"
             />
           </div>
