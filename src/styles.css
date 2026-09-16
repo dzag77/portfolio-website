@@ -151,8 +151,7 @@ a {
   flex-direction: column;
 }
 .work-grid {
-  grid-template-rows: auto auto auto;
-  align-content: start;
+  grid-template-rows: auto minmax(0, 1fr) auto;
 }
 .work-grid .work-card {
   display: grid;
@@ -160,12 +159,7 @@ a {
   grid-row: span 3;
 }
 .work-grid .muted-project .coming {
-  grid-row: 2;
-}
-.work-grid .work-card > .dot-field {
-  flex: none;
-  min-height: 0;
-  align-self: start;
+  grid-row: 2 / 4;
 }
 .eyebrow {
   font-size: 14px;
@@ -218,8 +212,8 @@ a {
   align-items: center;
 }
 .image-card {
-  padding: 16px;
-  background: #ebebeb;
+  padding: 0;
+  background: transparent;
   width: 100%;
   height: fit-content;
 }
@@ -246,7 +240,7 @@ a {
   flex: 1;
   padding: 24px 40px;
   display: flex;
-  align-items: stretch;
+  align-items: center;
 }
 .coming div {
   width: 100%;
