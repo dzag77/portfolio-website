@@ -127,8 +127,9 @@ a {
   gap: 40px;
 }
 .intro h2 {
-  font-size: 28px;
-  line-height: 36px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
   margin: 0 0 24px;
 }
 .intro h1,
@@ -311,8 +312,9 @@ a {
   flex: 1;
 }
 .about-text h2 {
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
   max-width: 540px;
   margin: 0 0 16px;
 }
@@ -371,11 +373,13 @@ a {
 .case-study h2 {
   font-size: 32px;
   line-height: 40px;
+  font-weight: 700;
   margin: 0 0 16px;
 }
 .case-study h3 {
   font-size: 24px;
   line-height: 32px;
+  font-weight: 700;
   margin: 0 0 24px;
 }
 .case-study p {
@@ -750,7 +754,8 @@ a {
     padding: 18px 14px;
   }
   .intro h2 {
-    font-size: 22px;
+    font-size: 32px;
+    line-height: 40px;
   }
   .intro h1,
   .case-hero h1 {
@@ -790,11 +795,12 @@ a {
     border-bottom: 1px solid var(--line);
   }
   .case-study h2 {
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 32px;
+    line-height: 40px;
   }
   .case-study h3 {
-    font-size: 22px;
+    font-size: 24px;
+    line-height: 32px;
   }
   .case-study p {
     font-size: 16px;
