@@ -225,6 +225,13 @@ function About() {
             Japanese culture, drawing inspiration from their emphasis on
             balance, attention to detail, and simplicity.
           </p>
+          <a
+            className="about-cv"
+            href={`${A}/about/denys-zagorodny-cv.pdf`}
+            download
+          >
+            Download CV
+          </a>
         </section>
       </div>
     </Shell>
