@@ -4,15 +4,17 @@ type Page = "home" | "work" | "about" | "hq-redesign";
 
 const A = "/assets";
 
-function routeFromHash(): Page {
-  const route = location.hash.replace("#/", "");
+function routeFromPath(): Page {
+  const route = location.pathname.replace(/^\\/+|\\/+$/g, "");
   return (
     ["work", "about", "hq-redesign"].includes(route) ? route : "home"
   ) as Page;
 }
 
 function go(page: Page) {
-  location.hash = page === "home" ? "/" : `/${page}`;
+  const path = page === "home" ? "/" : `/${page}`;
+  history.pushState({}, "", path);
+  window.dispatchEvent(new PopStateEvent("popstate"));
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -622,11 +624,11 @@ function Compare({
 }
 
 export default function App() {
-  const [page, setPage] = useState<Page>(routeFromHash());
+  const [page, setPage] = useState<Page>(routeFromPath());
   useEffect(() => {
-    const update = () => setPage(routeFromHash());
-    addEventListener("hashchange", update);
-    return () => removeEventListener("hashchange", update);
+    const update = () => setPage(routeFromPath());
+    addEventListener("popstate", update);
+    return () => removeEventListener("popstate", update);
   }, []);
   if (page === "work") return <Work />;
   if (page === "about") return <About />;
