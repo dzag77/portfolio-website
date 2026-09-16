@@ -87,6 +87,7 @@ a {
 .footer-location {
   overflow: hidden;
   gap: 24px;
+  align-items: flex-end;
 }
 .footer-location span {
   font-size: 14px;
