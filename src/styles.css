@@ -34,6 +34,11 @@ button {
 a {
   text-decoration: none;
 }
+.body-small {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
 .page-frame {
   min-height: 100vh;
   padding: 24px;
@@ -190,7 +195,7 @@ a {
   .work-grid:has(.work-card--with-image)
     .work-card--empty
     > .coming
-    > div {
+    > p {
     grid-row: 2;
     height: 100%;
     min-height: 0;
@@ -206,7 +211,7 @@ a {
   .work-grid:not(:has(.work-card--with-image))
     .work-card--empty
     > .coming
-    > div {
+    > p {
     height: auto;
     aspect-ratio: 1.55;
   }
@@ -239,7 +244,8 @@ a {
   font-size: 14px;
   font-weight: 600;
 }
-.project-meta strong {
+.project-meta h3 {
+  margin: 0;
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
@@ -293,10 +299,11 @@ a {
   display: flex;
   align-items: center;
 }
-.coming div {
+.coming p {
   width: 100%;
   height: 100%;
   min-height: 0;
+  margin: 0;
   background: #fcfcfc;
   border: 16px solid #ebebeb;
   color: #858585;
@@ -338,7 +345,7 @@ a {
   border-right: 0;
 }
 .info-list h3,
-.info-list > div {
+.info-list > p {
   margin: 0;
   padding: 24px 40px;
   border-bottom: 1px solid var(--line);
@@ -348,14 +355,12 @@ a {
   font-size: 14px;
   line-height: 20px;
 }
-.info-list > div {
-  font-size: 16px;
-  line-height: 24px;
+.info-list > p {
   min-height: 76px;
   display: flex;
   align-items: center;
 }
-.info-list > div:last-child {
+.info-list > p:last-child {
   border-bottom: 0;
 }
 .about-visual {
@@ -682,7 +687,7 @@ a {
     padding: 24px 40px 100px;
     align-items: center;
   }
-  .coming div {
+  .coming p {
     height: auto;
     aspect-ratio: 1.55;
   }
@@ -740,7 +745,7 @@ a {
     align-items: center !important;
   }
   .info-list h3,
-  .info-list > div,
+  .info-list > p,
   .eyebrow,
   .project-meta > div,
   .project-meta > p,
