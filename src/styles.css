@@ -382,6 +382,14 @@ a {
 }
 .about-caption {
   margin: 0;
+  padding: 24px 40px 40px;
+  flex: 0 0 auto;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  font-style: italic;
+}
+.about-cv {
   min-height: 112px;
   padding: 24px 40px;
   display: flex;
@@ -390,8 +398,7 @@ a {
   border-top: 1px solid var(--line);
   font-size: 20px;
   line-height: 28px;
-  font-weight: 400;
-  font-style: italic;
+  font-weight: 600;
 }
 .case-study {
   display: block;
@@ -714,7 +721,8 @@ a {
   .about-visual {
     min-height: 620px;
   }
-  .about-caption {
+  .about-caption,
+  .about-cv {
     padding-left: 24px;
     padding-right: 24px;
   }
