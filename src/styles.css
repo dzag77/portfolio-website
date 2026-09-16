@@ -34,7 +34,8 @@ button {
 a {
   text-decoration: none;
 }
-.body-small {
+.body-small,
+.case-study .body-small {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
