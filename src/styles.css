@@ -150,6 +150,17 @@ a {
   display: flex;
   flex-direction: column;
 }
+.work-grid {
+  grid-template-rows: auto minmax(0, 1fr) auto;
+}
+.work-grid .work-card {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+}
+.work-grid .muted-project .coming {
+  grid-row: 2 / 4;
+}
 .eyebrow {
   font-size: 14px;
   line-height: 20px;
@@ -588,6 +599,17 @@ a {
   }
   .work-card:first-child {
     border-bottom: 1px solid var(--line-strong);
+  }
+  .work-grid {
+    grid-template-rows: auto;
+  }
+  .work-grid .work-card {
+    display: flex;
+    grid-template-rows: none;
+    grid-row: auto;
+  }
+  .work-grid .muted-project .coming {
+    grid-row: auto;
   }
   .about-visual {
     min-height: 620px;
