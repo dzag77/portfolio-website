@@ -5,7 +5,7 @@ type Page = "home" | "work" | "about" | "hq-redesign";
 const A = "/assets";
 
 function routeFromPath(): Page {
-  const route = location.pathname.replace(/^\\/+|\\/+$/g, "");
+  const route = location.pathname.split("/").filter(Boolean).join("/");
   return (
     ["work", "about", "hq-redesign"].includes(route) ? route : "home"
   ) as Page;
