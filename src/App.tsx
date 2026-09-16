@@ -102,7 +102,7 @@ function ProjectMeta() {
     <div className="project-meta">
       <div>
         <span>2026</span>
-        <strong>HQ Enterprise Product Redesign</strong>
+        <h3>HQ Enterprise Product Redesign</h3>
       </div>
       <p>
         Improving wayfinding and scalability in a complex security platform.
@@ -156,14 +156,14 @@ function Work() {
           <div className="project-meta">
             <div>
               <span>2026</span>
-              <strong>HQ Design System</strong>
+              <h3>HQ Design System</h3>
             </div>
             <p>
               Creating scalable UI foundations for a growing product platform.
             </p>
           </div>
           <div className="coming">
-            <div>Coming soon...</div>
+            <p className="body-small">Coming soon...</p>
           </div>
         </article>
         <article className="work-card work-card--with-image">
@@ -229,7 +229,9 @@ function InfoList({ heading, items }: { heading: string; items: string[] }) {
     <div className="info-list">
       <h3>{heading}</h3>
       {items.map((item) => (
-        <div key={item}>{item}</div>
+        <p className="body-small" key={item}>
+          {item}
+        </p>
       ))}
     </div>
   );
@@ -500,8 +502,10 @@ function CaseStudy() {
             </p>
           </div>
           <div className="validation-note">
-            These outcomes describe design changes; their impact on usability
-            remains to be validated.
+            <p>
+              These outcomes describe design changes; their impact on usability
+              remains to be validated.
+            </p>
           </div>
         </section>
         <section className="split reflection">
