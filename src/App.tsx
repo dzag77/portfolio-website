@@ -152,7 +152,7 @@ function Work() {
   return (
     <Shell page="work">
       <div className="work-grid">
-        <article className="work-card muted-project">
+        <article className="work-card muted-project work-card--empty">
           <div className="project-meta">
             <div>
               <span>2026</span>
@@ -166,7 +166,7 @@ function Work() {
             <div>Coming soon...</div>
           </div>
         </article>
-        <article className="work-card">
+        <article className="work-card work-card--with-image">
           <ProjectMeta />
           <ProjectVisual />
           <button className="case-link" onClick={() => go("hq-redesign")}>
