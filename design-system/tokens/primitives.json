@@ -1,0 +1,926 @@
+{
+  "collection": {
+    "defaultModeId": "24:0",
+    "id": "VariableCollectionId:24:434",
+    "modes": [
+      {
+        "modeId": "24:0",
+        "name": "Value"
+      }
+    ],
+    "name": "Primitives"
+  },
+  "variables": [
+    {
+      "id": "VariableID:24:438",
+      "name": "grey/50",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.989670991897583,
+          "g": 0.989670991897583,
+          "r": 0.989670991897583
+        }
+      },
+      "web": "var(--primitives-grey-50)",
+      "cssName": "--primitives-grey-50",
+      "description": "Exact swatch fill from grey palette / grey-50"
+    },
+    {
+      "id": "VariableID:24:439",
+      "name": "grey/100",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.9725490212440491,
+          "g": 0.9725490212440491,
+          "r": 0.9725490212440491
+        }
+      },
+      "web": "var(--primitives-grey-100)",
+      "cssName": "--primitives-grey-100",
+      "description": "Exact swatch fill from grey palette / grey-100"
+    },
+    {
+      "id": "VariableID:24:440",
+      "name": "grey/150",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.9607843160629272,
+          "g": 0.9607843160629272,
+          "r": 0.9607843160629272
+        }
+      },
+      "web": "var(--primitives-grey-150)",
+      "cssName": "--primitives-grey-150",
+      "description": "Exact swatch fill from grey palette / grey-150"
+    },
+    {
+      "id": "VariableID:24:441",
+      "name": "grey/200",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.946458101272583,
+          "g": 0.946458101272583,
+          "r": 0.946458101272583
+        }
+      },
+      "web": "var(--primitives-grey-200)",
+      "cssName": "--primitives-grey-200",
+      "description": "Exact swatch fill from grey palette / grey-200"
+    },
+    {
+      "id": "VariableID:24:442",
+      "name": "grey/250",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.9333333373069763,
+          "g": 0.9333333373069763,
+          "r": 0.9333333373069763
+        }
+      },
+      "web": "var(--primitives-grey-250)",
+      "cssName": "--primitives-grey-250",
+      "description": "Exact swatch fill from grey palette / grey-250"
+    },
+    {
+      "id": "VariableID:24:443",
+      "name": "grey/300",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.9230018258094788,
+          "g": 0.9230018258094788,
+          "r": 0.9230018258094788
+        }
+      },
+      "web": "var(--primitives-grey-300)",
+      "cssName": "--primitives-grey-300",
+      "description": "Exact swatch fill from grey palette / grey-300"
+    },
+    {
+      "id": "VariableID:24:444",
+      "name": "grey/350",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.9058823585510254,
+          "g": 0.9058823585510254,
+          "r": 0.9058823585510254
+        }
+      },
+      "web": "var(--primitives-grey-350)",
+      "cssName": "--primitives-grey-350",
+      "description": "Exact swatch fill from grey palette / grey-350"
+    },
+    {
+      "id": "VariableID:24:445",
+      "name": "grey/400",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.8941176533699036,
+          "g": 0.8941176533699036,
+          "r": 0.8941176533699036
+        }
+      },
+      "web": "var(--primitives-grey-400)",
+      "cssName": "--primitives-grey-400",
+      "description": "Exact swatch fill from grey palette / grey-400"
+    },
+    {
+      "id": "VariableID:24:446",
+      "name": "grey/450",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.8784313797950745,
+          "g": 0.8784313797950745,
+          "r": 0.8784313797950745
+        }
+      },
+      "web": "var(--primitives-grey-450)",
+      "cssName": "--primitives-grey-450",
+      "description": "Exact swatch fill from grey palette / grey-450"
+    },
+    {
+      "id": "VariableID:24:447",
+      "name": "grey/500",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.8666666746139526,
+          "g": 0.8666666746139526,
+          "r": 0.8666666746139526
+        }
+      },
+      "web": "var(--primitives-grey-500)",
+      "cssName": "--primitives-grey-500",
+      "description": "Exact swatch fill from grey palette / grey-500"
+    },
+    {
+      "id": "VariableID:24:448",
+      "name": "grey/550",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.7803921699523926,
+          "g": 0.7803921699523926,
+          "r": 0.7803921699523926
+        }
+      },
+      "web": "var(--primitives-grey-550)",
+      "cssName": "--primitives-grey-550",
+      "description": "Exact swatch fill from grey palette / grey-550"
+    },
+    {
+      "id": "VariableID:24:449",
+      "name": "grey/600",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.6941176652908325,
+          "g": 0.6941176652908325,
+          "r": 0.6941176652908325
+        }
+      },
+      "web": "var(--primitives-grey-600)",
+      "cssName": "--primitives-grey-600",
+      "description": "Exact swatch fill from grey palette / grey-600"
+    },
+    {
+      "id": "VariableID:24:450",
+      "name": "grey/650",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.6078431606292725,
+          "g": 0.6078431606292725,
+          "r": 0.6078431606292725
+        }
+      },
+      "web": "var(--primitives-grey-650)",
+      "cssName": "--primitives-grey-650",
+      "description": "Exact swatch fill from grey palette / grey-650"
+    },
+    {
+      "id": "VariableID:24:451",
+      "name": "grey/700",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.5215686559677124,
+          "g": 0.5215686559677124,
+          "r": 0.5215686559677124
+        }
+      },
+      "web": "var(--primitives-grey-700)",
+      "cssName": "--primitives-grey-700",
+      "description": "Exact swatch fill from grey palette / grey-700"
+    },
+    {
+      "id": "VariableID:24:452",
+      "name": "grey/750",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.43529412150382996,
+          "g": 0.43529412150382996,
+          "r": 0.43529412150382996
+        }
+      },
+      "web": "var(--primitives-grey-750)",
+      "cssName": "--primitives-grey-750",
+      "description": "Exact swatch fill from grey palette / grey-750"
+    },
+    {
+      "id": "VariableID:24:453",
+      "name": "grey/800",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.3450980484485626,
+          "g": 0.3450980484485626,
+          "r": 0.3450980484485626
+        }
+      },
+      "web": "var(--primitives-grey-800)",
+      "cssName": "--primitives-grey-800",
+      "description": "Exact swatch fill from grey palette / grey-800"
+    },
+    {
+      "id": "VariableID:24:454",
+      "name": "grey/850",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.25882354378700256,
+          "g": 0.25882354378700256,
+          "r": 0.25882354378700256
+        }
+      },
+      "web": "var(--primitives-grey-850)",
+      "cssName": "--primitives-grey-850",
+      "description": "Exact swatch fill from grey palette / grey-850"
+    },
+    {
+      "id": "VariableID:24:455",
+      "name": "grey/900",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.1725490242242813,
+          "g": 0.1725490242242813,
+          "r": 0.1725490242242813
+        }
+      },
+      "web": "var(--primitives-grey-900)",
+      "cssName": "--primitives-grey-900",
+      "description": "Exact swatch fill from grey palette / grey-900"
+    },
+    {
+      "id": "VariableID:24:456",
+      "name": "red/50",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.9019607901573181,
+          "g": 0.9019607901573181,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-red-50)",
+      "cssName": "--primitives-red-50",
+      "description": "Exact swatch fill from red palette / red-50"
+    },
+    {
+      "id": "VariableID:24:457",
+      "name": "red/100",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.800000011920929,
+          "g": 0.800000011920929,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-red-100)",
+      "cssName": "--primitives-red-100",
+      "description": "Exact swatch fill from red palette / red-100"
+    },
+    {
+      "id": "VariableID:24:458",
+      "name": "red/150",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.7019608020782471,
+          "g": 0.7019608020782471,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-red-150)",
+      "cssName": "--primitives-red-150",
+      "description": "Exact swatch fill from red palette / red-150"
+    },
+    {
+      "id": "VariableID:24:459",
+      "name": "red/200",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.6000000238418579,
+          "g": 0.6000000238418579,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-red-200)",
+      "cssName": "--primitives-red-200",
+      "description": "Exact swatch fill from red palette / red-200"
+    },
+    {
+      "id": "VariableID:24:460",
+      "name": "red/250",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.501960813999176,
+          "g": 0.501960813999176,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-red-250)",
+      "cssName": "--primitives-red-250",
+      "description": "Exact swatch fill from red palette / red-250"
+    },
+    {
+      "id": "VariableID:24:461",
+      "name": "red/300",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.4000000059604645,
+          "g": 0.4000000059604645,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-red-300)",
+      "cssName": "--primitives-red-300",
+      "description": "Exact swatch fill from red palette / red-300"
+    },
+    {
+      "id": "VariableID:24:462",
+      "name": "red/350",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.3019607961177826,
+          "g": 0.3019607961177826,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-red-350)",
+      "cssName": "--primitives-red-350",
+      "description": "Exact swatch fill from red palette / red-350"
+    },
+    {
+      "id": "VariableID:24:463",
+      "name": "red/400",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.20000000298023224,
+          "g": 0.20000000298023224,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-red-400)",
+      "cssName": "--primitives-red-400",
+      "description": "Exact swatch fill from red palette / red-400"
+    },
+    {
+      "id": "VariableID:24:464",
+      "name": "red/450",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0.10196078568696976,
+          "g": 0.10196078568696976,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-red-450)",
+      "cssName": "--primitives-red-450",
+      "description": "Exact swatch fill from red palette / red-450"
+    },
+    {
+      "id": "VariableID:24:465",
+      "name": "red/500",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-red-500)",
+      "cssName": "--primitives-red-500",
+      "description": "Exact swatch fill from red palette / red-500"
+    },
+    {
+      "id": "VariableID:24:466",
+      "name": "red/550",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0.9019607901573181
+        }
+      },
+      "web": "var(--primitives-red-550)",
+      "cssName": "--primitives-red-550",
+      "description": "Exact swatch fill from red palette / red-550"
+    },
+    {
+      "id": "VariableID:24:467",
+      "name": "red/600",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0.800000011920929
+        }
+      },
+      "web": "var(--primitives-red-600)",
+      "cssName": "--primitives-red-600",
+      "description": "Exact swatch fill from red palette / red-600"
+    },
+    {
+      "id": "VariableID:24:468",
+      "name": "red/650",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0.7019608020782471
+        }
+      },
+      "web": "var(--primitives-red-650)",
+      "cssName": "--primitives-red-650",
+      "description": "Exact swatch fill from red palette / red-650"
+    },
+    {
+      "id": "VariableID:24:469",
+      "name": "red/700",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0.6000000238418579
+        }
+      },
+      "web": "var(--primitives-red-700)",
+      "cssName": "--primitives-red-700",
+      "description": "Exact swatch fill from red palette / red-700"
+    },
+    {
+      "id": "VariableID:24:470",
+      "name": "red/750",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0.501960813999176
+        }
+      },
+      "web": "var(--primitives-red-750)",
+      "cssName": "--primitives-red-750",
+      "description": "Exact swatch fill from red palette / red-750"
+    },
+    {
+      "id": "VariableID:24:471",
+      "name": "red/800",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0.4000000059604645
+        }
+      },
+      "web": "var(--primitives-red-800)",
+      "cssName": "--primitives-red-800",
+      "description": "Exact swatch fill from red palette / red-800"
+    },
+    {
+      "id": "VariableID:24:472",
+      "name": "red/850",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0.3019607961177826
+        }
+      },
+      "web": "var(--primitives-red-850)",
+      "cssName": "--primitives-red-850",
+      "description": "Exact swatch fill from red palette / red-850"
+    },
+    {
+      "id": "VariableID:24:473",
+      "name": "red/900",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0.20000000298023224
+        }
+      },
+      "web": "var(--primitives-red-900)",
+      "cssName": "--primitives-red-900",
+      "description": "Exact swatch fill from red palette / red-900"
+    },
+    {
+      "id": "VariableID:24:474",
+      "name": "white",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        }
+      },
+      "web": "var(--primitives-white)",
+      "cssName": "--primitives-white",
+      "description": "White used in project panels."
+    },
+    {
+      "id": "VariableID:24:475",
+      "name": "black",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:0": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0
+        }
+      },
+      "web": "var(--primitives-black)",
+      "cssName": "--primitives-black",
+      "description": "Black used in original strokes."
+    },
+    {
+      "id": "VariableID:24:476",
+      "name": "scale/0",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 0
+      },
+      "web": "var(--primitives-number-0)",
+      "cssName": "--primitives-scale-0",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:477",
+      "name": "scale/1",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 1
+      },
+      "web": "var(--primitives-number-1)",
+      "cssName": "--primitives-scale-1",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:478",
+      "name": "scale/4",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 4
+      },
+      "web": "var(--primitives-number-4)",
+      "cssName": "--primitives-scale-4",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:479",
+      "name": "scale/8",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 8
+      },
+      "web": "var(--primitives-number-8)",
+      "cssName": "--primitives-scale-8",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:480",
+      "name": "scale/12",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 12
+      },
+      "web": "var(--primitives-number-10)",
+      "cssName": "--primitives-scale-12",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:481",
+      "name": "scale/16",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 16
+      },
+      "web": "var(--primitives-number-16)",
+      "cssName": "--primitives-scale-16",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:482",
+      "name": "scale/24",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 24
+      },
+      "web": "var(--primitives-number-24)",
+      "cssName": "--primitives-scale-24",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:483",
+      "name": "scale/40",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 40
+      },
+      "web": "var(--primitives-number-40)",
+      "cssName": "--primitives-scale-40",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:484",
+      "name": "scale/56",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 56
+      },
+      "web": "var(--primitives-number-56)",
+      "cssName": "--primitives-scale-56",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:485",
+      "name": "scale/72",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 72
+      },
+      "web": "var(--primitives-number-76)",
+      "cssName": "--primitives-scale-72",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:486",
+      "name": "scale/80",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 80
+      },
+      "web": "var(--primitives-number-80)",
+      "cssName": "--primitives-scale-80",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:24:487",
+      "name": "font/family",
+      "scopes": [],
+      "type": "STRING",
+      "valuesByMode": {
+        "24:0": "Chakra Petch"
+      },
+      "web": "var(--primitives-font-family)",
+      "cssName": "--primitives-font-family",
+      "description": "Portfolio typeface."
+    },
+    {
+      "id": "VariableID:22:1306",
+      "name": "scale/2",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 2
+      },
+      "web": "var(--primitives-number-1)",
+      "cssName": "--primitives-scale-2",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:22:1307",
+      "name": "scale/32",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 32
+      },
+      "web": "var(--primitives-number-24)",
+      "cssName": "--primitives-scale-32",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:22:1308",
+      "name": "scale/28",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 28
+      },
+      "web": "var(--primitives-number-24)",
+      "cssName": "--primitives-scale-28",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:22:1309",
+      "name": "scale/48",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 48
+      },
+      "web": "var(--primitives-number-40)",
+      "cssName": "--primitives-scale-48",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:22:1310",
+      "name": "scale/64",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 64
+      },
+      "web": "var(--primitives-number-56)",
+      "cssName": "--primitives-scale-64",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    },
+    {
+      "id": "VariableID:22:1311",
+      "name": "font/regular",
+      "scopes": [],
+      "type": "STRING",
+      "valuesByMode": {
+        "24:0": "Regular"
+      },
+      "cssName": "--primitives-font-regular",
+      "description": ""
+    },
+    {
+      "id": "VariableID:22:1312",
+      "name": "font/medium",
+      "scopes": [],
+      "type": "STRING",
+      "valuesByMode": {
+        "24:0": "Medium"
+      },
+      "cssName": "--primitives-font-medium",
+      "description": ""
+    },
+    {
+      "id": "VariableID:22:1313",
+      "name": "font/semi-bold",
+      "scopes": [],
+      "type": "STRING",
+      "valuesByMode": {
+        "24:0": "SemiBold"
+      },
+      "cssName": "--primitives-font-semi-bold",
+      "description": ""
+    },
+    {
+      "id": "VariableID:22:1314",
+      "name": "font/bold",
+      "scopes": [],
+      "type": "STRING",
+      "valuesByMode": {
+        "24:0": "Bold"
+      },
+      "cssName": "--primitives-font-bold",
+      "description": ""
+    },
+    {
+      "id": "VariableID:28:1487",
+      "name": "scale/20",
+      "scopes": [],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:0": 20
+      },
+      "web": "var(--primitives-number-16)",
+      "cssName": "--primitives-scale-20",
+      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+    }
+  ],
+  "schemaVersion": 1,
+  "source": {
+    "fileKey": "HD2ev9QpEqOt3NqHYBVFAw",
+    "exportedAt": "2026-09-17"
+  }
+}

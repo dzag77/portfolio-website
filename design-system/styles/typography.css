@@ -1,0 +1,328 @@
+/* Generated from ../tokens/*.json by ../build.mjs. Do not edit by hand.
+   Staged only: the website does not import this file. */
+
+/* Apply data-ds-text using the exact, case-sensitive Figma style name.
+   Paragraph spacing is applied only between direct child <p> elements. */
+
+[data-ds="portfolio"][data-ds-text="Heading/H1/Bold"],
+[data-ds="portfolio"] [data-ds-text="Heading/H1/Bold"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: var(--responsive-typography-heading-h1-bold-font-size);
+  line-height: var(--responsive-typography-heading-h1-bold-line-height);
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-heading-h1-bold-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Heading/H1/Bold"] > p,
+[data-ds="portfolio"] [data-ds-text="Heading/H1/Bold"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Heading/H1/Bold"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Heading/H1/Bold"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Heading/H2/Bold"],
+[data-ds="portfolio"] [data-ds-text="Heading/H2/Bold"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: var(--responsive-typography-heading-h2-bold-font-size);
+  line-height: var(--responsive-typography-heading-h2-bold-line-height);
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-heading-h2-bold-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Heading/H2/Bold"] > p,
+[data-ds="portfolio"] [data-ds-text="Heading/H2/Bold"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Heading/H2/Bold"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Heading/H2/Bold"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Heading/H3/Bold"],
+[data-ds="portfolio"] [data-ds-text="Heading/H3/Bold"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: var(--responsive-typography-heading-h3-bold-font-size);
+  line-height: var(--responsive-typography-heading-h3-bold-line-height);
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-heading-h3-bold-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Heading/H3/Bold"] > p,
+[data-ds="portfolio"] [data-ds-text="Heading/H3/Bold"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Heading/H3/Bold"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Heading/H3/Bold"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Heading/Intro/Semibold"],
+[data-ds="portfolio"] [data-ds-text="Heading/Intro/Semibold"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: var(--responsive-typography-heading-intro-semibold-font-size);
+  line-height: var(--responsive-typography-heading-intro-semibold-line-height);
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-heading-intro-semibold-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Heading/Intro/Semibold"] > p,
+[data-ds="portfolio"] [data-ds-text="Heading/Intro/Semibold"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Heading/Intro/Semibold"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Heading/Intro/Semibold"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Large/Regular"],
+[data-ds="portfolio"] [data-ds-text="Body/Large/Regular"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--responsive-typography-body-large-regular-font-size);
+  line-height: var(--responsive-typography-body-large-regular-line-height);
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-body-large-regular-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Large/Regular"] > p,
+[data-ds="portfolio"] [data-ds-text="Body/Large/Regular"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Body/Large/Regular"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Body/Large/Regular"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Large/Semibold"],
+[data-ds="portfolio"] [data-ds-text="Body/Large/Semibold"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: var(--responsive-typography-body-large-semibold-font-size);
+  line-height: var(--responsive-typography-body-large-semibold-line-height);
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-body-large-semibold-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Large/Semibold"] > p,
+[data-ds="portfolio"] [data-ds-text="Body/Large/Semibold"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Body/Large/Semibold"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Body/Large/Semibold"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Large/Italic"],
+[data-ds="portfolio"] [data-ds-text="Body/Large/Italic"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: var(--responsive-typography-body-large-italic-font-size);
+  line-height: var(--responsive-typography-body-large-italic-line-height);
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-body-large-italic-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Large/Italic"] > p,
+[data-ds="portfolio"] [data-ds-text="Body/Large/Italic"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Body/Large/Italic"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Body/Large/Italic"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Default/Regular"],
+[data-ds="portfolio"] [data-ds-text="Body/Default/Regular"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--responsive-typography-body-medium-regular-font-size);
+  line-height: var(--responsive-typography-body-medium-regular-line-height);
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-body-medium-regular-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Default/Regular"] > p,
+[data-ds="portfolio"] [data-ds-text="Body/Default/Regular"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Body/Default/Regular"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Body/Default/Regular"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Default/SemiBold"],
+[data-ds="portfolio"] [data-ds-text="Body/Default/SemiBold"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: var(--responsive-typography-body-medium-regular-font-size);
+  line-height: var(--responsive-typography-body-medium-regular-line-height);
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-body-medium-regular-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Default/SemiBold"] > p,
+[data-ds="portfolio"] [data-ds-text="Body/Default/SemiBold"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Body/Default/SemiBold"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Body/Default/SemiBold"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Default/Italic"],
+[data-ds="portfolio"] [data-ds-text="Body/Default/Italic"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: var(--responsive-typography-body-medium-regular-font-size);
+  line-height: var(--responsive-typography-body-medium-regular-line-height);
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-body-medium-regular-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Default/Italic"] > p,
+[data-ds="portfolio"] [data-ds-text="Body/Default/Italic"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Body/Default/Italic"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Body/Default/Italic"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Small/Regular"],
+[data-ds="portfolio"] [data-ds-text="Body/Small/Regular"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--responsive-typography-body-small-regular-font-size);
+  line-height: var(--responsive-typography-body-small-regular-line-height);
+  letter-spacing: 0em;
+  text-transform: none;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-body-small-regular-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Small/Regular"] > p,
+[data-ds="portfolio"] [data-ds-text="Body/Small/Regular"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Body/Small/Regular"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Body/Small/Regular"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Small/Semibold"],
+[data-ds="portfolio"] [data-ds-text="Body/Small/Semibold"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: var(--responsive-typography-body-small-semibold-font-size);
+  line-height: var(--responsive-typography-body-small-semibold-line-height);
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-body-small-semibold-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Small/Semibold"] > p,
+[data-ds="portfolio"] [data-ds-text="Body/Small/Semibold"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Body/Small/Semibold"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Body/Small/Semibold"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Small/SEMIBOLD"],
+[data-ds="portfolio"] [data-ds-text="Body/Small/SEMIBOLD"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: var(--responsive-typography-body-small-regular-font-size);
+  line-height: var(--responsive-typography-body-small-regular-line-height);
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-body-medium-regular-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Small/SEMIBOLD"] > p,
+[data-ds="portfolio"] [data-ds-text="Body/Small/SEMIBOLD"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Body/Small/SEMIBOLD"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Body/Small/SEMIBOLD"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Small/Bold"],
+[data-ds="portfolio"] [data-ds-text="Body/Small/Bold"] {
+  font-family: var(--primitives-font-family), sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: var(--responsive-typography-body-small-bold-font-size);
+  line-height: var(--responsive-typography-body-small-bold-line-height);
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  text-indent: 0px;
+  --ds-paragraph-spacing: var(--responsive-typography-body-small-bold-paragraph-spacing);
+}
+
+[data-ds="portfolio"][data-ds-text="Body/Small/Bold"] > p,
+[data-ds="portfolio"] [data-ds-text="Body/Small/Bold"] > p {
+  margin: 0;
+}
+[data-ds="portfolio"][data-ds-text="Body/Small/Bold"] > p + p,
+[data-ds="portfolio"] [data-ds-text="Body/Small/Bold"] > p + p {
+  margin-block-start: var(--ds-paragraph-spacing);
+}
+

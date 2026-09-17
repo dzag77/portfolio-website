@@ -1,0 +1,848 @@
+{
+  "collection": {
+    "defaultModeId": "106:0",
+    "id": "VariableCollectionId:24:437",
+    "modes": [
+      {
+        "modeId": "106:0",
+        "name": "Desktop"
+      },
+      {
+        "modeId": "106:1",
+        "name": "Mobile"
+      }
+    ],
+    "name": "Responsive"
+  },
+  "variables": [
+    {
+      "id": "VariableID:24:541",
+      "name": "spacing/0",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 0,
+        "106:1": 0
+      },
+      "web": "var(--responsive-spacing-0)",
+      "cssName": "--responsive-spacing-0",
+      "description": "Observed desktop spacing; viewport switching is manual."
+    },
+    {
+      "id": "VariableID:24:542",
+      "name": "spacing/4",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 4,
+        "106:1": 4
+      },
+      "web": "var(--responsive-spacing-4)",
+      "cssName": "--responsive-spacing-4",
+      "description": "Observed desktop spacing; viewport switching is manual."
+    },
+    {
+      "id": "VariableID:24:543",
+      "name": "spacing/8",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 8,
+        "106:1": 8
+      },
+      "web": "var(--responsive-spacing-8)",
+      "cssName": "--responsive-spacing-8",
+      "description": "Observed desktop spacing; viewport switching is manual."
+    },
+    {
+      "id": "VariableID:24:544",
+      "name": "spacing/10",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 10,
+        "106:1": 10
+      },
+      "web": "var(--responsive-spacing-10)",
+      "cssName": "--responsive-spacing-10",
+      "description": "Observed desktop spacing; viewport switching is manual."
+    },
+    {
+      "id": "VariableID:24:545",
+      "name": "spacing/16",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 16,
+        "106:1": 16
+      },
+      "web": "var(--responsive-spacing-16)",
+      "cssName": "--responsive-spacing-16",
+      "description": "Observed desktop spacing; viewport switching is manual."
+    },
+    {
+      "id": "VariableID:24:546",
+      "name": "spacing/24",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 24,
+        "106:1": 24
+      },
+      "web": "var(--responsive-spacing-24)",
+      "cssName": "--responsive-spacing-24",
+      "description": "Observed desktop spacing; viewport switching is manual."
+    },
+    {
+      "id": "VariableID:24:547",
+      "name": "spacing/40",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 40,
+        "106:1": 40
+      },
+      "web": "var(--responsive-spacing-40)",
+      "cssName": "--responsive-spacing-40",
+      "description": "Observed desktop spacing; viewport switching is manual."
+    },
+    {
+      "id": "VariableID:24:548",
+      "name": "spacing/56",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 56,
+        "106:1": 56
+      },
+      "web": "var(--responsive-spacing-56)",
+      "cssName": "--responsive-spacing-56",
+      "description": "Observed desktop spacing; viewport switching is manual."
+    },
+    {
+      "id": "VariableID:24:549",
+      "name": "spacing/76",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 76,
+        "106:1": 76
+      },
+      "web": "var(--responsive-spacing-76)",
+      "cssName": "--responsive-spacing-76",
+      "description": "Observed desktop spacing; viewport switching is manual."
+    },
+    {
+      "id": "VariableID:24:550",
+      "name": "spacing/80",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 80,
+        "106:1": 80
+      },
+      "web": "var(--responsive-spacing-80)",
+      "cssName": "--responsive-spacing-80",
+      "description": "Observed desktop spacing; viewport switching is manual."
+    },
+    {
+      "id": "VariableID:24:551",
+      "name": "layout/page/inset",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 24,
+        "106:1": 16
+      },
+      "web": "var(--responsive-layout-page-inset)",
+      "cssName": "--responsive-layout-page-inset",
+      "description": "Desktop page/inset; 56px approved where original header used 55px."
+    },
+    {
+      "id": "VariableID:24:552",
+      "name": "layout/content/inset-horizontal",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 40,
+        "106:1": 24
+      },
+      "web": "var(--responsive-layout-content-inset)",
+      "cssName": "--responsive-layout-content-inset-horizontal",
+      "description": "Desktop content/inset; 56px approved where original header used 55px."
+    },
+    {
+      "id": "VariableID:24:554",
+      "name": "layout/hero/inset-vertical",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 80,
+        "106:1": 40
+      },
+      "web": "var(--responsive-layout-hero-inset)",
+      "cssName": "--responsive-layout-hero-inset-vertical",
+      "description": "Desktop hero/inset; 56px approved where original header used 55px."
+    },
+    {
+      "id": "VariableID:24:556",
+      "name": "typography/heading/h1/bold/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 48,
+        "106:1": 32
+      },
+      "web": "var(--responsive-typography-heading-h1-bold-font-size)",
+      "cssName": "--responsive-typography-heading-h1-bold-font-size",
+      "description": "Observed Heading/H1/Bold"
+    },
+    {
+      "id": "VariableID:24:557",
+      "name": "typography/heading/h1/bold/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 56,
+        "106:1": 40
+      },
+      "web": "var(--responsive-typography-heading-h1-bold-line-height)",
+      "cssName": "--responsive-typography-heading-h1-bold-line-height",
+      "description": "Observed Heading/H1/Bold"
+    },
+    {
+      "id": "VariableID:24:558",
+      "name": "typography/heading/h1/bold/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 32,
+        "106:1": 24
+      },
+      "web": "var(--responsive-typography-heading-h1-bold-paragraph-spacing)",
+      "cssName": "--responsive-typography-heading-h1-bold-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:92"
+    },
+    {
+      "id": "VariableID:24:560",
+      "name": "typography/heading/h2/bold/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 32,
+        "106:1": 24
+      },
+      "web": "var(--responsive-typography-heading-h2-bold-font-size)",
+      "cssName": "--responsive-typography-heading-h2-bold-font-size",
+      "description": "Observed Heading/H2/Bold"
+    },
+    {
+      "id": "VariableID:24:561",
+      "name": "typography/heading/h2/bold/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 40,
+        "106:1": 32
+      },
+      "web": "var(--responsive-typography-heading-h2-bold-line-height)",
+      "cssName": "--responsive-typography-heading-h2-bold-line-height",
+      "description": "Observed Heading/H2/Bold"
+    },
+    {
+      "id": "VariableID:24:562",
+      "name": "typography/heading/h2/bold/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 24,
+        "106:1": 16
+      },
+      "web": "var(--responsive-typography-heading-h2-bold-paragraph-spacing)",
+      "cssName": "--responsive-typography-heading-h2-bold-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:147"
+    },
+    {
+      "id": "VariableID:24:564",
+      "name": "typography/heading/h3/bold/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 24,
+        "106:1": 16
+      },
+      "web": "var(--responsive-typography-heading-h3-bold-font-size)",
+      "cssName": "--responsive-typography-heading-h3-bold-font-size",
+      "description": "Observed Heading/H3/Bold"
+    },
+    {
+      "id": "VariableID:24:565",
+      "name": "typography/heading/h3/bold/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 32,
+        "106:1": 24
+      },
+      "web": "var(--responsive-typography-heading-h3-bold-line-height)",
+      "cssName": "--responsive-typography-heading-h3-bold-line-height",
+      "description": "Observed Heading/H3/Bold"
+    },
+    {
+      "id": "VariableID:24:566",
+      "name": "typography/heading/h3/bold/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 16,
+        "106:1": 8
+      },
+      "web": "var(--responsive-typography-heading-h3-bold-paragraph-spacing)",
+      "cssName": "--responsive-typography-heading-h3-bold-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:101"
+    },
+    {
+      "id": "VariableID:24:568",
+      "name": "typography/heading/intro/semibold/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 28,
+        "106:1": 20
+      },
+      "web": "var(--responsive-typography-heading-intro-semibold-font-size)",
+      "cssName": "--responsive-typography-heading-intro-semibold-font-size",
+      "description": "Observed Heading/Intro/Semibold"
+    },
+    {
+      "id": "VariableID:24:569",
+      "name": "typography/heading/intro/semibold/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 36,
+        "106:1": 28
+      },
+      "web": "var(--responsive-typography-heading-intro-semibold-line-height)",
+      "cssName": "--responsive-typography-heading-intro-semibold-line-height",
+      "description": "Observed Heading/Intro/Semibold"
+    },
+    {
+      "id": "VariableID:24:570",
+      "name": "typography/heading/intro/semibold/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 12,
+        "106:1": 8
+      },
+      "web": "var(--responsive-typography-heading-intro-semibold-paragraph-spacing)",
+      "cssName": "--responsive-typography-heading-intro-semibold-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:91"
+    },
+    {
+      "id": "VariableID:24:572",
+      "name": "typography/body/large/regular/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 20,
+        "106:1": 20
+      },
+      "web": "var(--responsive-typography-body-large-regular-font-size)",
+      "cssName": "--responsive-typography-body-large-regular-font-size",
+      "description": "Observed Body/Large/Regular"
+    },
+    {
+      "id": "VariableID:24:573",
+      "name": "typography/body/large/regular/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 28,
+        "106:1": 28
+      },
+      "web": "var(--responsive-typography-body-large-regular-line-height)",
+      "cssName": "--responsive-typography-body-large-regular-line-height",
+      "description": "Observed Body/Large/Regular"
+    },
+    {
+      "id": "VariableID:24:574",
+      "name": "typography/body/large/regular/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 12,
+        "106:1": 12
+      },
+      "web": "var(--responsive-typography-body-large-regular-paragraph-spacing)",
+      "cssName": "--responsive-typography-body-large-regular-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:93"
+    },
+    {
+      "id": "VariableID:24:576",
+      "name": "typography/body/large/semibold/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 20,
+        "106:1": 20
+      },
+      "web": "var(--responsive-typography-body-large-semibold-font-size)",
+      "cssName": "--responsive-typography-body-large-semibold-font-size",
+      "description": "Observed Body/Large/Semibold"
+    },
+    {
+      "id": "VariableID:24:577",
+      "name": "typography/body/large/semibold/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 28,
+        "106:1": 28
+      },
+      "web": "var(--responsive-typography-body-large-semibold-line-height)",
+      "cssName": "--responsive-typography-body-large-semibold-line-height",
+      "description": "Observed Body/Large/Semibold"
+    },
+    {
+      "id": "VariableID:24:578",
+      "name": "typography/body/large/semibold/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 0,
+        "106:1": 0
+      },
+      "web": "var(--responsive-typography-body-large-semibold-paragraph-spacing)",
+      "cssName": "--responsive-typography-body-large-semibold-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:81"
+    },
+    {
+      "id": "VariableID:24:580",
+      "name": "typography/body/large/italic/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 20,
+        "106:1": 20
+      },
+      "web": "var(--responsive-typography-body-large-italic-font-size)",
+      "cssName": "--responsive-typography-body-large-italic-font-size",
+      "description": "Observed Body/Large/Italic"
+    },
+    {
+      "id": "VariableID:24:581",
+      "name": "typography/body/large/italic/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 28,
+        "106:1": 28
+      },
+      "web": "var(--responsive-typography-body-large-italic-line-height)",
+      "cssName": "--responsive-typography-body-large-italic-line-height",
+      "description": "Observed Body/Large/Italic"
+    },
+    {
+      "id": "VariableID:24:582",
+      "name": "typography/body/large/italic/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 12,
+        "106:1": 12
+      },
+      "web": "var(--responsive-typography-body-large-italic-paragraph-spacing)",
+      "cssName": "--responsive-typography-body-large-italic-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:478"
+    },
+    {
+      "id": "VariableID:24:584",
+      "name": "typography/body/medium/regular/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 16,
+        "106:1": 16
+      },
+      "web": "var(--responsive-typography-body-medium-regular-font-size)",
+      "cssName": "--responsive-typography-body-medium-regular-font-size",
+      "description": "Observed Body/Medium/Regular"
+    },
+    {
+      "id": "VariableID:24:585",
+      "name": "typography/body/medium/regular/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 24,
+        "106:1": 24
+      },
+      "web": "var(--responsive-typography-body-medium-regular-line-height)",
+      "cssName": "--responsive-typography-body-medium-regular-line-height",
+      "description": "Observed Body/Medium/Regular"
+    },
+    {
+      "id": "VariableID:24:586",
+      "name": "typography/body/medium/regular/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 12,
+        "106:1": 12
+      },
+      "web": "var(--responsive-typography-body-medium-regular-paragraph-spacing)",
+      "cssName": "--responsive-typography-body-medium-regular-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:103"
+    },
+    {
+      "id": "VariableID:24:588",
+      "name": "typography/body/small/regular/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 14,
+        "106:1": 14
+      },
+      "web": "var(--responsive-typography-body-small-regular-font-size)",
+      "cssName": "--responsive-typography-body-small-regular-font-size",
+      "description": "Observed Body/Small/Regular"
+    },
+    {
+      "id": "VariableID:24:589",
+      "name": "typography/body/small/regular/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 20,
+        "106:1": 20
+      },
+      "web": "var(--responsive-typography-body-small-regular-line-height)",
+      "cssName": "--responsive-typography-body-small-regular-line-height",
+      "description": "Observed Body/Small/Regular"
+    },
+    {
+      "id": "VariableID:24:590",
+      "name": "typography/body/small/regular/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 12,
+        "106:1": 12
+      },
+      "web": "var(--responsive-typography-body-small-regular-paragraph-spacing)",
+      "cssName": "--responsive-typography-body-small-regular-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:117"
+    },
+    {
+      "id": "VariableID:24:592",
+      "name": "typography/body/small/semibold/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 14,
+        "106:1": 14
+      },
+      "web": "var(--responsive-typography-body-small-semibold-font-size)",
+      "cssName": "--responsive-typography-body-small-semibold-font-size",
+      "description": "Observed Body/Small/Semibold"
+    },
+    {
+      "id": "VariableID:24:593",
+      "name": "typography/body/small/semibold/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 20,
+        "106:1": 20
+      },
+      "web": "var(--responsive-typography-body-small-semibold-line-height)",
+      "cssName": "--responsive-typography-body-small-semibold-line-height",
+      "description": "Observed Body/Small/Semibold"
+    },
+    {
+      "id": "VariableID:24:594",
+      "name": "typography/body/small/semibold/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 12,
+        "106:1": 12
+      },
+      "web": "var(--responsive-typography-body-small-semibold-paragraph-spacing)",
+      "cssName": "--responsive-typography-body-small-semibold-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:96"
+    },
+    {
+      "id": "VariableID:24:596",
+      "name": "typography/body/small/bold/font-size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 14,
+        "106:1": 14
+      },
+      "web": "var(--responsive-typography-body-small-bold-font-size)",
+      "cssName": "--responsive-typography-body-small-bold-font-size",
+      "description": "Observed Body/Small/Bold"
+    },
+    {
+      "id": "VariableID:24:597",
+      "name": "typography/body/small/bold/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 20,
+        "106:1": 20
+      },
+      "web": "var(--responsive-typography-body-small-bold-line-height)",
+      "cssName": "--responsive-typography-body-small-bold-line-height",
+      "description": "Observed Body/Small/Bold"
+    },
+    {
+      "id": "VariableID:24:598",
+      "name": "typography/body/small/bold/paragraph-spacing",
+      "scopes": [
+        "PARAGRAPH_SPACING"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 32,
+        "106:1": 32
+      },
+      "web": "var(--responsive-typography-body-small-bold-paragraph-spacing)",
+      "cssName": "--responsive-typography-body-small-bold-paragraph-spacing",
+      "description": "Paragraph spacing within text, from 1:140"
+    },
+    {
+      "id": "VariableID:28:1485",
+      "name": "sizing/icon/sm",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": {
+          "id": "VariableID:24:481",
+          "type": "VARIABLE_ALIAS"
+        },
+        "106:1": {
+          "id": "VariableID:24:481",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "cssName": "--responsive-sizing-icon-sm",
+      "description": ""
+    },
+    {
+      "id": "VariableID:28:1486",
+      "name": "sizing/icon/md",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": {
+          "id": "VariableID:28:1487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "106:1": {
+          "id": "VariableID:28:1487",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "cssName": "--responsive-sizing-icon-md",
+      "description": ""
+    },
+    {
+      "id": "VariableID:28:1488",
+      "name": "sizing/icon/lg",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": {
+          "id": "VariableID:24:482",
+          "type": "VARIABLE_ALIAS"
+        },
+        "106:1": {
+          "id": "VariableID:24:482",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "cssName": "--responsive-sizing-icon-lg",
+      "description": ""
+    },
+    {
+      "id": "VariableID:104:761",
+      "name": "layout/hero/inset-horizontal",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 40,
+        "106:1": 24
+      },
+      "web": "var(--responsive-layout-hero-inset)",
+      "cssName": "--responsive-layout-hero-inset-horizontal",
+      "description": "Desktop hero/inset; 56px approved where original header used 55px."
+    },
+    {
+      "id": "VariableID:106:11965",
+      "name": "layout/content/inset-vertical",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 24,
+        "106:1": 16
+      },
+      "web": "var(--responsive-layout-content-inset)",
+      "cssName": "--responsive-layout-content-inset-vertical",
+      "description": "Desktop content/inset; 56px approved where original header used 55px."
+    },
+    {
+      "id": "VariableID:106:11966",
+      "name": "layout/image-container/inset",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 16,
+        "106:1": 12
+      },
+      "web": "var(--responsive-layout-hero-inset)",
+      "cssName": "--responsive-layout-image-container-inset",
+      "description": "Desktop hero/inset; 56px approved where original header used 55px."
+    },
+    {
+      "id": "VariableID:106:12026",
+      "name": "layout/hero/gap",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "106:0": 40,
+        "106:1": 24
+      },
+      "web": "var(--responsive-layout-hero-inset)",
+      "cssName": "--responsive-layout-hero-gap",
+      "description": "Desktop hero/inset; 56px approved where original header used 55px."
+    },
+    {
+      "id": "VariableID:115:12331",
+      "name": "responsive",
+      "scopes": [
+        "ALL_SCOPES"
+      ],
+      "type": "STRING",
+      "valuesByMode": {
+        "106:0": "desktop",
+        "106:1": "mobile"
+      },
+      "cssName": "--responsive-responsive",
+      "description": ""
+    }
+  ],
+  "schemaVersion": 1,
+  "source": {
+    "fileKey": "HD2ev9QpEqOt3NqHYBVFAw",
+    "exportedAt": "2026-09-17"
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "fileKey": "HD2ev9QpEqOt3NqHYBVFAw",
+    "exportedAt": "2026-09-17"
+  },
+  "styles": [
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:556",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:557",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:558",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "Bold"
+      },
+      "fontSize": 48,
+      "id": "S:a27150cfdfb45d0480ac138d3e7001be563561dd,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 56
+      },
+      "name": "Heading/H1/Bold",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 32,
+      "textCase": "UPPER",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:560",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:561",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:562",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "Bold"
+      },
+      "fontSize": 32,
+      "id": "S:3938d738f12a5e8bb86712f82250cca96d473f97,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      "name": "Heading/H2/Bold",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:564",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:565",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:566",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "Bold"
+      },
+      "fontSize": 24,
+      "id": "S:177c818c3d59e70536bc7f76bfae9dfae33ebe08,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "name": "Heading/H3/Bold",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:568",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:569",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:570",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "SemiBold"
+      },
+      "fontSize": 28,
+      "id": "S:375f977170dd3976af72c6c0f4748435e2b1af21,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      "name": "Heading/Intro/Semibold",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 12,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:572",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:573",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:574",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "Regular"
+      },
+      "fontSize": 20,
+      "id": "S:037f936cb1ff334b979212f7e530eced4689a2b0,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "name": "Body/Large/Regular",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 12,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:576",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:577",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:578",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "SemiBold"
+      },
+      "fontSize": 20,
+      "id": "S:a58ea2bbdb8cfaafc81785d48006897e9a043eac,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "name": "Body/Large/Semibold",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:580",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:581",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:582",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "Italic"
+      },
+      "fontSize": 20,
+      "id": "S:e88f7397416e0bd708c4941561ef47a12c3d2b46,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "name": "Body/Large/Italic",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 12,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:584",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:585",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:586",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "Regular"
+      },
+      "fontSize": 16,
+      "id": "S:b4d7d683ac06d771d6eae1246f322d019496874e,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "name": "Body/Default/Regular",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 12,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:584",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:585",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:586",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "SemiBold"
+      },
+      "fontSize": 16,
+      "id": "S:44b9f8d60da37d9b0ddc2db295b1a4ac14147c32,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "name": "Body/Default/SemiBold",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 12,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:584",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:585",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:586",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "Italic"
+      },
+      "fontSize": 16,
+      "id": "S:a8f3d4e021e6aaef497b6e5609f0b175b0835d67,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "name": "Body/Default/Italic",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 12,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:588",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:589",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:590",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "Regular"
+      },
+      "fontSize": 14,
+      "id": "S:cdaa49f2ea5b0e23610c788f2d1ee032f8d10850,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "name": "Body/Small/Regular",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 12,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:592",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:593",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:594",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "SemiBold"
+      },
+      "fontSize": 14,
+      "id": "S:f40b73ab18631c69461f8b7d9c93a669c21ed285,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "name": "Body/Small/Semibold",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 12,
+      "textCase": "UPPER",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:588",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:589",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:586",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "SemiBold"
+      },
+      "fontSize": 14,
+      "id": "S:ca916a607f5d5fc3a18d18aa80f3267d488f53ec,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "name": "Body/Small/SEMIBOLD",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 12,
+      "textCase": "UPPER",
+      "textDecoration": "NONE"
+    },
+    {
+      "boundVariables": {
+        "fontFamily": {
+          "id": "VariableID:24:487",
+          "type": "VARIABLE_ALIAS"
+        },
+        "fontSize": {
+          "id": "VariableID:24:596",
+          "type": "VARIABLE_ALIAS"
+        },
+        "lineHeight": {
+          "id": "VariableID:24:597",
+          "type": "VARIABLE_ALIAS"
+        },
+        "paragraphSpacing": {
+          "id": "VariableID:24:598",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "fontName": {
+        "family": "Chakra Petch",
+        "style": "Bold"
+      },
+      "fontSize": 14,
+      "id": "S:3ea390bab2a870edccb2ffad100f79d893ea18e4,",
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "name": "Body/Small/Bold",
+      "paragraphIndent": 0,
+      "paragraphSpacing": 32,
+      "textCase": "UPPER",
+      "textDecoration": "NONE"
+    }
+  ]
+}

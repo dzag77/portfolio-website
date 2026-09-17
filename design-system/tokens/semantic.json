@@ -1,0 +1,726 @@
+{
+  "collection": {
+    "defaultModeId": "24:1",
+    "id": "VariableCollectionId:24:435",
+    "modes": [
+      {
+        "modeId": "24:1",
+        "name": "Value"
+      }
+    ],
+    "name": "Semantic"
+  },
+  "variables": [
+    {
+      "id": "VariableID:24:488",
+      "name": "neutral/50",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:438",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-50)",
+      "cssName": "--semantic-neutral-50",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:489",
+      "name": "neutral/100",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:439",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-100)",
+      "cssName": "--semantic-neutral-100",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:490",
+      "name": "neutral/150",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:440",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-150)",
+      "cssName": "--semantic-neutral-150",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:491",
+      "name": "neutral/200",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:441",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-200)",
+      "cssName": "--semantic-neutral-200",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:492",
+      "name": "neutral/250",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:442",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-250)",
+      "cssName": "--semantic-neutral-250",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:493",
+      "name": "neutral/300",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:443",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-300)",
+      "cssName": "--semantic-neutral-300",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:494",
+      "name": "neutral/350",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:444",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-350)",
+      "cssName": "--semantic-neutral-350",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:495",
+      "name": "neutral/400",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:445",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-400)",
+      "cssName": "--semantic-neutral-400",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:496",
+      "name": "neutral/450",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:446",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-450)",
+      "cssName": "--semantic-neutral-450",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:497",
+      "name": "neutral/500",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:447",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-500)",
+      "cssName": "--semantic-neutral-500",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:498",
+      "name": "neutral/550",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:448",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-550)",
+      "cssName": "--semantic-neutral-550",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:499",
+      "name": "neutral/600",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:449",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-600)",
+      "cssName": "--semantic-neutral-600",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:500",
+      "name": "neutral/650",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:450",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-650)",
+      "cssName": "--semantic-neutral-650",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:501",
+      "name": "neutral/700",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:451",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-700)",
+      "cssName": "--semantic-neutral-700",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:502",
+      "name": "neutral/750",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:452",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-750)",
+      "cssName": "--semantic-neutral-750",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:503",
+      "name": "neutral/800",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:453",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-800)",
+      "cssName": "--semantic-neutral-800",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:504",
+      "name": "neutral/850",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:454",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-850)",
+      "cssName": "--semantic-neutral-850",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:505",
+      "name": "neutral/900",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:455",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-neutral-900)",
+      "cssName": "--semantic-neutral-900",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:506",
+      "name": "accent/50",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:456",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-50)",
+      "cssName": "--semantic-accent-50",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:507",
+      "name": "accent/100",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:457",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-100)",
+      "cssName": "--semantic-accent-100",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:508",
+      "name": "accent/150",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:458",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-150)",
+      "cssName": "--semantic-accent-150",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:509",
+      "name": "accent/200",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:459",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-200)",
+      "cssName": "--semantic-accent-200",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:510",
+      "name": "accent/250",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:460",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-250)",
+      "cssName": "--semantic-accent-250",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:511",
+      "name": "accent/300",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:461",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-300)",
+      "cssName": "--semantic-accent-300",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:512",
+      "name": "accent/350",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:462",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-350)",
+      "cssName": "--semantic-accent-350",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:513",
+      "name": "accent/400",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:463",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-400)",
+      "cssName": "--semantic-accent-400",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:514",
+      "name": "accent/450",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:464",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-450)",
+      "cssName": "--semantic-accent-450",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:515",
+      "name": "accent/500",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:465",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-500)",
+      "cssName": "--semantic-accent-500",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:516",
+      "name": "accent/550",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:466",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-550)",
+      "cssName": "--semantic-accent-550",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:517",
+      "name": "accent/600",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:467",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-600)",
+      "cssName": "--semantic-accent-600",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:518",
+      "name": "accent/650",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:468",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-650)",
+      "cssName": "--semantic-accent-650",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:519",
+      "name": "accent/700",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:469",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-700)",
+      "cssName": "--semantic-accent-700",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:520",
+      "name": "accent/750",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:470",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-750)",
+      "cssName": "--semantic-accent-750",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:521",
+      "name": "accent/800",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:471",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-800)",
+      "cssName": "--semantic-accent-800",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:522",
+      "name": "accent/850",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:472",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-850)",
+      "cssName": "--semantic-accent-850",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:523",
+      "name": "accent/900",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:473",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-primary-900)",
+      "cssName": "--semantic-accent-900",
+      "description": "Palette role; supplied by target palette."
+    },
+    {
+      "id": "VariableID:24:524",
+      "name": "white",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:474",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-white)",
+      "cssName": "--semantic-white",
+      "description": "White foundation."
+    },
+    {
+      "id": "VariableID:24:525",
+      "name": "black",
+      "scopes": [],
+      "type": "COLOR",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:475",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-black)",
+      "cssName": "--semantic-black",
+      "description": "Black foundation."
+    },
+    {
+      "id": "VariableID:24:526",
+      "name": "border/width/default",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:477",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-border-width-default)",
+      "cssName": "--semantic-border-width-default",
+      "description": "One-pixel dividers."
+    },
+    {
+      "id": "VariableID:24:527",
+      "name": "radius/none",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:476",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-radius-none)",
+      "cssName": "--semantic-radius-none",
+      "description": "Square portfolio containers."
+    },
+    {
+      "id": "VariableID:22:1315",
+      "name": "border/width/strong",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:22:1306",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-border-width-default)",
+      "cssName": "--semantic-border-width-strong",
+      "description": "One-pixel dividers."
+    },
+    {
+      "id": "VariableID:22:1316",
+      "name": "radius/xs",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:22:1306",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-radius-none)",
+      "cssName": "--semantic-radius-xs",
+      "description": "Square portfolio containers."
+    },
+    {
+      "id": "VariableID:22:1317",
+      "name": "radius/sm",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:478",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-radius-none)",
+      "cssName": "--semantic-radius-sm",
+      "description": "Square portfolio containers."
+    },
+    {
+      "id": "VariableID:22:1318",
+      "name": "radius/md",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:479",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-radius-none)",
+      "cssName": "--semantic-radius-md",
+      "description": "Square portfolio containers."
+    },
+    {
+      "id": "VariableID:22:1319",
+      "name": "radius/lg",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:480",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-radius-none)",
+      "cssName": "--semantic-radius-lg",
+      "description": "Square portfolio containers."
+    },
+    {
+      "id": "VariableID:22:1320",
+      "name": "radius/xl",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "valuesByMode": {
+        "24:1": {
+          "id": "VariableID:24:481",
+          "type": "VARIABLE_ALIAS"
+        }
+      },
+      "web": "var(--semantic-radius-none)",
+      "cssName": "--semantic-radius-xl",
+      "description": "Square portfolio containers."
+    }
+  ],
+  "schemaVersion": 1,
+  "source": {
+    "fileKey": "HD2ev9QpEqOt3NqHYBVFAw",
+    "exportedAt": "2026-09-17"
+  }
+}
