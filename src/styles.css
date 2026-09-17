@@ -620,6 +620,8 @@ a {
 }
 .comparison .info-list h3 {
   min-height: 76px;
+  display: flex;
+  align-items: center;
 }
 .final-design .section-intro h2 {
   margin-bottom: 0;
