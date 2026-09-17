@@ -565,6 +565,18 @@ a {
   line-height: 24px;
   color: var(--mapped-text-default-body);
 }
+.old-ia-scroll {
+  padding: var(--responsive-layout-content-inset-vertical) var(--responsive-layout-content-inset-horizontal);
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-bottom: var(--semantic-border-width-default) solid var(--line);
+}
+.old-ia-scroll img {
+  display: block;
+  width: 1935px;
+  height: 164px;
+  max-width: none;
+}
 .comparison {
   display: grid;
   grid-template-columns: 1fr 1fr;

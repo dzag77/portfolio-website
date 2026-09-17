@@ -282,14 +282,6 @@ const areas = [
   ["Search Receipts", "Find receipts for completed rides"],
 ];
 
-const oldIA = [
-  "New Booking",
-  "Manage Booking",
-  "Coverage Map",
-  "Manage Employees",
-  "Search Receipts",
-  "Outstanding Charges",
-];
 const newIA = [
   "Booking",
   "Rides",
@@ -447,7 +439,12 @@ function CaseStudy() {
             />
           </div>
           <Band title="Old Information Architecture" />
-          <IAList items={oldIA} old />
+          <div className="old-ia-scroll dot-field">
+            <img
+              src={`${A}/case-study/old-information-architecture.png`}
+              alt="Old HQ information architecture"
+            />
+          </div>
           <Band title="Proposed Information Architecture" />
           <IAList items={newIA} />
         </section>
