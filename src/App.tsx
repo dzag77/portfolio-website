@@ -496,7 +496,7 @@ function CaseStudy() {
               "final-03.png",
               "final-04.png",
             ].map((name, i) => (
-              <figure key={name}>
+              <figure className={i % 2 === 1 ? "dot-field" : undefined} key={name}>
                 <img
                   src={`${A}/case-study/${name}`}
                   alt={`HQ final design screen ${i + 1}`}

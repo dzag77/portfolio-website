@@ -258,8 +258,9 @@ a {
   align-items: center;
 }
 .dot-field {
-  background-image: radial-gradient(#cfcfcf 0.7px, transparent 0.7px);
-  background-size: var(--primitives-scale-12) var(--primitives-scale-12);
+  background-image: url("/assets/shared/dot-pattern.svg");
+  background-repeat: repeat;
+  background-position: left top;
 }
 .featured > .dot-field,
 .work-card > .dot-field {
@@ -375,9 +376,6 @@ a {
   display: flex;
   flex-direction: column;
   background-color: var(--page);
-  background-image: radial-gradient(circle, #cfcfcf 0.7px, transparent 0.8px);
-  background-size: var(--primitives-scale-12) var(--primitives-scale-12);
-  background-position: left top;
 }
 .about-image-crop {
   width: 100%;
