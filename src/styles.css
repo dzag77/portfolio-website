@@ -563,7 +563,8 @@ a {
   line-height: 24px;
   color: var(--mapped-text-default-body);
 }
-.old-ia-scroll {
+.old-ia-scroll,
+.new-ia-scroll {
   padding: var(--responsive-layout-content-inset-vertical) var(--responsive-layout-content-inset-horizontal);
   overflow-x: auto;
   overflow-y: hidden;
@@ -573,6 +574,12 @@ a {
   display: block;
   width: 1935px;
   height: 164px;
+  max-width: none;
+}
+.new-ia-scroll img {
+  display: block;
+  width: 1234px;
+  height: 292px;
   max-width: none;
 }
 .comparison {

@@ -446,7 +446,12 @@ function CaseStudy() {
             />
           </div>
           <Band title="Proposed Information Architecture" />
-          <IAList items={newIA} />
+          <div className="new-ia-scroll dot-field">
+            <img
+              src={`${A}/case-study/new-information-architecture.png`}
+              alt="Proposed HQ information architecture"
+            />
+          </div>
         </section>
 
         <section className="booking">
