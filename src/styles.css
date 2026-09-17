@@ -623,26 +623,57 @@ a {
   display: flex;
   align-items: center;
 }
+.final-design {
+  border-bottom: var(--semantic-border-width-default) solid var(--line-strong);
+}
 .final-design .section-intro h2 {
   margin-bottom: 0;
 }
 .final-grid {
+  display: flex;
+  flex-direction: column;
+}
+.final-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.final-grid figure {
+.final-row:not(:last-child) {
+  border-bottom: var(--semantic-border-width-default) solid var(--line);
+}
+.final-screen,
+.final-components {
   margin: 0;
   padding: var(--responsive-layout-content-inset-vertical) var(--responsive-layout-content-inset-horizontal);
-  border-right: var(--semantic-border-width-default) solid var(--line);
-  border-bottom: var(--semantic-border-width-default) solid var(--line);
+  min-width: 0;
+}
+.final-screen {
   display: flex;
   align-items: flex-start;
+  border-right: var(--semantic-border-width-default) solid var(--line);
 }
-.final-grid figure:nth-child(even) {
-  border-right: 0;
+.final-components {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--responsive-spacing-24);
+  align-items: start;
+  overflow: hidden;
 }
-.final-grid img {
+.final-components--stretch {
+  align-self: stretch;
+}
+.final-component-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--responsive-spacing-24);
+  min-width: 0;
+}
+.final-component-column--compact {
+  gap: var(--responsive-spacing-16);
+}
+.final-screen img,
+.final-components img {
   width: 100%;
+  height: auto;
   display: block;
 }
 .outcome > div {
@@ -814,11 +845,12 @@ a {
     gap: var(--primitives-scale-28);
     padding: var(--primitives-scale-32) var(--responsive-spacing-24);
   }
-  .final-grid {
+  .final-row {
     grid-template-columns: 1fr;
   }
-  .final-grid figure {
+  .final-screen {
     border-right: 0;
+    border-bottom: var(--semantic-border-width-default) solid var(--line);
   }
   .outcome > div,
   .reflection > div {
@@ -864,7 +896,8 @@ a {
   .problem-grid,
   .ia-list,
   .ia-list:not(.old),
-  .final-grid {
+  .final-row,
+  .final-components {
     grid-template-columns: 1fr;
   }
   .card-grid > div,

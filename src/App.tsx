@@ -495,19 +495,102 @@ function CaseStudy() {
             <h2 data-ds-text="Heading/H2/Bold">Final Design</h2>
           </div>
           <div className="final-grid">
-            {[
-              "final-01.png",
-              "final-02.png",
-              "final-03.png",
-              "final-04.png",
-            ].map((name, i) => (
-              <figure className={i % 2 === 1 ? "dot-field" : undefined} key={name}>
+            <div className="final-row">
+              <figure className="final-screen">
                 <img
-                  src={`${A}/case-study/${name}`}
-                  alt={`HQ final design screen ${i + 1}`}
+                  src={`${A}/case-study/final-ride-details.png`}
+                  alt="HQ ride details screen"
                 />
               </figure>
-            ))}
+              <figure className="final-components dot-field">
+                <div className="final-component-column">
+                  <img
+                    src={`${A}/case-study/final-passenger-card.png`}
+                    alt="Passenger details card"
+                  />
+                  <img
+                    src={`${A}/case-study/final-advanced-card.png`}
+                    alt="Advanced booking details card"
+                  />
+                </div>
+                <div className="final-component-column">
+                  <img
+                    src={`${A}/case-study/final-passenger-interactions.png`}
+                    alt="Passenger card interactions"
+                  />
+                  <img
+                    src={`${A}/case-study/final-package-card.png`}
+                    alt="Package details card"
+                  />
+                </div>
+              </figure>
+            </div>
+            <div className="final-row">
+              <figure className="final-screen">
+                <img
+                  src={`${A}/case-study/final-date-location.png`}
+                  alt="HQ date and location screen"
+                />
+              </figure>
+              <figure className="final-components dot-field">
+                <img
+                  src={`${A}/case-study/final-route-interaction.png`}
+                  alt="Route details interaction"
+                />
+                <div className="final-component-column">
+                  <img
+                    src={`${A}/case-study/final-route-stop.png`}
+                    alt="Route stop details"
+                  />
+                  <img
+                    src={`${A}/case-study/final-route-completed.png`}
+                    alt="Completed route details"
+                  />
+                </div>
+              </figure>
+            </div>
+            <div className="final-row">
+              <figure className="final-screen">
+                <img
+                  src={`${A}/case-study/final-vehicle-service.png`}
+                  alt="HQ vehicle and service screen"
+                />
+              </figure>
+              <figure className="final-components final-components--stretch dot-field">
+                <img
+                  src={`${A}/case-study/final-vehicle-card.png`}
+                  alt="Vehicle and service card"
+                />
+                <div className="final-component-column final-component-column--compact">
+                  <img
+                    src={`${A}/case-study/final-vehicle-interaction-1.png`}
+                    alt="Vehicle service selection"
+                  />
+                  <img
+                    src={`${A}/case-study/final-vehicle-interaction-2.png`}
+                    alt="Vehicle service options"
+                  />
+                </div>
+              </figure>
+            </div>
+            <div className="final-row">
+              <figure className="final-screen">
+                <img
+                  src={`${A}/case-study/final-summary.png`}
+                  alt="HQ booking summary screen"
+                />
+              </figure>
+              <figure className="final-components dot-field">
+                <img
+                  src={`${A}/case-study/final-summary-preview.png`}
+                  alt="Booking summary preview"
+                />
+                <img
+                  src={`${A}/case-study/final-summary-details.png`}
+                  alt="Booking summary details"
+                />
+              </figure>
+            </div>
           </div>
         </section>
 
