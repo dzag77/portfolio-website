@@ -12,6 +12,8 @@
   },
   "variables": [
     {
+      "cssName": "--primitives-grey-50",
+      "description": "Exact swatch fill from grey palette / grey-50",
       "id": "VariableID:24:438",
       "name": "grey/50",
       "scopes": [],
@@ -24,11 +26,11 @@
           "r": 0.989670991897583
         }
       },
-      "web": "var(--primitives-grey-50)",
-      "cssName": "--primitives-grey-50",
-      "description": "Exact swatch fill from grey palette / grey-50"
+      "web": "var(--primitives-grey-50)"
     },
     {
+      "cssName": "--primitives-grey-100",
+      "description": "Exact swatch fill from grey palette / grey-100",
       "id": "VariableID:24:439",
       "name": "grey/100",
       "scopes": [],
@@ -41,11 +43,11 @@
           "r": 0.9725490212440491
         }
       },
-      "web": "var(--primitives-grey-100)",
-      "cssName": "--primitives-grey-100",
-      "description": "Exact swatch fill from grey palette / grey-100"
+      "web": "var(--primitives-grey-100)"
     },
     {
+      "cssName": "--primitives-grey-150",
+      "description": "Exact swatch fill from grey palette / grey-150",
       "id": "VariableID:24:440",
       "name": "grey/150",
       "scopes": [],
@@ -58,11 +60,11 @@
           "r": 0.9607843160629272
         }
       },
-      "web": "var(--primitives-grey-150)",
-      "cssName": "--primitives-grey-150",
-      "description": "Exact swatch fill from grey palette / grey-150"
+      "web": "var(--primitives-grey-150)"
     },
     {
+      "cssName": "--primitives-grey-200",
+      "description": "Exact swatch fill from grey palette / grey-200",
       "id": "VariableID:24:441",
       "name": "grey/200",
       "scopes": [],
@@ -75,11 +77,11 @@
           "r": 0.946458101272583
         }
       },
-      "web": "var(--primitives-grey-200)",
-      "cssName": "--primitives-grey-200",
-      "description": "Exact swatch fill from grey palette / grey-200"
+      "web": "var(--primitives-grey-200)"
     },
     {
+      "cssName": "--primitives-grey-250",
+      "description": "Exact swatch fill from grey palette / grey-250",
       "id": "VariableID:24:442",
       "name": "grey/250",
       "scopes": [],
@@ -92,11 +94,11 @@
           "r": 0.9333333373069763
         }
       },
-      "web": "var(--primitives-grey-250)",
-      "cssName": "--primitives-grey-250",
-      "description": "Exact swatch fill from grey palette / grey-250"
+      "web": "var(--primitives-grey-250)"
     },
     {
+      "cssName": "--primitives-grey-300",
+      "description": "Exact swatch fill from grey palette / grey-300",
       "id": "VariableID:24:443",
       "name": "grey/300",
       "scopes": [],
@@ -109,11 +111,11 @@
           "r": 0.9230018258094788
         }
       },
-      "web": "var(--primitives-grey-300)",
-      "cssName": "--primitives-grey-300",
-      "description": "Exact swatch fill from grey palette / grey-300"
+      "web": "var(--primitives-grey-300)"
     },
     {
+      "cssName": "--primitives-grey-350",
+      "description": "Exact swatch fill from grey palette / grey-350",
       "id": "VariableID:24:444",
       "name": "grey/350",
       "scopes": [],
@@ -126,11 +128,11 @@
           "r": 0.9058823585510254
         }
       },
-      "web": "var(--primitives-grey-350)",
-      "cssName": "--primitives-grey-350",
-      "description": "Exact swatch fill from grey palette / grey-350"
+      "web": "var(--primitives-grey-350)"
     },
     {
+      "cssName": "--primitives-grey-400",
+      "description": "Exact swatch fill from grey palette / grey-400",
       "id": "VariableID:24:445",
       "name": "grey/400",
       "scopes": [],
@@ -143,11 +145,11 @@
           "r": 0.8941176533699036
         }
       },
-      "web": "var(--primitives-grey-400)",
-      "cssName": "--primitives-grey-400",
-      "description": "Exact swatch fill from grey palette / grey-400"
+      "web": "var(--primitives-grey-400)"
     },
     {
+      "cssName": "--primitives-grey-450",
+      "description": "Exact swatch fill from grey palette / grey-450",
       "id": "VariableID:24:446",
       "name": "grey/450",
       "scopes": [],
@@ -160,11 +162,11 @@
           "r": 0.8784313797950745
         }
       },
-      "web": "var(--primitives-grey-450)",
-      "cssName": "--primitives-grey-450",
-      "description": "Exact swatch fill from grey palette / grey-450"
+      "web": "var(--primitives-grey-450)"
     },
     {
+      "cssName": "--primitives-grey-500",
+      "description": "Exact swatch fill from grey palette / grey-500",
       "id": "VariableID:24:447",
       "name": "grey/500",
       "scopes": [],
@@ -177,11 +179,11 @@
           "r": 0.8666666746139526
         }
       },
-      "web": "var(--primitives-grey-500)",
-      "cssName": "--primitives-grey-500",
-      "description": "Exact swatch fill from grey palette / grey-500"
+      "web": "var(--primitives-grey-500)"
     },
     {
+      "cssName": "--primitives-grey-550",
+      "description": "Exact swatch fill from grey palette / grey-550",
       "id": "VariableID:24:448",
       "name": "grey/550",
       "scopes": [],
@@ -194,11 +196,11 @@
           "r": 0.7803921699523926
         }
       },
-      "web": "var(--primitives-grey-550)",
-      "cssName": "--primitives-grey-550",
-      "description": "Exact swatch fill from grey palette / grey-550"
+      "web": "var(--primitives-grey-550)"
     },
     {
+      "cssName": "--primitives-grey-600",
+      "description": "Exact swatch fill from grey palette / grey-600",
       "id": "VariableID:24:449",
       "name": "grey/600",
       "scopes": [],
@@ -211,11 +213,11 @@
           "r": 0.6941176652908325
         }
       },
-      "web": "var(--primitives-grey-600)",
-      "cssName": "--primitives-grey-600",
-      "description": "Exact swatch fill from grey palette / grey-600"
+      "web": "var(--primitives-grey-600)"
     },
     {
+      "cssName": "--primitives-grey-650",
+      "description": "Exact swatch fill from grey palette / grey-650",
       "id": "VariableID:24:450",
       "name": "grey/650",
       "scopes": [],
@@ -228,11 +230,11 @@
           "r": 0.6078431606292725
         }
       },
-      "web": "var(--primitives-grey-650)",
-      "cssName": "--primitives-grey-650",
-      "description": "Exact swatch fill from grey palette / grey-650"
+      "web": "var(--primitives-grey-650)"
     },
     {
+      "cssName": "--primitives-grey-700",
+      "description": "Exact swatch fill from grey palette / grey-700",
       "id": "VariableID:24:451",
       "name": "grey/700",
       "scopes": [],
@@ -245,11 +247,11 @@
           "r": 0.5215686559677124
         }
       },
-      "web": "var(--primitives-grey-700)",
-      "cssName": "--primitives-grey-700",
-      "description": "Exact swatch fill from grey palette / grey-700"
+      "web": "var(--primitives-grey-700)"
     },
     {
+      "cssName": "--primitives-grey-750",
+      "description": "Exact swatch fill from grey palette / grey-750",
       "id": "VariableID:24:452",
       "name": "grey/750",
       "scopes": [],
@@ -262,11 +264,11 @@
           "r": 0.43529412150382996
         }
       },
-      "web": "var(--primitives-grey-750)",
-      "cssName": "--primitives-grey-750",
-      "description": "Exact swatch fill from grey palette / grey-750"
+      "web": "var(--primitives-grey-750)"
     },
     {
+      "cssName": "--primitives-grey-800",
+      "description": "Exact swatch fill from grey palette / grey-800",
       "id": "VariableID:24:453",
       "name": "grey/800",
       "scopes": [],
@@ -279,11 +281,11 @@
           "r": 0.3450980484485626
         }
       },
-      "web": "var(--primitives-grey-800)",
-      "cssName": "--primitives-grey-800",
-      "description": "Exact swatch fill from grey palette / grey-800"
+      "web": "var(--primitives-grey-800)"
     },
     {
+      "cssName": "--primitives-grey-850",
+      "description": "Exact swatch fill from grey palette / grey-850",
       "id": "VariableID:24:454",
       "name": "grey/850",
       "scopes": [],
@@ -296,11 +298,11 @@
           "r": 0.25882354378700256
         }
       },
-      "web": "var(--primitives-grey-850)",
-      "cssName": "--primitives-grey-850",
-      "description": "Exact swatch fill from grey palette / grey-850"
+      "web": "var(--primitives-grey-850)"
     },
     {
+      "cssName": "--primitives-grey-900",
+      "description": "Exact swatch fill from grey palette / grey-900",
       "id": "VariableID:24:455",
       "name": "grey/900",
       "scopes": [],
@@ -313,11 +315,11 @@
           "r": 0.1725490242242813
         }
       },
-      "web": "var(--primitives-grey-900)",
-      "cssName": "--primitives-grey-900",
-      "description": "Exact swatch fill from grey palette / grey-900"
+      "web": "var(--primitives-grey-900)"
     },
     {
+      "cssName": "--primitives-red-50",
+      "description": "Exact swatch fill from red palette / red-50",
       "id": "VariableID:24:456",
       "name": "red/50",
       "scopes": [],
@@ -330,11 +332,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-red-50)",
-      "cssName": "--primitives-red-50",
-      "description": "Exact swatch fill from red palette / red-50"
+      "web": "var(--primitives-red-50)"
     },
     {
+      "cssName": "--primitives-red-100",
+      "description": "Exact swatch fill from red palette / red-100",
       "id": "VariableID:24:457",
       "name": "red/100",
       "scopes": [],
@@ -347,11 +349,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-red-100)",
-      "cssName": "--primitives-red-100",
-      "description": "Exact swatch fill from red palette / red-100"
+      "web": "var(--primitives-red-100)"
     },
     {
+      "cssName": "--primitives-red-150",
+      "description": "Exact swatch fill from red palette / red-150",
       "id": "VariableID:24:458",
       "name": "red/150",
       "scopes": [],
@@ -364,11 +366,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-red-150)",
-      "cssName": "--primitives-red-150",
-      "description": "Exact swatch fill from red palette / red-150"
+      "web": "var(--primitives-red-150)"
     },
     {
+      "cssName": "--primitives-red-200",
+      "description": "Exact swatch fill from red palette / red-200",
       "id": "VariableID:24:459",
       "name": "red/200",
       "scopes": [],
@@ -381,11 +383,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-red-200)",
-      "cssName": "--primitives-red-200",
-      "description": "Exact swatch fill from red palette / red-200"
+      "web": "var(--primitives-red-200)"
     },
     {
+      "cssName": "--primitives-red-250",
+      "description": "Exact swatch fill from red palette / red-250",
       "id": "VariableID:24:460",
       "name": "red/250",
       "scopes": [],
@@ -398,11 +400,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-red-250)",
-      "cssName": "--primitives-red-250",
-      "description": "Exact swatch fill from red palette / red-250"
+      "web": "var(--primitives-red-250)"
     },
     {
+      "cssName": "--primitives-red-300",
+      "description": "Exact swatch fill from red palette / red-300",
       "id": "VariableID:24:461",
       "name": "red/300",
       "scopes": [],
@@ -415,11 +417,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-red-300)",
-      "cssName": "--primitives-red-300",
-      "description": "Exact swatch fill from red palette / red-300"
+      "web": "var(--primitives-red-300)"
     },
     {
+      "cssName": "--primitives-red-350",
+      "description": "Exact swatch fill from red palette / red-350",
       "id": "VariableID:24:462",
       "name": "red/350",
       "scopes": [],
@@ -432,11 +434,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-red-350)",
-      "cssName": "--primitives-red-350",
-      "description": "Exact swatch fill from red palette / red-350"
+      "web": "var(--primitives-red-350)"
     },
     {
+      "cssName": "--primitives-red-400",
+      "description": "Exact swatch fill from red palette / red-400",
       "id": "VariableID:24:463",
       "name": "red/400",
       "scopes": [],
@@ -449,11 +451,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-red-400)",
-      "cssName": "--primitives-red-400",
-      "description": "Exact swatch fill from red palette / red-400"
+      "web": "var(--primitives-red-400)"
     },
     {
+      "cssName": "--primitives-red-450",
+      "description": "Exact swatch fill from red palette / red-450",
       "id": "VariableID:24:464",
       "name": "red/450",
       "scopes": [],
@@ -466,11 +468,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-red-450)",
-      "cssName": "--primitives-red-450",
-      "description": "Exact swatch fill from red palette / red-450"
+      "web": "var(--primitives-red-450)"
     },
     {
+      "cssName": "--primitives-red-500",
+      "description": "Exact swatch fill from red palette / red-500",
       "id": "VariableID:24:465",
       "name": "red/500",
       "scopes": [],
@@ -483,11 +485,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-red-500)",
-      "cssName": "--primitives-red-500",
-      "description": "Exact swatch fill from red palette / red-500"
+      "web": "var(--primitives-red-500)"
     },
     {
+      "cssName": "--primitives-red-550",
+      "description": "Exact swatch fill from red palette / red-550",
       "id": "VariableID:24:466",
       "name": "red/550",
       "scopes": [],
@@ -500,11 +502,11 @@
           "r": 0.9019607901573181
         }
       },
-      "web": "var(--primitives-red-550)",
-      "cssName": "--primitives-red-550",
-      "description": "Exact swatch fill from red palette / red-550"
+      "web": "var(--primitives-red-550)"
     },
     {
+      "cssName": "--primitives-red-600",
+      "description": "Exact swatch fill from red palette / red-600",
       "id": "VariableID:24:467",
       "name": "red/600",
       "scopes": [],
@@ -517,11 +519,11 @@
           "r": 0.800000011920929
         }
       },
-      "web": "var(--primitives-red-600)",
-      "cssName": "--primitives-red-600",
-      "description": "Exact swatch fill from red palette / red-600"
+      "web": "var(--primitives-red-600)"
     },
     {
+      "cssName": "--primitives-red-650",
+      "description": "Exact swatch fill from red palette / red-650",
       "id": "VariableID:24:468",
       "name": "red/650",
       "scopes": [],
@@ -534,11 +536,11 @@
           "r": 0.7019608020782471
         }
       },
-      "web": "var(--primitives-red-650)",
-      "cssName": "--primitives-red-650",
-      "description": "Exact swatch fill from red palette / red-650"
+      "web": "var(--primitives-red-650)"
     },
     {
+      "cssName": "--primitives-red-700",
+      "description": "Exact swatch fill from red palette / red-700",
       "id": "VariableID:24:469",
       "name": "red/700",
       "scopes": [],
@@ -551,11 +553,11 @@
           "r": 0.6000000238418579
         }
       },
-      "web": "var(--primitives-red-700)",
-      "cssName": "--primitives-red-700",
-      "description": "Exact swatch fill from red palette / red-700"
+      "web": "var(--primitives-red-700)"
     },
     {
+      "cssName": "--primitives-red-750",
+      "description": "Exact swatch fill from red palette / red-750",
       "id": "VariableID:24:470",
       "name": "red/750",
       "scopes": [],
@@ -568,11 +570,11 @@
           "r": 0.501960813999176
         }
       },
-      "web": "var(--primitives-red-750)",
-      "cssName": "--primitives-red-750",
-      "description": "Exact swatch fill from red palette / red-750"
+      "web": "var(--primitives-red-750)"
     },
     {
+      "cssName": "--primitives-red-800",
+      "description": "Exact swatch fill from red palette / red-800",
       "id": "VariableID:24:471",
       "name": "red/800",
       "scopes": [],
@@ -585,11 +587,11 @@
           "r": 0.4000000059604645
         }
       },
-      "web": "var(--primitives-red-800)",
-      "cssName": "--primitives-red-800",
-      "description": "Exact swatch fill from red palette / red-800"
+      "web": "var(--primitives-red-800)"
     },
     {
+      "cssName": "--primitives-red-850",
+      "description": "Exact swatch fill from red palette / red-850",
       "id": "VariableID:24:472",
       "name": "red/850",
       "scopes": [],
@@ -602,11 +604,11 @@
           "r": 0.3019607961177826
         }
       },
-      "web": "var(--primitives-red-850)",
-      "cssName": "--primitives-red-850",
-      "description": "Exact swatch fill from red palette / red-850"
+      "web": "var(--primitives-red-850)"
     },
     {
+      "cssName": "--primitives-red-900",
+      "description": "Exact swatch fill from red palette / red-900",
       "id": "VariableID:24:473",
       "name": "red/900",
       "scopes": [],
@@ -619,11 +621,11 @@
           "r": 0.20000000298023224
         }
       },
-      "web": "var(--primitives-red-900)",
-      "cssName": "--primitives-red-900",
-      "description": "Exact swatch fill from red palette / red-900"
+      "web": "var(--primitives-red-900)"
     },
     {
+      "cssName": "--primitives-white",
+      "description": "White used in project panels.",
       "id": "VariableID:24:474",
       "name": "white",
       "scopes": [],
@@ -636,11 +638,11 @@
           "r": 1
         }
       },
-      "web": "var(--primitives-white)",
-      "cssName": "--primitives-white",
-      "description": "White used in project panels."
+      "web": "var(--primitives-white)"
     },
     {
+      "cssName": "--primitives-black",
+      "description": "Black used in original strokes.",
       "id": "VariableID:24:475",
       "name": "black",
       "scopes": [],
@@ -653,11 +655,11 @@
           "r": 0
         }
       },
-      "web": "var(--primitives-black)",
-      "cssName": "--primitives-black",
-      "description": "Black used in original strokes."
+      "web": "var(--primitives-black)"
     },
     {
+      "cssName": "--primitives-scale-0",
+      "description": "Base dimension scale 0, in pixels.",
       "id": "VariableID:24:476",
       "name": "scale/0",
       "scopes": [],
@@ -665,11 +667,11 @@
       "valuesByMode": {
         "24:0": 0
       },
-      "web": "var(--primitives-number-0)",
-      "cssName": "--primitives-scale-0",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-0)"
     },
     {
+      "cssName": "--primitives-scale-1",
+      "description": "Base dimension scale 1, in pixels.",
       "id": "VariableID:24:477",
       "name": "scale/1",
       "scopes": [],
@@ -677,11 +679,11 @@
       "valuesByMode": {
         "24:0": 1
       },
-      "web": "var(--primitives-number-1)",
-      "cssName": "--primitives-scale-1",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-1)"
     },
     {
+      "cssName": "--primitives-scale-4",
+      "description": "Base dimension scale 4, in pixels.",
       "id": "VariableID:24:478",
       "name": "scale/4",
       "scopes": [],
@@ -689,11 +691,11 @@
       "valuesByMode": {
         "24:0": 4
       },
-      "web": "var(--primitives-number-4)",
-      "cssName": "--primitives-scale-4",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-4)"
     },
     {
+      "cssName": "--primitives-scale-8",
+      "description": "Base dimension scale 8, in pixels.",
       "id": "VariableID:24:479",
       "name": "scale/8",
       "scopes": [],
@@ -701,11 +703,11 @@
       "valuesByMode": {
         "24:0": 8
       },
-      "web": "var(--primitives-number-8)",
-      "cssName": "--primitives-scale-8",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-8)"
     },
     {
+      "cssName": "--primitives-scale-12",
+      "description": "Base dimension scale 12, in pixels.",
       "id": "VariableID:24:480",
       "name": "scale/12",
       "scopes": [],
@@ -713,11 +715,11 @@
       "valuesByMode": {
         "24:0": 12
       },
-      "web": "var(--primitives-number-10)",
-      "cssName": "--primitives-scale-12",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-12)"
     },
     {
+      "cssName": "--primitives-scale-16",
+      "description": "Base dimension scale 16, in pixels.",
       "id": "VariableID:24:481",
       "name": "scale/16",
       "scopes": [],
@@ -725,11 +727,11 @@
       "valuesByMode": {
         "24:0": 16
       },
-      "web": "var(--primitives-number-16)",
-      "cssName": "--primitives-scale-16",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-16)"
     },
     {
+      "cssName": "--primitives-scale-24",
+      "description": "Base dimension scale 24, in pixels.",
       "id": "VariableID:24:482",
       "name": "scale/24",
       "scopes": [],
@@ -737,11 +739,11 @@
       "valuesByMode": {
         "24:0": 24
       },
-      "web": "var(--primitives-number-24)",
-      "cssName": "--primitives-scale-24",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-24)"
     },
     {
+      "cssName": "--primitives-scale-40",
+      "description": "Base dimension scale 40, in pixels.",
       "id": "VariableID:24:483",
       "name": "scale/40",
       "scopes": [],
@@ -749,11 +751,11 @@
       "valuesByMode": {
         "24:0": 40
       },
-      "web": "var(--primitives-number-40)",
-      "cssName": "--primitives-scale-40",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-40)"
     },
     {
+      "cssName": "--primitives-scale-56",
+      "description": "Base dimension scale 56, in pixels. Includes the approved normalization from 55px to 56px.",
       "id": "VariableID:24:484",
       "name": "scale/56",
       "scopes": [],
@@ -761,11 +763,11 @@
       "valuesByMode": {
         "24:0": 56
       },
-      "web": "var(--primitives-number-56)",
-      "cssName": "--primitives-scale-56",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-56)"
     },
     {
+      "cssName": "--primitives-scale-72",
+      "description": "Base dimension scale 72, in pixels.",
       "id": "VariableID:24:485",
       "name": "scale/72",
       "scopes": [],
@@ -773,11 +775,11 @@
       "valuesByMode": {
         "24:0": 72
       },
-      "web": "var(--primitives-number-76)",
-      "cssName": "--primitives-scale-72",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-72)"
     },
     {
+      "cssName": "--primitives-scale-80",
+      "description": "Base dimension scale 80, in pixels.",
       "id": "VariableID:24:486",
       "name": "scale/80",
       "scopes": [],
@@ -785,11 +787,11 @@
       "valuesByMode": {
         "24:0": 80
       },
-      "web": "var(--primitives-number-80)",
-      "cssName": "--primitives-scale-80",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-80)"
     },
     {
+      "cssName": "--primitives-font-family",
+      "description": "Portfolio font family: Chakra Petch.",
       "id": "VariableID:24:487",
       "name": "font/family",
       "scopes": [],
@@ -797,11 +799,11 @@
       "valuesByMode": {
         "24:0": "Chakra Petch"
       },
-      "web": "var(--primitives-font-family)",
-      "cssName": "--primitives-font-family",
-      "description": "Portfolio typeface."
+      "web": "var(--primitives-font-family)"
     },
     {
+      "cssName": "--primitives-scale-2",
+      "description": "Base dimension scale 2, in pixels.",
       "id": "VariableID:22:1306",
       "name": "scale/2",
       "scopes": [],
@@ -809,11 +811,11 @@
       "valuesByMode": {
         "24:0": 2
       },
-      "web": "var(--primitives-number-1)",
-      "cssName": "--primitives-scale-2",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-2)"
     },
     {
+      "cssName": "--primitives-scale-32",
+      "description": "Base dimension scale 32, in pixels.",
       "id": "VariableID:22:1307",
       "name": "scale/32",
       "scopes": [],
@@ -821,11 +823,11 @@
       "valuesByMode": {
         "24:0": 32
       },
-      "web": "var(--primitives-number-24)",
-      "cssName": "--primitives-scale-32",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-32)"
     },
     {
+      "cssName": "--primitives-scale-28",
+      "description": "Base dimension scale 28, in pixels.",
       "id": "VariableID:22:1308",
       "name": "scale/28",
       "scopes": [],
@@ -833,11 +835,11 @@
       "valuesByMode": {
         "24:0": 28
       },
-      "web": "var(--primitives-number-24)",
-      "cssName": "--primitives-scale-28",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-28)"
     },
     {
+      "cssName": "--primitives-scale-48",
+      "description": "Base dimension scale 48, in pixels.",
       "id": "VariableID:22:1309",
       "name": "scale/48",
       "scopes": [],
@@ -845,11 +847,11 @@
       "valuesByMode": {
         "24:0": 48
       },
-      "web": "var(--primitives-number-40)",
-      "cssName": "--primitives-scale-48",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-48)"
     },
     {
+      "cssName": "--primitives-scale-64",
+      "description": "Base dimension scale 64, in pixels.",
       "id": "VariableID:22:1310",
       "name": "scale/64",
       "scopes": [],
@@ -857,11 +859,11 @@
       "valuesByMode": {
         "24:0": 64
       },
-      "web": "var(--primitives-number-56)",
-      "cssName": "--primitives-scale-64",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-64)"
     },
     {
+      "cssName": "--primitives-font-regular",
+      "description": "Font style label for regular text.",
       "id": "VariableID:22:1311",
       "name": "font/regular",
       "scopes": [],
@@ -869,10 +871,11 @@
       "valuesByMode": {
         "24:0": "Regular"
       },
-      "cssName": "--primitives-font-regular",
-      "description": ""
+      "web": "var(--primitives-font-regular)"
     },
     {
+      "cssName": "--primitives-font-medium",
+      "description": "Font style label for medium text.",
       "id": "VariableID:22:1312",
       "name": "font/medium",
       "scopes": [],
@@ -880,10 +883,11 @@
       "valuesByMode": {
         "24:0": "Medium"
       },
-      "cssName": "--primitives-font-medium",
-      "description": ""
+      "web": "var(--primitives-font-medium)"
     },
     {
+      "cssName": "--primitives-font-semi-bold",
+      "description": "Font style label for semi bold text.",
       "id": "VariableID:22:1313",
       "name": "font/semi-bold",
       "scopes": [],
@@ -891,10 +895,11 @@
       "valuesByMode": {
         "24:0": "SemiBold"
       },
-      "cssName": "--primitives-font-semi-bold",
-      "description": ""
+      "web": "var(--primitives-font-semi-bold)"
     },
     {
+      "cssName": "--primitives-font-bold",
+      "description": "Font style label for bold text.",
       "id": "VariableID:22:1314",
       "name": "font/bold",
       "scopes": [],
@@ -902,10 +907,11 @@
       "valuesByMode": {
         "24:0": "Bold"
       },
-      "cssName": "--primitives-font-bold",
-      "description": ""
+      "web": "var(--primitives-font-bold)"
     },
     {
+      "cssName": "--primitives-scale-20",
+      "description": "Base dimension scale 20, in pixels.",
       "id": "VariableID:28:1487",
       "name": "scale/20",
       "scopes": [],
@@ -913,9 +919,7 @@
       "valuesByMode": {
         "24:0": 20
       },
-      "web": "var(--primitives-number-16)",
-      "cssName": "--primitives-scale-20",
-      "description": "Observed dimension in pixels; 56 includes approved 55px normalization."
+      "web": "var(--primitives-scale-20)"
     }
   ],
   "schemaVersion": 1,

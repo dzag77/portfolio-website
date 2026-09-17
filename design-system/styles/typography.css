@@ -1,5 +1,5 @@
 /* Generated from ../tokens/*.json by ../build.mjs. Do not edit by hand.
-   Staged only: the website does not import this file. */
+   Integrated on the design-system branch; production merge requires approval. */
 
 /* Apply data-ds-text using the exact, case-sensitive Figma style name.
    Paragraph spacing is applied only between direct child <p> elements. */

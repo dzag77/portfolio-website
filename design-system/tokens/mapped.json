@@ -12,6 +12,8 @@
   },
   "variables": [
     {
+      "cssName": "--mapped-surface-page",
+      "description": "Background color for the page.",
       "id": "VariableID:24:528",
       "name": "surface/page",
       "scopes": [
@@ -25,11 +27,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-surface-page)",
-      "cssName": "--mapped-surface-page",
-      "description": "Portfolio surface page."
+      "web": "var(--mapped-surface-page)"
     },
     {
+      "cssName": "--mapped-surface-panel",
+      "description": "Background color for panels.",
       "id": "VariableID:24:529",
       "name": "surface/panel",
       "scopes": [
@@ -43,11 +45,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-surface-panel)",
-      "cssName": "--mapped-surface-panel",
-      "description": "Portfolio surface panel."
+      "web": "var(--mapped-surface-panel)"
     },
     {
+      "cssName": "--mapped-surface-image-container",
+      "description": "Background color for image containers.",
       "id": "VariableID:24:530",
       "name": "surface/image-container",
       "scopes": [
@@ -61,11 +63,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-surface-image)",
-      "cssName": "--mapped-surface-image-container",
-      "description": "Portfolio surface image."
+      "web": "var(--mapped-surface-image-container)"
     },
     {
+      "cssName": "--mapped-surface-placeholder",
+      "description": "Background color for placeholder surfaces.",
       "id": "VariableID:24:531",
       "name": "surface/placeholder",
       "scopes": [
@@ -79,11 +81,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-surface-placeholder)",
-      "cssName": "--mapped-surface-placeholder",
-      "description": "Portfolio surface placeholder."
+      "web": "var(--mapped-surface-placeholder)"
     },
     {
+      "cssName": "--mapped-text-default-body",
+      "description": "Default body text color.",
       "id": "VariableID:24:532",
       "name": "text/default/body",
       "scopes": [
@@ -96,11 +98,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-text-default-body)",
-      "cssName": "--mapped-text-default-body",
-      "description": "Portfolio text default body."
+      "web": "var(--mapped-text-default-body)"
     },
     {
+      "cssName": "--mapped-text-default-muted",
+      "description": "Muted text color.",
       "id": "VariableID:24:533",
       "name": "text/default/muted",
       "scopes": [
@@ -113,11 +115,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-text-default-muted)",
-      "cssName": "--mapped-text-default-muted",
-      "description": "Portfolio text default muted."
+      "web": "var(--mapped-text-default-muted)"
     },
     {
+      "cssName": "--mapped-text-default-placeholder",
+      "description": "Placeholder text color.",
       "id": "VariableID:24:534",
       "name": "text/default/placeholder",
       "scopes": [
@@ -130,11 +132,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-text-default-placeholder)",
-      "cssName": "--mapped-text-default-placeholder",
-      "description": "Portfolio text default placeholder."
+      "web": "var(--mapped-text-default-placeholder)"
     },
     {
+      "cssName": "--mapped-text-default-accent",
+      "description": "Accent text color.",
       "id": "VariableID:24:536",
       "name": "text/default/accent",
       "scopes": [
@@ -147,11 +149,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-text-navigation-selected)",
-      "cssName": "--mapped-text-default-accent",
-      "description": "Portfolio text navigation selected."
+      "web": "var(--mapped-text-default-accent)"
     },
     {
+      "cssName": "--mapped-text-action-default",
+      "description": "Default action text color.",
       "id": "VariableID:24:537",
       "name": "text/action/default",
       "scopes": [
@@ -164,11 +166,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-text-action-default)",
-      "cssName": "--mapped-text-action-default",
-      "description": "Portfolio text action default."
+      "web": "var(--mapped-text-action-default)"
     },
     {
+      "cssName": "--mapped-icon-default",
+      "description": "Default icon color.",
       "id": "VariableID:24:538",
       "name": "icon/default",
       "scopes": [
@@ -182,11 +184,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-icon-default)",
-      "cssName": "--mapped-icon-default",
-      "description": "Portfolio icon default."
+      "web": "var(--mapped-icon-default)"
     },
     {
+      "cssName": "--mapped-border-default",
+      "description": "Default border color.",
       "id": "VariableID:24:539",
       "name": "border/default",
       "scopes": [
@@ -199,11 +201,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-border-default)",
-      "cssName": "--mapped-border-default",
-      "description": "Portfolio border default."
+      "web": "var(--mapped-border-default)"
     },
     {
+      "cssName": "--mapped-border-strong",
+      "description": "Strong border color.",
       "id": "VariableID:24:540",
       "name": "border/strong",
       "scopes": [
@@ -216,11 +218,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-border-strong)",
-      "cssName": "--mapped-border-strong",
-      "description": "Portfolio border strong."
+      "web": "var(--mapped-border-strong)"
     },
     {
+      "cssName": "--mapped-surface-default-hover",
+      "description": "Default surface color in the hover state.",
       "id": "VariableID:29:1630",
       "name": "surface/default-hover",
       "scopes": [
@@ -234,11 +236,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-surface-image)",
-      "cssName": "--mapped-surface-default-hover",
-      "description": "Portfolio surface image."
+      "web": "var(--mapped-surface-default-hover)"
     },
     {
+      "cssName": "--mapped-surface-default-active",
+      "description": "Default surface color in the active state.",
       "id": "VariableID:29:1631",
       "name": "surface/default-active",
       "scopes": [
@@ -252,11 +254,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-surface-image)",
-      "cssName": "--mapped-surface-default-active",
-      "description": "Portfolio surface image."
+      "web": "var(--mapped-surface-default-active)"
     },
     {
+      "cssName": "--mapped-text-default-disabled",
+      "description": "Disabled text color.",
       "id": "VariableID:29:1632",
       "name": "text/default/disabled",
       "scopes": [
@@ -269,11 +271,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-text-default-muted)",
-      "cssName": "--mapped-text-default-disabled",
-      "description": "Portfolio text default muted."
+      "web": "var(--mapped-text-default-disabled)"
     },
     {
+      "cssName": "--mapped-icon-disabled",
+      "description": "Disabled icon color.",
       "id": "VariableID:29:1633",
       "name": "icon/disabled",
       "scopes": [
@@ -287,9 +289,7 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--mapped-icon-default)",
-      "cssName": "--mapped-icon-disabled",
-      "description": "Portfolio icon default."
+      "web": "var(--mapped-icon-disabled)"
     }
   ],
   "schemaVersion": 1,

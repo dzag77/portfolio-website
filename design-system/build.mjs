@@ -35,7 +35,7 @@ function generate(collections, typography) {
   if(v.type==="STRING") return JSON.stringify(val);
   throw Error("Unsupported variable type");
  }
- const banner="/* Generated from ../tokens/*.json by ../build.mjs. Do not edit by hand.\n   Staged only: the website does not import this file. */\n\n";
+ const banner="/* Generated from ../tokens/*.json by ../build.mjs. Do not edit by hand.\n   Integrated on the design-system branch; production merge requires approval. */\n\n";
  let variables=banner;
  for(const mode of ["Desktop","Mobile"]) {
   variables+=mode==="Desktop"?'[data-ds="portfolio"] {\n':'[data-ds="portfolio"][data-ds-responsive="mobile"] {\n';

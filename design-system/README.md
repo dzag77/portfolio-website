@@ -1,6 +1,6 @@
 # Portfolio design system
 
-Status: staged for review; **not implemented on denyszag.com**.
+Status: integrated in the design-system branch for preview; production merge is pending approval.
 
 Source: [Portfolio-DS in Figma](https://www.figma.com/design/HD2ev9QpEqOt3NqHYBVFAw/Portfolio-DS?node-id=0-1).
 Export date: 2026-09-17. Repository branch: `design-system`.
@@ -26,7 +26,7 @@ JSON uses a project-specific Figma snapshot schema (schemaVersion 1), not a clai
 It preserves collection IDs, default modes, mode IDs, variable IDs, names, types, scopes, descriptions, values and alias references.
 Each variable also has a unique cssName derived from its collection and current name:
 `Mapped/text/default/body` becomes `--mapped-text-default-body`.
-The optional web field preserves the original Figma code syntax for reference; some of those labels collide, so they cannot safely be used as CSS identifiers.
+The web field preserves the current Figma Web code syntax. All 176 fields match their canonical CSS names; no duplicates or naming mismatches remain in this snapshot.
 
 Figma remains the design reference. To update, refresh the token/style snapshots from Figma and run the generator.
 Do not hand-edit generated CSS. This export does not establish automatic synchronization with Figma.
@@ -45,11 +45,11 @@ text-style bindings and whether generated CSS matches the snapshots. No dependen
 
 ## Future usage — only after approval
 
-Nothing in src, public, package.json or the website's build configuration imports these files.
+src/main.tsx imports the generated styles and selects Mobile mode at the existing 800px breakpoint.
 The styles sit outside the existing TypeScript src include path.
 No global :root/body styles, font downloads or automatic breakpoint rules are added.
 
-After implementation is approved, the CSS files can be imported explicitly.
+The branch implementation imports the CSS explicitly.
 Variables are scoped to an element carrying `data-ds="portfolio"`.
 Desktop is the default mode; Mobile is selected by adding `data-ds-responsive="mobile"` to that **same element**.
 Use one scope for a page; nested mixed responsive modes are not part of this export.
@@ -74,5 +74,5 @@ Chakra Petch must be available with real 400, 600, 700 and 400 italic font faces
 The current website already requests these faces in src/styles.css; this package does not alter font loading.
 The primitive Medium label is retained but no exported text style uses Medium.
 
-Viewport breakpoints, page/component migration and visual comparison against Figma remain future implementation work.
+The existing layout breakpoints are retained; token modes switch at 800px.
 Merging into main or connecting these styles to the site requires the owner's approval.

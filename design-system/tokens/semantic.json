@@ -12,6 +12,8 @@
   },
   "variables": [
     {
+      "cssName": "--semantic-neutral-50",
+      "description": "Neutral palette color 50. References Primitives/grey/50.",
       "id": "VariableID:24:488",
       "name": "neutral/50",
       "scopes": [],
@@ -22,11 +24,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-50)",
-      "cssName": "--semantic-neutral-50",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-50)"
     },
     {
+      "cssName": "--semantic-neutral-100",
+      "description": "Neutral palette color 100. References Primitives/grey/100.",
       "id": "VariableID:24:489",
       "name": "neutral/100",
       "scopes": [],
@@ -37,11 +39,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-100)",
-      "cssName": "--semantic-neutral-100",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-100)"
     },
     {
+      "cssName": "--semantic-neutral-150",
+      "description": "Neutral palette color 150. References Primitives/grey/150.",
       "id": "VariableID:24:490",
       "name": "neutral/150",
       "scopes": [],
@@ -52,11 +54,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-150)",
-      "cssName": "--semantic-neutral-150",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-150)"
     },
     {
+      "cssName": "--semantic-neutral-200",
+      "description": "Neutral palette color 200. References Primitives/grey/200.",
       "id": "VariableID:24:491",
       "name": "neutral/200",
       "scopes": [],
@@ -67,11 +69,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-200)",
-      "cssName": "--semantic-neutral-200",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-200)"
     },
     {
+      "cssName": "--semantic-neutral-250",
+      "description": "Neutral palette color 250. References Primitives/grey/250.",
       "id": "VariableID:24:492",
       "name": "neutral/250",
       "scopes": [],
@@ -82,11 +84,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-250)",
-      "cssName": "--semantic-neutral-250",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-250)"
     },
     {
+      "cssName": "--semantic-neutral-300",
+      "description": "Neutral palette color 300. References Primitives/grey/300.",
       "id": "VariableID:24:493",
       "name": "neutral/300",
       "scopes": [],
@@ -97,11 +99,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-300)",
-      "cssName": "--semantic-neutral-300",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-300)"
     },
     {
+      "cssName": "--semantic-neutral-350",
+      "description": "Neutral palette color 350. References Primitives/grey/350.",
       "id": "VariableID:24:494",
       "name": "neutral/350",
       "scopes": [],
@@ -112,11 +114,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-350)",
-      "cssName": "--semantic-neutral-350",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-350)"
     },
     {
+      "cssName": "--semantic-neutral-400",
+      "description": "Neutral palette color 400. References Primitives/grey/400.",
       "id": "VariableID:24:495",
       "name": "neutral/400",
       "scopes": [],
@@ -127,11 +129,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-400)",
-      "cssName": "--semantic-neutral-400",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-400)"
     },
     {
+      "cssName": "--semantic-neutral-450",
+      "description": "Neutral palette color 450. References Primitives/grey/450.",
       "id": "VariableID:24:496",
       "name": "neutral/450",
       "scopes": [],
@@ -142,11 +144,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-450)",
-      "cssName": "--semantic-neutral-450",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-450)"
     },
     {
+      "cssName": "--semantic-neutral-500",
+      "description": "Neutral palette color 500. References Primitives/grey/500.",
       "id": "VariableID:24:497",
       "name": "neutral/500",
       "scopes": [],
@@ -157,11 +159,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-500)",
-      "cssName": "--semantic-neutral-500",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-500)"
     },
     {
+      "cssName": "--semantic-neutral-550",
+      "description": "Neutral palette color 550. References Primitives/grey/550.",
       "id": "VariableID:24:498",
       "name": "neutral/550",
       "scopes": [],
@@ -172,11 +174,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-550)",
-      "cssName": "--semantic-neutral-550",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-550)"
     },
     {
+      "cssName": "--semantic-neutral-600",
+      "description": "Neutral palette color 600. References Primitives/grey/600.",
       "id": "VariableID:24:499",
       "name": "neutral/600",
       "scopes": [],
@@ -187,11 +189,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-600)",
-      "cssName": "--semantic-neutral-600",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-600)"
     },
     {
+      "cssName": "--semantic-neutral-650",
+      "description": "Neutral palette color 650. References Primitives/grey/650.",
       "id": "VariableID:24:500",
       "name": "neutral/650",
       "scopes": [],
@@ -202,11 +204,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-650)",
-      "cssName": "--semantic-neutral-650",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-650)"
     },
     {
+      "cssName": "--semantic-neutral-700",
+      "description": "Neutral palette color 700. References Primitives/grey/700.",
       "id": "VariableID:24:501",
       "name": "neutral/700",
       "scopes": [],
@@ -217,11 +219,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-700)",
-      "cssName": "--semantic-neutral-700",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-700)"
     },
     {
+      "cssName": "--semantic-neutral-750",
+      "description": "Neutral palette color 750. References Primitives/grey/750.",
       "id": "VariableID:24:502",
       "name": "neutral/750",
       "scopes": [],
@@ -232,11 +234,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-750)",
-      "cssName": "--semantic-neutral-750",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-750)"
     },
     {
+      "cssName": "--semantic-neutral-800",
+      "description": "Neutral palette color 800. References Primitives/grey/800.",
       "id": "VariableID:24:503",
       "name": "neutral/800",
       "scopes": [],
@@ -247,11 +249,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-800)",
-      "cssName": "--semantic-neutral-800",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-800)"
     },
     {
+      "cssName": "--semantic-neutral-850",
+      "description": "Neutral palette color 850. References Primitives/grey/850.",
       "id": "VariableID:24:504",
       "name": "neutral/850",
       "scopes": [],
@@ -262,11 +264,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-850)",
-      "cssName": "--semantic-neutral-850",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-850)"
     },
     {
+      "cssName": "--semantic-neutral-900",
+      "description": "Neutral palette color 900. References Primitives/grey/900.",
       "id": "VariableID:24:505",
       "name": "neutral/900",
       "scopes": [],
@@ -277,11 +279,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-neutral-900)",
-      "cssName": "--semantic-neutral-900",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-neutral-900)"
     },
     {
+      "cssName": "--semantic-accent-50",
+      "description": "Accent palette color 50. References Primitives/red/50.",
       "id": "VariableID:24:506",
       "name": "accent/50",
       "scopes": [],
@@ -292,11 +294,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-50)",
-      "cssName": "--semantic-accent-50",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-50)"
     },
     {
+      "cssName": "--semantic-accent-100",
+      "description": "Accent palette color 100. References Primitives/red/100.",
       "id": "VariableID:24:507",
       "name": "accent/100",
       "scopes": [],
@@ -307,11 +309,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-100)",
-      "cssName": "--semantic-accent-100",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-100)"
     },
     {
+      "cssName": "--semantic-accent-150",
+      "description": "Accent palette color 150. References Primitives/red/150.",
       "id": "VariableID:24:508",
       "name": "accent/150",
       "scopes": [],
@@ -322,11 +324,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-150)",
-      "cssName": "--semantic-accent-150",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-150)"
     },
     {
+      "cssName": "--semantic-accent-200",
+      "description": "Accent palette color 200. References Primitives/red/200.",
       "id": "VariableID:24:509",
       "name": "accent/200",
       "scopes": [],
@@ -337,11 +339,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-200)",
-      "cssName": "--semantic-accent-200",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-200)"
     },
     {
+      "cssName": "--semantic-accent-250",
+      "description": "Accent palette color 250. References Primitives/red/250.",
       "id": "VariableID:24:510",
       "name": "accent/250",
       "scopes": [],
@@ -352,11 +354,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-250)",
-      "cssName": "--semantic-accent-250",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-250)"
     },
     {
+      "cssName": "--semantic-accent-300",
+      "description": "Accent palette color 300. References Primitives/red/300.",
       "id": "VariableID:24:511",
       "name": "accent/300",
       "scopes": [],
@@ -367,11 +369,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-300)",
-      "cssName": "--semantic-accent-300",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-300)"
     },
     {
+      "cssName": "--semantic-accent-350",
+      "description": "Accent palette color 350. References Primitives/red/350.",
       "id": "VariableID:24:512",
       "name": "accent/350",
       "scopes": [],
@@ -382,11 +384,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-350)",
-      "cssName": "--semantic-accent-350",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-350)"
     },
     {
+      "cssName": "--semantic-accent-400",
+      "description": "Accent palette color 400. References Primitives/red/400.",
       "id": "VariableID:24:513",
       "name": "accent/400",
       "scopes": [],
@@ -397,11 +399,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-400)",
-      "cssName": "--semantic-accent-400",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-400)"
     },
     {
+      "cssName": "--semantic-accent-450",
+      "description": "Accent palette color 450. References Primitives/red/450.",
       "id": "VariableID:24:514",
       "name": "accent/450",
       "scopes": [],
@@ -412,11 +414,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-450)",
-      "cssName": "--semantic-accent-450",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-450)"
     },
     {
+      "cssName": "--semantic-accent-500",
+      "description": "Accent palette color 500. References Primitives/red/500.",
       "id": "VariableID:24:515",
       "name": "accent/500",
       "scopes": [],
@@ -427,11 +429,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-500)",
-      "cssName": "--semantic-accent-500",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-500)"
     },
     {
+      "cssName": "--semantic-accent-550",
+      "description": "Accent palette color 550. References Primitives/red/550.",
       "id": "VariableID:24:516",
       "name": "accent/550",
       "scopes": [],
@@ -442,11 +444,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-550)",
-      "cssName": "--semantic-accent-550",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-550)"
     },
     {
+      "cssName": "--semantic-accent-600",
+      "description": "Accent palette color 600. References Primitives/red/600.",
       "id": "VariableID:24:517",
       "name": "accent/600",
       "scopes": [],
@@ -457,11 +459,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-600)",
-      "cssName": "--semantic-accent-600",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-600)"
     },
     {
+      "cssName": "--semantic-accent-650",
+      "description": "Accent palette color 650. References Primitives/red/650.",
       "id": "VariableID:24:518",
       "name": "accent/650",
       "scopes": [],
@@ -472,11 +474,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-650)",
-      "cssName": "--semantic-accent-650",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-650)"
     },
     {
+      "cssName": "--semantic-accent-700",
+      "description": "Accent palette color 700. References Primitives/red/700.",
       "id": "VariableID:24:519",
       "name": "accent/700",
       "scopes": [],
@@ -487,11 +489,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-700)",
-      "cssName": "--semantic-accent-700",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-700)"
     },
     {
+      "cssName": "--semantic-accent-750",
+      "description": "Accent palette color 750. References Primitives/red/750.",
       "id": "VariableID:24:520",
       "name": "accent/750",
       "scopes": [],
@@ -502,11 +504,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-750)",
-      "cssName": "--semantic-accent-750",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-750)"
     },
     {
+      "cssName": "--semantic-accent-800",
+      "description": "Accent palette color 800. References Primitives/red/800.",
       "id": "VariableID:24:521",
       "name": "accent/800",
       "scopes": [],
@@ -517,11 +519,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-800)",
-      "cssName": "--semantic-accent-800",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-800)"
     },
     {
+      "cssName": "--semantic-accent-850",
+      "description": "Accent palette color 850. References Primitives/red/850.",
       "id": "VariableID:24:522",
       "name": "accent/850",
       "scopes": [],
@@ -532,11 +534,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-850)",
-      "cssName": "--semantic-accent-850",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-850)"
     },
     {
+      "cssName": "--semantic-accent-900",
+      "description": "Accent palette color 900. References Primitives/red/900.",
       "id": "VariableID:24:523",
       "name": "accent/900",
       "scopes": [],
@@ -547,11 +549,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-primary-900)",
-      "cssName": "--semantic-accent-900",
-      "description": "Palette role; supplied by target palette."
+      "web": "var(--semantic-accent-900)"
     },
     {
+      "cssName": "--semantic-white",
+      "description": "White foundation.",
       "id": "VariableID:24:524",
       "name": "white",
       "scopes": [],
@@ -562,11 +564,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-white)",
-      "cssName": "--semantic-white",
-      "description": "White foundation."
+      "web": "var(--semantic-white)"
     },
     {
+      "cssName": "--semantic-black",
+      "description": "Black foundation.",
       "id": "VariableID:24:525",
       "name": "black",
       "scopes": [],
@@ -577,11 +579,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-black)",
-      "cssName": "--semantic-black",
-      "description": "Black foundation."
+      "web": "var(--semantic-black)"
     },
     {
+      "cssName": "--semantic-border-width-default",
+      "description": "Default border width. References Primitives/scale/1.",
       "id": "VariableID:24:526",
       "name": "border/width/default",
       "scopes": [
@@ -594,11 +596,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-border-width-default)",
-      "cssName": "--semantic-border-width-default",
-      "description": "One-pixel dividers."
+      "web": "var(--semantic-border-width-default)"
     },
     {
+      "cssName": "--semantic-radius-none",
+      "description": "No corner rounding; square corners. References Primitives/scale/0.",
       "id": "VariableID:24:527",
       "name": "radius/none",
       "scopes": [
@@ -611,11 +613,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-radius-none)",
-      "cssName": "--semantic-radius-none",
-      "description": "Square portfolio containers."
+      "web": "var(--semantic-radius-none)"
     },
     {
+      "cssName": "--semantic-border-width-strong",
+      "description": "Strong border width. References Primitives/scale/2.",
       "id": "VariableID:22:1315",
       "name": "border/width/strong",
       "scopes": [
@@ -628,11 +630,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-border-width-default)",
-      "cssName": "--semantic-border-width-strong",
-      "description": "One-pixel dividers."
+      "web": "var(--semantic-border-width-strong)"
     },
     {
+      "cssName": "--semantic-radius-xs",
+      "description": "Extra-small corner radius. References Primitives/scale/2.",
       "id": "VariableID:22:1316",
       "name": "radius/xs",
       "scopes": [
@@ -645,11 +647,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-radius-none)",
-      "cssName": "--semantic-radius-xs",
-      "description": "Square portfolio containers."
+      "web": "var(--semantic-radius-xs)"
     },
     {
+      "cssName": "--semantic-radius-sm",
+      "description": "Small corner radius. References Primitives/scale/4.",
       "id": "VariableID:22:1317",
       "name": "radius/sm",
       "scopes": [
@@ -662,11 +664,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-radius-none)",
-      "cssName": "--semantic-radius-sm",
-      "description": "Square portfolio containers."
+      "web": "var(--semantic-radius-sm)"
     },
     {
+      "cssName": "--semantic-radius-md",
+      "description": "Medium corner radius. References Primitives/scale/8.",
       "id": "VariableID:22:1318",
       "name": "radius/md",
       "scopes": [
@@ -679,11 +681,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-radius-none)",
-      "cssName": "--semantic-radius-md",
-      "description": "Square portfolio containers."
+      "web": "var(--semantic-radius-md)"
     },
     {
+      "cssName": "--semantic-radius-lg",
+      "description": "Large corner radius. References Primitives/scale/12.",
       "id": "VariableID:22:1319",
       "name": "radius/lg",
       "scopes": [
@@ -696,11 +698,11 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-radius-none)",
-      "cssName": "--semantic-radius-lg",
-      "description": "Square portfolio containers."
+      "web": "var(--semantic-radius-lg)"
     },
     {
+      "cssName": "--semantic-radius-xl",
+      "description": "Extra-large corner radius. References Primitives/scale/16.",
       "id": "VariableID:22:1320",
       "name": "radius/xl",
       "scopes": [
@@ -713,9 +715,7 @@
           "type": "VARIABLE_ALIAS"
         }
       },
-      "web": "var(--semantic-radius-none)",
-      "cssName": "--semantic-radius-xl",
-      "description": "Square portfolio containers."
+      "web": "var(--semantic-radius-xl)"
     }
   ],
   "schemaVersion": 1,
