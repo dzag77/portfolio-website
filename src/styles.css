@@ -676,6 +676,10 @@ a {
   height: auto;
   display: block;
 }
+.final-screen img {
+  background: var(--mapped-surface-image-container);
+  padding: var(--responsive-layout-image-container-inset);
+}
 .outcome > div {
   min-height: 276px;
 }
