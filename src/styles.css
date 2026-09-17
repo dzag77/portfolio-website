@@ -621,6 +621,9 @@ a {
 .comparison .info-list h3 {
   min-height: 76px;
 }
+.final-design .section-intro h2 {
+  margin-bottom: 0;
+}
 .final-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
