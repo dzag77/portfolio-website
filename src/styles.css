@@ -948,11 +948,34 @@ a {
 .image-card { padding: var(--responsive-layout-image-container-inset); background: var(--mapped-surface-image-container); }
 .coming p { border-width: var(--responsive-layout-image-container-inset); }
 .detail-image img { padding: var(--responsive-layout-image-container-inset); }
-.nav button:hover, .case-link:hover, .footer a:hover, .about-cv:hover { background: var(--mapped-surface-default-hover); }
-.nav button:active, .case-link:active, .footer a:active, .about-cv:active { background: var(--mapped-surface-default-active); }
+:is(.nav button, .case-link, .breadcrumbs button, .footer a, .about-cv) {
+  background-color: var(--primitives-grey-300);
+  background-image: linear-gradient(
+    to right,
+    var(--primitives-grey-900) 0 50%,
+    var(--primitives-grey-300) 50% 100%
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition:
+    background-position 400ms ease,
+    color 200ms ease;
+}
+:is(.nav button, .case-link, .breadcrumbs button, .footer a, .about-cv):hover,
+:is(.nav button, .case-link, .breadcrumbs button, .footer a, .about-cv):active {
+  background-position: 0 0;
+  color: var(--semantic-white);
+}
+:is(.case-link, .footer a):hover .arrow,
+:is(.case-link, .footer a):active .arrow {
+  filter: brightness(0) invert(1);
+}
 button:focus-visible, a:focus-visible { outline: var(--semantic-border-width-strong) solid var(--mapped-text-default-accent); outline-offset: -3px; }
 .home-grid > *, .work-grid > *, .about-grid > *, .project-meta > * { min-width: 0; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  :is(.nav button, .case-link, .breadcrumbs button, .footer a, .about-cv) { transition: none; }
+}
 
 /* The existing project raster already includes its 16px image-container frame. */
 .image-card { padding: 0; }
