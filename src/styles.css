@@ -993,8 +993,9 @@ button:focus-visible, a:focus-visible { outline: var(--semantic-border-width-str
   :is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv)::before { transition: none; }
 }
 
-/* The homepage raster already includes its image-container frame. */
+/* Project images use the design-system image-container frame. */
 .image-card { padding: 0; }
+.featured .image-card,
 .work-grid .work-card--with-image .image-card {
   padding: var(--responsive-layout-image-container-inset);
   background: var(--mapped-surface-image-container);
