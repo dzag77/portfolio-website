@@ -948,22 +948,30 @@ a {
 .image-card { padding: var(--responsive-layout-image-container-inset); background: var(--mapped-surface-image-container); }
 .coming p { border-width: var(--responsive-layout-image-container-inset); }
 .detail-image img { padding: var(--responsive-layout-image-container-inset); }
-:is(.nav button, .case-link, .breadcrumbs button, .footer a, .about-cv) {
-  background-image: linear-gradient(
-    to right,
-    var(--primitives-grey-900) 0 50%,
-    transparent 50% 100%
-  );
-  background-position: 100% 0;
-  background-size: 200% 100%;
-  transition:
-    background-position 400ms ease,
-    color 200ms ease;
+:is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv) {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  transition: color 200ms ease;
 }
-:is(.nav button, .case-link, .breadcrumbs button, .footer a, .about-cv):hover,
-:is(.nav button, .case-link, .breadcrumbs button, .footer a, .about-cv):active {
-  background-position: 0 0;
+:is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv)::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--primitives-grey-900);
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform 400ms ease;
+}
+:is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv):hover,
+:is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv):active {
   color: var(--semantic-white);
+}
+:is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv):hover::before,
+:is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv):active::before {
+  transform: scaleX(1);
+  transform-origin: left center;
 }
 :is(.case-link, .footer a):hover .arrow,
 :is(.case-link, .footer a):active .arrow {
@@ -973,7 +981,8 @@ button:focus-visible, a:focus-visible { outline: var(--semantic-border-width-str
 .home-grid > *, .work-grid > *, .about-grid > *, .project-meta > * { min-width: 0; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  :is(.nav button, .case-link, .breadcrumbs button, .footer a, .about-cv) { transition: none; }
+  :is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv),
+  :is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv)::before { transition: none; }
 }
 
 /* The existing project raster already includes its 16px image-container frame. */
