@@ -949,11 +949,10 @@ a {
 .coming p { border-width: var(--responsive-layout-image-container-inset); }
 .detail-image img { padding: var(--responsive-layout-image-container-inset); }
 :is(.nav button, .case-link, .breadcrumbs button, .footer a, .about-cv) {
-  background-color: var(--primitives-grey-300);
   background-image: linear-gradient(
     to right,
     var(--primitives-grey-900) 0 50%,
-    var(--primitives-grey-300) 50% 100%
+    transparent 50% 100%
   );
   background-position: 100% 0;
   background-size: 200% 100%;
