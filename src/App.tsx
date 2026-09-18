@@ -3,9 +3,6 @@ import { useEffect, useState } from "react";
 type Page = "home" | "work" | "about" | "hq-redesign";
 
 const A = "/assets";
-const HOVER_SWEEP_SELECTOR =
-  ".nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv";
-const HOVER_SWEEP_SPEED_PX_PER_SECOND = 1600;
 
 function routeFromPath(): Page {
   const route = location.pathname.split("/").filter(Boolean).join("/");
@@ -718,25 +715,6 @@ export default function App() {
     addEventListener("popstate", update);
     return () => removeEventListener("popstate", update);
   }, []);
-  useEffect(() => {
-    const elements = Array.from(
-      document.querySelectorAll<HTMLElement>(HOVER_SWEEP_SELECTOR),
-    );
-    const updateDuration = (element: HTMLElement) => {
-      const duration =
-        element.getBoundingClientRect().width /
-        HOVER_SWEEP_SPEED_PX_PER_SECOND;
-      element.style.setProperty("--hover-fill-duration", `${duration}s`);
-    };
-    elements.forEach(updateDuration);
-
-    const resizeObserver = new ResizeObserver((entries) => {
-      entries.forEach((entry) => updateDuration(entry.target as HTMLElement));
-    });
-    elements.forEach((element) => resizeObserver.observe(element));
-
-    return () => resizeObserver.disconnect();
-  }, [page]);
   if (page === "work") return <Work />;
   if (page === "about") return <About />;
   if (page === "hq-redesign") return <CaseStudy />;
