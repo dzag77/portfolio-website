@@ -519,6 +519,9 @@ a {
 .card-grid.five {
   grid-template-columns: repeat(5, 1fr);
 }
+.understanding .card-grid.five {
+  border-bottom-color: var(--line-strong);
+}
 .card-grid > div {
   padding: var(--responsive-layout-content-inset-vertical) var(--responsive-layout-content-inset-horizontal);
   border-right: var(--semantic-border-width-default) solid var(--line);
