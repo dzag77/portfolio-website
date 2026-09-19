@@ -1233,6 +1233,117 @@ button:focus-visible, a:focus-visible { outline: var(--semantic-border-width-str
   }
 }
 
+/* About page mobile layout from the Portfolio design system. */
+@media (max-width: 800px) {
+  .page-frame--about {
+    padding: var(--responsive-spacing-24);
+  }
+
+  .page-frame--about .page-border {
+    min-height: calc(100vh - 2 * var(--responsive-spacing-24));
+  }
+
+  .page-frame--about .nav {
+    height: var(--responsive-spacing-76);
+    min-height: var(--responsive-spacing-76);
+  }
+
+  .page-frame--about .nav button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: var(--responsive-spacing-24);
+    text-align: center;
+  }
+
+  .page-frame--about .about-copy {
+    border-bottom: var(--semantic-border-width-default) solid var(--line-strong);
+  }
+
+  .page-frame--about .about-text {
+    border-bottom: var(--semantic-border-width-default) solid var(--line);
+    padding: var(--responsive-spacing-24);
+  }
+
+  .page-frame--about .about-lists {
+    border-top: 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .page-frame--about .about-visual {
+    min-height: 0;
+  }
+
+  .page-frame--about .about-portrait-block {
+    border-bottom: var(--semantic-border-width-default) solid var(--line);
+    flex: none;
+    gap: var(--responsive-spacing-24);
+    padding: var(--responsive-spacing-24);
+  }
+
+  .page-frame--about .about-image-crop {
+    flex: none;
+    padding: 0;
+  }
+
+  .page-frame--about .about-image-crop img {
+    width: 100%;
+  }
+
+  .page-frame--about .about-caption {
+    padding: 0;
+  }
+
+  .page-frame--about .about-cv,
+  .page-frame--about .footer > *,
+  .page-frame--about .footer > a {
+    padding: var(--responsive-spacing-24);
+  }
+
+  .page-frame--about .about-cv {
+    border-top: 0;
+  }
+
+  .page-frame--about .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-frame--about .footer a {
+    border-right: 0;
+    order: 1;
+  }
+
+  .page-frame--about .footer a:first-of-type {
+    border-bottom: var(--semantic-border-width-default) solid var(--line);
+  }
+
+  .page-frame--about .footer a:last-of-type {
+    border-bottom: 0;
+    order: 2;
+  }
+
+  .page-frame--about .footer-location {
+    align-items: flex-start;
+    border-bottom: 0;
+    border-top: var(--semantic-border-width-default) solid var(--line);
+    flex-direction: column;
+    gap: var(--responsive-spacing-16);
+    order: 3;
+  }
+
+  .page-frame--about .footer-location span {
+    order: -1;
+  }
+
+  .page-frame--about .footer-skyline {
+    height: auto;
+    max-height: var(--responsive-spacing-56);
+    max-width: 360px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 800px), (hover: none) {
   :is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv),
   :is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv)::before {
