@@ -687,6 +687,9 @@ a {
   background: var(--mapped-surface-image-container);
   padding: var(--responsive-layout-image-container-inset);
 }
+.split.outcome {
+  border-bottom-color: var(--line);
+}
 .outcome > div {
   min-height: 276px;
 }
