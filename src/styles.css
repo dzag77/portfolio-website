@@ -910,6 +910,7 @@ a {
     padding-right: var(--responsive-spacing-24);
   }
 }
+
 @media (max-width: 520px) {
   .nav button {
     padding: 18px 14px;
@@ -1135,5 +1136,32 @@ button:focus-visible, a:focus-visible { outline: var(--semantic-border-width-str
     max-height: var(--responsive-spacing-56);
     max-width: 360px;
     width: 100%;
+  }
+}
+
+@media (max-width: 800px), (hover: none) {
+  :is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv),
+  :is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv)::before {
+    transition: none;
+  }
+
+  :is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv)::before {
+    display: none;
+  }
+
+  :is(.nav button:not(.active), .case-link, .footer a, .about-cv):hover,
+  :is(.nav button:not(.active), .case-link, .footer a, .about-cv):active {
+    color: inherit;
+  }
+
+  .breadcrumbs button:hover,
+  .breadcrumbs button:active {
+    color: var(--mapped-text-default-muted);
+  }
+
+  :is(.case-link, .footer a):hover .arrow,
+  :is(.case-link, .footer a):active .arrow {
+    filter: none;
+    transition-delay: 0ms;
   }
 }
