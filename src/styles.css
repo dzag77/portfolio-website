@@ -1267,7 +1267,15 @@ button:focus-visible, a:focus-visible { outline: var(--semantic-border-width-str
 
   .page-frame--about .about-lists {
     border-top: 0;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
+  }
+
+  .page-frame--about .about-lists .info-list {
+    border-right: 0;
+  }
+
+  .page-frame--about .about-lists .info-list:first-child {
+    border-bottom: var(--semantic-border-width-default) solid var(--line);
   }
 
   .page-frame--about .about-visual {
