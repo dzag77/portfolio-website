@@ -577,6 +577,9 @@ a {
   overflow-y: hidden;
   border-bottom: var(--semantic-border-width-default) solid var(--line);
 }
+.new-ia-scroll {
+  border-bottom-color: var(--line-strong);
+}
 .old-ia-scroll img {
   display: block;
   width: 1935px;
