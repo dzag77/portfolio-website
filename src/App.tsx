@@ -89,7 +89,7 @@ function Shell({
   long?: boolean;
 }) {
   return (
-    <main className={`page-frame ${long ? "page-frame--long" : ""}`}>
+    <main className={`page-frame page-frame--${page}${long ? " page-frame--long" : ""}`}>
       <div className="page-border">
         <Header active={page} />
         {children}
