@@ -1352,6 +1352,212 @@ button:focus-visible, a:focus-visible { outline: var(--semantic-border-width-str
   }
 }
 
+/* HQ Redesign mobile layout from the Portfolio design system. */
+@media (max-width: 800px) {
+  .page-frame--hq-redesign {
+    padding: var(--responsive-spacing-24);
+  }
+
+  .page-frame--hq-redesign .page-border {
+    min-height: calc(100vh - 2 * var(--responsive-spacing-24));
+  }
+
+  .page-frame--hq-redesign .nav {
+    height: var(--responsive-spacing-76);
+    min-height: var(--responsive-spacing-76);
+  }
+
+  .page-frame--hq-redesign .nav button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: var(--responsive-spacing-24);
+    text-align: center;
+  }
+
+  .page-frame--hq-redesign .case-hero {
+    padding: var(--responsive-layout-hero-inset-vertical)
+      var(--responsive-layout-hero-inset-horizontal);
+  }
+
+  .page-frame--hq-redesign .breadcrumbs,
+  .page-frame--hq-redesign .case-hero h1 {
+    margin-bottom: var(--responsive-layout-hero-gap);
+  }
+
+  .page-frame--hq-redesign .case-hero p br {
+    display: none;
+  }
+
+  .page-frame--hq-redesign .split > div,
+  .page-frame--hq-redesign .section-intro {
+    padding: var(--responsive-spacing-24)
+      var(--responsive-layout-content-inset-horizontal);
+  }
+
+  .page-frame--hq-redesign .lead-section > div:first-child,
+  .page-frame--hq-redesign .challenge > div:first-child,
+  .page-frame--hq-redesign .ia > .split > div:first-child,
+  .page-frame--hq-redesign .outcome > div:first-child,
+  .page-frame--hq-redesign .reflection > div:first-child {
+    border-bottom: var(--semantic-border-width-default) solid var(--line);
+  }
+
+  .page-frame--hq-redesign .detail-grid,
+  .page-frame--hq-redesign .card-grid.four,
+  .page-frame--hq-redesign .card-grid.five,
+  .page-frame--hq-redesign .problem-grid,
+  .page-frame--hq-redesign .final-components {
+    grid-template-columns: 1fr;
+  }
+
+  .page-frame--hq-redesign .detail-grid .info-list,
+  .page-frame--hq-redesign .problem-grid .info-list {
+    border-bottom: 0;
+    border-right: 0;
+  }
+
+  .page-frame--hq-redesign .detail-grid .info-list:first-child,
+  .page-frame--hq-redesign .problem-grid .info-list:not(:last-child) {
+    border-bottom: var(--semantic-border-width-default) solid var(--line);
+  }
+
+  .page-frame--hq-redesign .detail-image {
+    padding: var(--responsive-spacing-24)
+      var(--responsive-layout-content-inset-horizontal) !important;
+  }
+
+  .page-frame--hq-redesign .info-list h3,
+  .page-frame--hq-redesign .info-list > p {
+    align-items: center;
+    display: flex;
+    min-height: var(--responsive-spacing-76);
+    padding: var(--responsive-spacing-24)
+      var(--responsive-layout-content-inset-horizontal);
+  }
+
+  .page-frame--hq-redesign .detail-grid .info-list:last-child > p:empty {
+    display: none;
+  }
+
+  .page-frame--hq-redesign .detail-image img {
+    height: 205px;
+    object-fit: cover;
+  }
+
+  .page-frame--hq-redesign .card-grid > div {
+    border-bottom: var(--semantic-border-width-default) solid var(--line);
+    border-right: 0;
+    grid-column: auto;
+    min-height: 0;
+  }
+
+  .page-frame--hq-redesign .card-grid > div:last-child {
+    border-bottom: 0;
+  }
+
+  .page-frame--hq-redesign .card-grid.four > div {
+    padding: var(--responsive-spacing-24) var(--responsive-spacing-40);
+  }
+
+  .page-frame--hq-redesign .band {
+    padding: var(--responsive-spacing-24)
+      var(--responsive-layout-content-inset-horizontal);
+  }
+
+  .page-frame--hq-redesign .card-grid.five > div {
+    padding: var(--responsive-spacing-24)
+      var(--responsive-layout-content-inset-horizontal);
+  }
+
+  .page-frame--hq-redesign .card-grid.five > div:last-child {
+    border-top: 0;
+  }
+
+  .page-frame--hq-redesign .old-ia-scroll,
+  .page-frame--hq-redesign .new-ia-scroll,
+  .page-frame--hq-redesign .compare-image,
+  .page-frame--hq-redesign .final-screen,
+  .page-frame--hq-redesign .final-components {
+    padding: var(--responsive-spacing-24)
+      var(--responsive-layout-content-inset-horizontal);
+  }
+
+  .page-frame--hq-redesign .comparison > article:first-child {
+    border-bottom: var(--semantic-border-width-default) solid var(--line);
+    border-right: 0;
+  }
+
+  .page-frame--hq-redesign .compare-title {
+    padding: var(--responsive-spacing-24)
+      var(--responsive-layout-content-inset-horizontal);
+  }
+
+  .page-frame--hq-redesign .final-screen {
+    border-right: 0;
+  }
+
+  .page-frame--hq-redesign .final-components {
+    gap: var(--responsive-spacing-24);
+  }
+
+  .page-frame--hq-redesign .validation-note {
+    align-items: flex-end !important;
+  }
+
+  .page-frame--hq-redesign .validation-note > p {
+    border-top: 0;
+    padding: var(--responsive-spacing-24)
+      var(--responsive-layout-content-inset-horizontal)
+      var(--responsive-spacing-24)
+      calc(var(--responsive-layout-content-inset-horizontal) + var(--responsive-spacing-16) + var(--semantic-border-width-strong));
+  }
+
+  .page-frame--hq-redesign .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-frame--hq-redesign .footer > *,
+  .page-frame--hq-redesign .footer > a {
+    padding: var(--responsive-spacing-24);
+  }
+
+  .page-frame--hq-redesign .footer a {
+    border-right: 0;
+    order: 1;
+  }
+
+  .page-frame--hq-redesign .footer a:first-of-type {
+    border-bottom: var(--semantic-border-width-default) solid var(--line);
+  }
+
+  .page-frame--hq-redesign .footer a:last-of-type {
+    border-bottom: 0;
+    order: 2;
+  }
+
+  .page-frame--hq-redesign .footer-location {
+    align-items: flex-start;
+    border-bottom: 0;
+    border-top: var(--semantic-border-width-default) solid var(--line);
+    flex-direction: column;
+    gap: var(--responsive-spacing-16);
+    order: 3;
+  }
+
+  .page-frame--hq-redesign .footer-location span {
+    order: -1;
+  }
+
+  .page-frame--hq-redesign .footer-skyline {
+    height: auto;
+    max-height: var(--responsive-spacing-56);
+    max-width: 360px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 800px), (hover: none) {
   :is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv),
   :is(.nav button:not(.active), .case-link, .breadcrumbs button, .footer a, .about-cv)::before {
