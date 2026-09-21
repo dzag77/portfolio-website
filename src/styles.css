@@ -1444,11 +1444,6 @@ button:focus-visible, a:focus-visible { outline: var(--semantic-border-width-str
     display: none;
   }
 
-  .page-frame--hq-redesign .detail-image img {
-    height: 205px;
-    object-fit: cover;
-  }
-
   .page-frame--hq-redesign .card-grid > div {
     border-bottom: var(--semantic-border-width-default) solid var(--line);
     border-right: 0;
