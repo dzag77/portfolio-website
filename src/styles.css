@@ -1411,6 +1411,10 @@ button:focus-visible, a:focus-visible { outline: var(--semantic-border-width-str
     grid-template-columns: 1fr;
   }
 
+  .page-frame--hq-redesign .project-details > .detail-grid {
+    padding: 0;
+  }
+
   .page-frame--hq-redesign .detail-grid .info-list,
   .page-frame--hq-redesign .problem-grid .info-list {
     border-bottom: 0;
