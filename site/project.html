@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HQ Enterprise Product Redesign — Denys Zagorodny</title>
+<meta name="description" content="Case study: reorganizing the information architecture and booking workflow of HQ, an enterprise ground transportation platform.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Denys Zagorodny">
+<meta property="og:title" content="HQ Enterprise Product Redesign — Denys Zagorodny">
+<meta property="og:description" content="Case study: reorganizing the information architecture and booking workflow of HQ, an enterprise ground transportation platform.">
+<meta property="og:url" content="https://denyszag.com/project">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://denyszag.com/project">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+
+  <!-- header -->
+  <header class="header">
+    <nav class="nav" aria-label="Main">
+      <a class="tab" href="index.html">Denys Zagorodny</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
+        <svg class="icon-menu" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 4.66536V3.33203H14V4.66536H2ZM2 12.6654V11.332H14V12.6654H2ZM2 8.66536V7.33203H14V8.66536H2Z" fill="currentColor"/></svg>
+        <svg class="icon-close" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5l5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19Z" fill="currentColor"/></svg>
+      </button>
+      <div class="nav__menu" id="nav-menu">
+        <div class="nav-primary">
+          <a class="tab" href="index.html#latest-projects">Latest Projects</a>
+          <a class="tab" href="index.html#about-me">About Me</a>
+        </div>
+        <div class="nav-secondary">
+          <a class="tab" href="#contact">Contact</a>
+          <a class="tab" href="assets/resume-denys-2026.pdf" download="Denys-Zagorodny-Resume-2026.pdf">Resume <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M7.33464 2.66797V10.7846L3.6013 7.0513L2.66797 8.0013L8.0013 13.3346L13.3346 8.0013L12.4013 7.0513L8.66797 10.7846V2.66797H7.33464Z" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- body -->
+  <main class="body">
+
+    <!-- Hero -->
+    <section class="project-hero wrap" id="hero">
+      <h1 class="h1" data-reveal style="--d:0ms">HQ Enterprise Product Redesign</h1>
+      <div class="tags lg" data-reveal style="--d:160ms">
+        <span>Information architecture</span><span class="sq"></span>
+        <span>Workflow redesign</span>
+      </div>
+    </section>
+
+    <!-- About Project -->
+    <section class="section" id="about-project">
+      <h2 class="h2-header h2">About Project</h2>
+      <div class="about" data-reveal style="--d:100ms">
+        <div class="about__text">
+          <div class="copy">
+            <p class="lg">HQ is a complex enterprise ground transportation platform serving employees, travel bookers, administrators, and corporate mobility teams.</p>
+            <span class="rule"></span>
+            <p>The redesign explores how the product could be reorganized to simplify complex workflows, reduce duplication, improve discoverability, and create a scalable foundation for future growth.</p>
+          </div>
+          <div class="card-group cols-2">
+            <div class="card">
+              <div class="card__head label">Team</div><div class="card__sep"></div>
+              <div class="card__body"><ul class="list"><li>Product manager</li><li>Engineers</li><li>Product designer (me)</li></ul></div>
+            </div>
+            <div class="card">
+              <div class="card__head label">Scope</div><div class="card__sep"></div>
+              <div class="card__body"><ul class="list"><li>Information architecture</li><li>Booking workflows</li></ul></div>
+            </div>
+          </div>
+        </div>
+        <div class="shot about__image" data-label="HQ product collage"><picture><source media="(max-width: 760px)" srcset="assets/image/about-project-mobile.png"><img src="assets/image/about-project.png" alt="Collage: New York map with a car, a passenger in a car, the HQ New booking screen and a phone in hand"></picture></div>
+      </div>
+    </section>
+
+    <!-- The Challenge -->
+    <section class="section" id="challenge">
+      <h2 class="h2-header h2">The Challenge</h2>
+      <div class="intro-block narrow center">
+        <p class="lg">As HQ expanded, related features became scattered across the product, increasing navigation complexity and making core workflows harder to understand.</p>
+        <span class="rule"></span>
+        <p>The challenge was to simplify the experience without redesigning the entire platform, focusing on the information architecture and the primary booking workflow.</p>
+      </div>
+    </section>
+
+    <!-- Understanding the Product -->
+    <section class="section" id="understanding-product">
+      <h2 class="h2-header h2">Understanding the Product</h2>
+      <div class="tags questions lg" data-reveal style="--d:100ms">
+        <span>What is each area for?</span><span class="sq"></span>
+        <span>Who uses it, and what actions does it support?</span><span class="sq"></span>
+        <span>How is it connected to other parts of the system?</span>
+      </div>
+
+      <div class="sub" id="product-areas" data-reveal style="--d:100ms">
+        <h3 class="h3 center">Main Product Areas</h3>
+        <div class="card-group cols-5">
+          <div class="card"><div class="card__head label">New Booking</div><div class="card__sep"></div><div class="card__body">Create a ground transportation booking</div></div>
+          <div class="card"><div class="card__head label">Manage Booking</div><div class="card__sep"></div><div class="card__body">Manage upcoming and past rides</div></div>
+          <div class="card"><div class="card__head label">Manage Employees</div><div class="card__sep"></div><div class="card__body">Manage passenger profiles and preferences</div></div>
+          <div class="card"><div class="card__head label">Admin Settings</div><div class="card__sep"></div><div class="card__body">Configure administrative functionality</div></div>
+          <div class="card"><div class="card__head label">Search Receipts</div><div class="card__sep"></div><div class="card__body">Find receipts for completed rides</div></div>
+        </div>
+      </div>
+
+      <div class="sub" id="personas" data-reveal style="--d:100ms">
+        <h3 class="h3 center">Personas</h3>
+        <div class="personas" data-reveal style="--d:0ms">
+          <div class="persona">
+            <div class="persona__who"><span class="avatar" data-initials="SB"><img src="assets/image/avatar-self-booker.png" alt=""></span>Self-booker</div>
+            <div class="bubble"><div class="bubble__tip"><img src="assets/icon/pointer.svg" alt=""></div><p class="bubble__body">“I need to quickly arrange and manage transportation for myself.”</p></div>
+          </div>
+          <div class="persona" data-reveal style="--d:0ms">
+            <div class="persona__who"><span class="avatar avatar--warm" data-initials="AS"><img src="assets/image/avatar-assistant.png" alt=""></span>Assistant</div>
+            <div class="bubble"><div class="bubble__tip"><img src="assets/icon/pointer.svg" alt=""></div><p class="bubble__body">“I need to arrange and manage transportation for other employees.”</p></div>
+          </div>
+          <div class="persona" data-reveal style="--d:0ms">
+            <div class="persona__who"><span class="avatar avatar--warm" data-initials="TM"><img src="assets/image/avatar-travel-manager.png" alt=""></span>Travel Manager</div>
+            <div class="bubble"><div class="bubble__tip"><img src="assets/icon/pointer.svg" alt=""></div><p class="bubble__body">“I need to efficiently arrange and manage transportation for multiple people.”</p></div>
+          </div>
+          <div class="persona" data-reveal style="--d:0ms">
+            <div class="persona__who"><span class="avatar" data-initials="AD"><img src="assets/image/avatar-administrator.png" alt=""></span>Administrator</div>
+            <div class="bubble"><div class="bubble__tip"><img src="assets/icon/pointer.svg" alt=""></div><p class="bubble__body">“I need to configure the platform, users, permissions, and transportation settings for my organization.”</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Problems -->
+    <section class="section" id="problems">
+      <h2 class="h2-header h2">The Problems</h2>
+      <div class="card-group cols-3" data-reveal style="--d:100ms">
+        <div class="card"><div class="card__head label">Navigation</div><div class="card__sep"></div>
+          <div class="card__body"><ul class="list"><li>Features organized around pages, not tasks</li><li>Related tools spread across the product</li><li>Competing primary and supporting actions</li></ul></div></div>
+        <div class="card"><div class="card__head label">Booking</div><div class="card__sep"></div>
+          <div class="card__body"><ul class="list"><li>Ambiguous roles and labels</li><li>Closely related decisions split across steps</li><li>Secondary content adds complexity</li></ul></div></div>
+        <div class="card"><div class="card__head label">Scalability</div><div class="card__sep"></div>
+          <div class="card__body"><ul class="list"><li>Duplicate administrative areas</li><li>Inconsistent terminology</li><li>Limited room for future growth</li></ul></div></div>
+      </div>
+    </section>
+
+    <!-- Rethinking the IA -->
+    <section class="section" id="rethinking-ia">
+      <h2 class="h2-header h2">Rethinking the Information Architecture</h2>
+      <div class="split" id="principles">
+        <div class="col" data-reveal style="--d:0ms">
+          <p class="lg">The existing navigation had grown around individual features rather than clear user tasks.</p>
+          <span class="rule"></span>
+          <p>Related functionality was spread across multiple areas, while supporting and administrative tools competed with core workflows at the same navigation level.</p>
+        </div>
+        <div class="divider"></div>
+        <div class="col col--list" data-reveal style="--d:100ms">
+          <p class="label">Principles Behind the New Structure</p>
+          <ul class="list">
+            <li>Group functionality by user task, not by individual feature</li>
+            <li>Keep the primary navigation focused on the product’s main workflows</li>
+            <li>Place supporting functionality close to the workflow where it is used</li>
+            <li>Consolidate overlapping employee and administration controls</li>
+            <li>Use clearer, more predictable terminology</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sub sub--tight" id="existing-ia">
+        <h3 class="h3 center">Existing Information Architecture</h3>
+        <div class="trees-scroll">
+          <div class="trees trees--old">
+            <div class="tree"><div class="tree__title">New Booking</div><ul><li>Passenger</li><li>Date and Location</li><li>Car and Payment</li><li class="end">Summary</li></ul></div>
+            <div class="tree"><div class="tree__title">Manage Booking</div><ul><li>Upcoming Rides</li><li>Ride History</li><li class="end">Favorites</li></ul></div>
+            <div class="tree"><div class="tree__title">Coverage Map</div><ul><li class="end">Coverage Map</li></ul></div>
+            <div class="tree"><div class="tree__title">Manage Employees</div><ul><li>Manage Employees</li><li class="end">Approve Book-on-behalf Request</li></ul></div>
+            <div class="tree"><div class="tree__title">Search Receipts</div><ul><li class="end">Search Receipts</li></ul></div>
+            <div class="tree"><div class="tree__title">Outstanding Charges</div><ul><li class="end">Outstanding Charges</li></ul></div>
+            <div class="tree"><div class="tree__title">Reports</div><ul><li>Rides</li><li>Ride Summary</li><li>Top Routes</li><li class="end">Custom Reports</li></ul></div>
+            <div class="tree"><div class="tree__title">Dashboard</div><ul><li>Rides</li><li class="end">Sustainability</li></ul></div>
+            <div class="tree"><div class="tree__title">Admin Settings</div><ul><li>Notifications and Messages</li><li>Car Lines</li><li>Tags</li><li class="end">Integrations</li></ul></div>
+            <div class="tree"><div class="tree__title">Event Booking</div><ul><li class="end">Event Booking</li></ul></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sub sub--tight" id="proposed-ia">
+        <h3 class="h3 center">Proposed Information Architecture</h3>
+        <div class="trees-scroll">
+          <div class="trees trees--new">
+            <div class="tree"><div class="tree__title">Booking</div><ul>
+              <li>Book a Ride</li>
+              <li class="l2 pl">Ride Details</li><li class="l2 pl">Date and Location</li><li class="l2 pl">Car and Service</li><li class="l2 pl end">Summary</li>
+              <li>Request Event Transport</li><li>Favorites</li><li class="end">Coverage Map</li>
+            </ul></div>
+            <div class="tree"><div class="tree__title">Rides</div><ul><li>Upcoming Rides</li><li>Ride History</li><li class="end">Receipts</li></ul></div>
+            <div class="tree"><div class="tree__title">User Management</div><ul><li>Manage Users</li><li>Blocked Users</li><li class="end">Approve Book-on-behalf Request</li></ul></div>
+            <div class="tree"><div class="tree__title">Insights</div><ul>
+              <li>Ride Analytics</li><li>Sustainability Analytics</li><li class="end">Reports</li>
+              <li class="l2">Rides</li><li class="l2">Ride Summary</li><li class="l2">Top Routes</li><li class="l2 end">Custom Reports</li>
+            </ul></div>
+            <div class="tree"><div class="tree__title">Admin Settings</div><ul><li>Notifications and Messages</li><li>Car Lines</li><li>Tags</li><li class="end">Integrations</li></ul></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Redesigning the Booking Experience -->
+    <section class="section" id="booking-experience">
+      <h2 class="h2-header h2">Redesigning the Booking Experience</h2>
+      <p class="lg center narrow">New Booking is HQ’s primary workflow, but the existing experience separates closely related decisions across multiple steps and exposes users to booking rules that are not always easy to understand.</p>
+
+      <div class="sub" id="steps" data-tabs>
+        <div class="tab-bar">
+          <button class="icon-btn tab-bar__prev" type="button" data-tab-prev aria-label="Previous"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5.21602 8.66602L8.94935 12.3993L7.99935 13.3327L2.66602 7.99935L7.99935 2.66602L8.94935 3.59935L5.21602 7.33268H13.3327V8.66602H5.21602Z" fill="currentColor"/></svg></button>
+          <div class="tabs" role="tablist" aria-label="Booking steps">
+            <button type="button" role="tab" id="tab-passenger-info" aria-controls="panel-passenger-info" aria-selected="true">Passenger Info</button>
+            <button type="button" role="tab" id="tab-date-and-location" aria-controls="panel-date-and-location" aria-selected="false" tabindex="-1">Date and Location</button>
+            <button type="button" role="tab" id="tab-car-and-payment" aria-controls="panel-car-and-payment" aria-selected="false" tabindex="-1">Car and Payment</button>
+            <button type="button" role="tab" id="tab-summary" aria-controls="panel-summary" aria-selected="false" tabindex="-1">Summary</button>
+          </div>
+          <button class="icon-btn tab-bar__next" type="button" data-tab-next aria-label="Next"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10.7827 8.66602H2.66602V7.33268H10.7827L7.04935 3.59935L7.99935 2.66602L13.3327 7.99935L7.99935 13.3327L7.04935 12.3993L10.7827 8.66602Z" fill="currentColor"/></svg></button>
+        </div>
+
+        <div class="step" id="panel-passenger-info" role="tabpanel" aria-labelledby="tab-passenger-info" data-step>
+          <h3 class="h3 step__title"><span data-variant="before">Passenger Info</span><span data-variant="after" hidden>Ride Details</span></h3>
+          <div class="toggle" role="group" aria-label="Version"><button type="button" data-state="before" aria-pressed="true">Before</button><button type="button" data-state="after" aria-pressed="false">After</button></div>
+          <div class="step__details">
+            <div data-variant="before"><p class="label">Problems</p><ul class="list">
+              <li>The step’s name “Passenger Info” doesn’t reflect the content or the Package scenario</li>
+              <li>Passenger / Booker / Authorizing Employee relationships are difficult to understand</li>
+              <li>Secondary content—Admin Notes and Additional Emails—creates unnecessary complexity</li>
+              <li>Large map occupies valuable space before it becomes useful</li></ul></div>
+            <div data-variant="after" hidden><p class="label">Key UX Decisions</p><ul class="list">
+              <li>The step was renamed “Ride Details” to reflect its content</li>
+              <li>Clear separation between Passenger / Booker / Authorizing Employee</li>
+              <li>Secondary content—Admin Notes and Additional Emails—is placed inside a collapsible card</li>
+              <li>The map was removed from this step</li></ul></div>
+          </div>
+          <div class="step__media" data-zoom-scope>
+            <div class="shot" data-variant="before" data-label="Passenger Info — before"><img src="assets/booking/passenger-info-before.png" alt="Passenger Info step before the redesign"></div>
+            <div class="shot" data-variant="after" hidden data-label="Ride Details — after"><img src="assets/booking/passenger-info-after.png" alt="Ride Details step after the redesign"></div>
+            <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+          </div>
+        </div>
+
+        <div class="step" id="panel-date-and-location" role="tabpanel" aria-labelledby="tab-date-and-location" data-step hidden>
+          <h3 class="h3 step__title">Date and Location</h3>
+          <div class="toggle" role="group" aria-label="Version"><button type="button" data-state="before" aria-pressed="true">Before</button><button type="button" data-state="after" aria-pressed="false">After</button></div>
+          <div class="step__details">
+            <div data-variant="before"><p class="label">Problems</p><ul class="list">
+              <li>The user can select Point to Point (Non-airport) and subsequently select an airport, creating contradictory booking information</li>
+              <li>Airport and potentially Meet &amp; Greet functionality can appear in contexts that conflict with previous selections</li>
+              <li>Additional stops belong to the route, not Pickup</li></ul></div>
+            <div data-variant="after" hidden><p class="label">Key UX Decisions</p><ul class="list">
+              <li>The content shown reflects the selected Journey purpose</li>
+              <li>Meet &amp; Greet is shown only when Airport is selected as the Journey purpose</li>
+              <li>Additional stops are placed logically between Pickup and Drop-off</li></ul></div>
+          </div>
+          <div class="step__media" data-zoom-scope>
+            <div class="shot" data-variant="before" data-label="Date and Location — before"><img src="assets/booking/date-and-location-before.png" alt="Date and Location step before the redesign"></div>
+            <div class="shot" data-variant="after" hidden data-label="Date and Location — after"><img src="assets/booking/date-and-location-after.png" alt="Date and Location step after the redesign"></div>
+            <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+          </div>
+        </div>
+
+        <div class="step" id="panel-car-and-payment" role="tabpanel" aria-labelledby="tab-car-and-payment" data-step hidden>
+          <h3 class="h3 step__title"><span data-variant="before">Car and Payment</span><span data-variant="after" hidden>Car and Service</span></h3>
+          <div class="toggle" role="group" aria-label="Version"><button type="button" data-state="before" aria-pressed="true">Before</button><button type="button" data-state="after" aria-pressed="false">After</button></div>
+          <div class="step__details">
+            <div data-variant="before"><p class="label">Problems</p><ul class="list">
+              <li>Unclear whose payment methods are being used</li>
+              <li>Booking-level actions can unexpectedly change account-level defaults (e.g. a newly added credit card becomes the default payment method)</li>
+              <li>The “Special Offer” tag doesn’t provide the type of information it represents</li>
+              <li>Important information that can affect the choice of service is hidden, with no visual cue when the section is collapsed</li></ul></div>
+            <div data-variant="after" hidden><p class="label">Key UX Decisions</p><ul class="list">
+              <li>Payment method moved to the Ride Details step, next to the authorizing employee it belongs to</li>
+              <li>New credit cards can now be added only in Account Settings</li>
+              <li>Offers and additional conditions are shown as badges with clear labels</li></ul></div>
+          </div>
+          <div class="step__media" data-zoom-scope>
+            <div class="shot" data-variant="before" data-label="Car and Payment — before"><img src="assets/booking/car-and-payment-before.png" alt="Car and Payment step before the redesign"></div>
+            <div class="shot" data-variant="after" hidden data-label="Car and Service — after"><img src="assets/booking/car-and-payment-after.png" alt="Car and Service step after the redesign"></div>
+            <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+          </div>
+        </div>
+
+        <div class="step" id="panel-summary" role="tabpanel" aria-labelledby="tab-summary" data-step hidden>
+          <h3 class="h3 step__title">Summary</h3>
+          <div class="toggle" role="group" aria-label="Version"><button type="button" data-state="before" aria-pressed="true">Before</button><button type="button" data-state="after" aria-pressed="false">After</button></div>
+          <div class="step__details">
+            <div data-variant="before"><p class="label">Problems</p><ul class="list">
+              <li>Important conditions are missing. Cancellation policy, possible extra charges and the implications of a metered price should be visible before confirmation</li></ul></div>
+            <div data-variant="after" hidden><p class="label">Key UX Decisions</p><ul class="list">
+              <li>Added a short Overview and a full Details view</li>
+              <li>Important conditions are shown in both the Overview and Details views</li></ul></div>
+          </div>
+          <div class="step__media" data-zoom-scope>
+            <div class="shot" data-variant="before" data-label="Summary — before"><img src="assets/booking/summary-before.png" alt="Summary step before the redesign"></div>
+            <div class="shot" data-variant="after" hidden data-label="Summary — after"><img src="assets/booking/summary-after.png" alt="Summary step after the redesign"></div>
+            <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final Design -->
+    <section class="section" id="final-design">
+      <h2 class="h2-header h2">Final Design</h2>
+      <div class="sub" id="screens" data-tabs>
+        <div class="tab-bar">
+          <button class="icon-btn tab-bar__prev" type="button" data-tab-prev aria-label="Previous"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M5.21602 8.66602L8.94935 12.3993L7.99935 13.3327L2.66602 7.99935L7.99935 2.66602L8.94935 3.59935L5.21602 7.33268H13.3327V8.66602H5.21602Z" fill="currentColor"/></svg></button>
+          <div class="tabs" role="tablist" aria-label="Final design steps">
+            <button type="button" role="tab" id="final-tab-ride-details" aria-controls="final-panel-ride-details" aria-selected="true">Ride Details</button>
+            <button type="button" role="tab" id="final-tab-date-and-location" aria-controls="final-panel-date-and-location" aria-selected="false" tabindex="-1">Date and Location</button>
+            <button type="button" role="tab" id="final-tab-car-and-service" aria-controls="final-panel-car-and-service" aria-selected="false" tabindex="-1">Car and Service</button>
+            <button type="button" role="tab" id="final-tab-summary" aria-controls="final-panel-summary" aria-selected="false" tabindex="-1">Summary</button>
+          </div>
+          <button class="icon-btn tab-bar__next" type="button" data-tab-next aria-label="Next"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10.7827 8.66602H2.66602V7.33268H10.7827L7.04935 3.59935L7.99935 2.66602L13.3327 7.99935L7.99935 13.3327L7.04935 12.3993L10.7827 8.66602Z" fill="currentColor"/></svg></button>
+        </div>
+
+        <div class="final-panel" id="final-panel-ride-details" role="tabpanel" aria-labelledby="final-tab-ride-details">
+          <h3 class="h3">Ride Details</h3>
+          <div class="final">
+            <div class="col" data-zoom-scope>
+              <div class="shot" style="aspect-ratio:1440/900" data-label="Ride Details"><img src="assets/booking/passenger-info-after.png" alt="Ride Details step, full screen"></div>
+              <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+            </div>
+            <div class="col" data-zoom-scope>
+              <div class="shot" style="aspect-ratio:2644/2128" data-label="Ride Details cards"><img src="assets/booking/passenger-info-cards.png" alt="Ride Details cards: passengers, journey and billing, Advanced and the Package option"></div>
+              <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="final-panel" id="final-panel-date-and-location" role="tabpanel" aria-labelledby="final-tab-date-and-location" hidden>
+          <h3 class="h3">Date and Location</h3>
+          <div class="final">
+            <div class="col" data-zoom-scope>
+              <div class="shot" style="aspect-ratio:1440/900" data-label="Date and Location"><img src="assets/booking/date-and-location-after.png" alt="Date and Location step, full screen"></div>
+              <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+            </div>
+            <div class="col" data-zoom-scope>
+              <div class="shot" style="aspect-ratio:2764/2320" data-label="Date and Location cards"><img src="assets/booking/date-and-location-cards.png" alt="Route details cards: Favorites open, an added stop and the completed route"></div>
+              <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="final-panel" id="final-panel-car-and-service" role="tabpanel" aria-labelledby="final-tab-car-and-service" hidden>
+          <h3 class="h3">Car and Service</h3>
+          <div class="final">
+            <div class="col" data-zoom-scope>
+              <div class="shot" style="aspect-ratio:1440/900" data-label="Car and Service"><img src="assets/booking/car-and-payment-after.png" alt="Car and Service step, full screen"></div>
+              <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+            </div>
+            <div class="col" data-zoom-scope>
+              <div class="shot" style="aspect-ratio:2764/1384" data-label="Car and Service cards"><img src="assets/booking/car-and-payment-cards.png" alt="Car and Service cards"></div>
+              <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="final-panel" id="final-panel-summary" role="tabpanel" aria-labelledby="final-tab-summary" hidden>
+          <h3 class="h3">Summary</h3>
+          <div class="final">
+            <div class="col" data-zoom-scope>
+              <div class="shot" style="aspect-ratio:1440/900" data-label="Summary"><img src="assets/booking/summary-after.png" alt="Summary step, full screen"></div>
+              <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+            </div>
+            <div class="col" data-zoom-scope>
+              <div class="shot" style="aspect-ratio:2764/3514" data-label="Summary cards"><img src="assets/booking/summary-cards.png" alt="Summary step in Overview and Details views"></div>
+              <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Outcome -->
+    <section class="section" id="outcome">
+      <h2 class="h2-header h2">Outcome</h2>
+      <p class="lg center narrow">I reorganized HQ into five main areas centered on user tasks and redesigned the booking experience. Related tools now sit together, while Ride Details separates passenger, booker, and authorizing employee information and keeps secondary content collapsed.</p>
+      <div class="card-group cols-2" data-reveal style="--d:100ms">
+        <div class="card"><div class="card__head label">What I learned</div><div class="card__sep"></div>
+          <div class="card__body"><ul class="list">
+            <li>Understanding the relationships between people, permissions, and tasks was essential to simplifying HQ</li>
+            <li>The product audit helped me identify where clearer grouping, terminology, and information hierarchy could address complexity</li></ul></div></div>
+        <div class="card"><div class="card__head label">What I would validate next</div><div class="card__sep"></div>
+          <div class="card__body"><ul class="list">
+            <li>I would test whether users can find receipts, manage users, and complete bookings for themselves and others</li>
+            <li>I would track task completion, navigation errors, and confusion around booking roles to assess whether the proposed changes improve usability</li></ul></div></div>
+      </div>
+      <p class="message" data-reveal style="--d:140ms">These outcomes describe design changes; their impact on usability remains to be validated.</p>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="footer" id="contact">
+    <p class="h1">Let’s
+Connect</p>
+    <div class="contacts">
+      <a class="btn btn--outline" href="mailto:hello@denyszag.com">hello@denyszag.com</a>
+      <a class="btn btn--outline" href="https://www.linkedin.com/in/denyszagorodny" target="_blank" rel="noopener">LinkedIn <img src="assets/icon/arrow-outward.svg" alt="" width="20" height="20"></a>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M10 9.0013L6.16667 12.8346L5 11.668L10 6.66797L15 11.668L13.8333 12.8346L10 9.0013Z" fill="currentColor"/></svg>
+  </button>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,15 +1,14 @@
 # Denys Zagorodny — Portfolio
 
-Responsive React/Vite implementation based on the Figma portfolio design.
+Static portfolio site (plain HTML, CSS and JavaScript), built from the Portfolio-DS Figma file.
 
-## Run locally
+- `site/` — the website: `index.html` (home), `project.html` (HQ case study), `styles.css`, `app.js`, `assets/`
+- `site/_redirects` — keeps old addresses (/hq-redesign, /work, /about, old CV link) working on Cloudflare Pages
+- `design-system/` — design-system export notes (not part of the site build)
 
-```bash
-npm install
-npm run dev
-```
+## Preview locally
 
-Open the URL shown in the terminal, usually `http://localhost:5173`.
+Open `site/index.html` in a browser, or run `npm run dev`.
 
 ## Build
 
@@ -17,4 +16,8 @@ Open the URL shown in the terminal, usually `http://localhost:5173`.
 npm run build
 ```
 
-The production files are generated in `dist/` and are ready for Cloudflare Pages.
+Copies `site/` to `dist/`, which Cloudflare Pages publishes (build command `npm run build`, output directory `dist`). There are no dependencies.
+
+## Update the resume
+
+Replace `site/assets/resume-denys-2026.pdf` (keep the file name).

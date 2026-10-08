@@ -1,0 +1,5 @@
+# Old (React) site addresses → new pages
+/hq-redesign   /project                          301
+/work          /#latest-projects                 301
+/about         /#about-me                        301
+/assets/about/denys-zagorodny-cv.pdf   /assets/resume-denys-2026.pdf   301
