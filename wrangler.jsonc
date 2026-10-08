@@ -1,0 +1,13 @@
+// Cloudflare Workers static-assets config for denyszag.com.
+// `npm run build` copies ./site to ./dist; Wrangler uploads ./dist as the Worker's static assets.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "portfolio-website",
+  "compatibility_date": "2026-09-16",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  },
+  "preview_urls": true
+}
