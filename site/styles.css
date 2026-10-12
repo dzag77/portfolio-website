@@ -467,3 +467,41 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
   .reveal-on [data-reveal] { opacity: 1; transform: none; }
   .reveal-on [data-reveal].is-in { animation: none; }
 }
+
+/* HQ Design System case study */
+.ds-lead { max-width: 784px; }
+.ds-text { max-width: 784px; width: 100%; }
+.ds-about { align-items: flex-start; }
+.ds-about__image { width: 552px; aspect-ratio: 552 / 344; flex: 0 1 auto; }
+.shot--left img { object-position: left; }
+.ds-media { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; width: 100%; align-items: start; }
+.ds-media__col { display: flex; flex-direction: column; gap: 24px; align-items: flex-start; min-width: 0; }
+.ds-media__col--end { align-items: flex-end; }
+.ds-media__shot { aspect-ratio: 572 / 340; }
+.ds-media__foot { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; width: 100%; }
+.ds-note { font-size: 12px; line-height: 18px; max-width: 400px; margin: 0; }
+.ds-row { display: flex; justify-content: space-between; gap: 40px; width: 100%; align-items: flex-start; }
+.ds-row__text { width: 384px; flex: none; display: flex; flex-direction: column; gap: 24px; }
+.ds-row__text .h3, .ds-row__text p { margin: 0; }
+.ds-row__shot { width: 684px; flex: 0 1 auto; }
+.ds-row__shot--layers { aspect-ratio: 684 / 468; }
+.ds-row__shot--styles { aspect-ratio: 684 / 303; }
+.ds-wide { width: 100%; }
+.ds-wide--starter { aspect-ratio: 1184 / 678; border-radius: 5px; }
+.ds-wide--outcome { aspect-ratio: 1184 / 696; }
+@media (max-width: 1100px) {
+  .ds-about { flex-direction: column; gap: 48px; }
+  .ds-about__image { width: 100%; }
+  .ds-row { flex-direction: column; gap: 40px; align-items: center; }
+  .ds-row__text { width: 100%; max-width: 784px; align-items: center; text-align: center; }
+  .ds-row__shot { width: 100%; }
+}
+@media (max-width: 760px) {
+  .ds-lead { font-size: 24px; line-height: 32px; }
+  .ds-about { gap: 40px; }
+  .ds-about .ds-about__image { order: -1; aspect-ratio: 552 / 344; }
+  .ds-media { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .ds-media__col, .ds-media__col--end { align-items: stretch; }
+  .ds-media .zoom { display: none; }
+  .ds-row__text { gap: 24px; }
+}

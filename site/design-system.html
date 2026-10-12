@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HQ Design System — Denys Zagorodny</title>
+<meta name="description" content="Case study: building a scalable Figma design system, design tokens and starter pages for HQ, a corporate mobility platform.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Denys Zagorodny">
+<meta property="og:title" content="HQ Design System — Denys Zagorodny">
+<meta property="og:description" content="Case study: building a scalable Figma design system, design tokens and starter pages for HQ, a corporate mobility platform.">
+<meta property="og:url" content="https://denyszag.com/design-system">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://denyszag.com/design-system">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+
+  <!-- header -->
+  <header class="header">
+    <nav class="nav" aria-label="Main">
+      <a class="tab" href="index.html">Denys Zagorodny</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
+        <svg class="icon-menu" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 4.66536V3.33203H14V4.66536H2ZM2 12.6654V11.332H14V12.6654H2ZM2 8.66536V7.33203H14V8.66536H2Z" fill="currentColor"/></svg>
+        <svg class="icon-close" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5l5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19Z" fill="currentColor"/></svg>
+      </button>
+      <div class="nav__menu" id="nav-menu">
+        <div class="nav-primary">
+          <a class="tab" href="index.html#latest-projects">Latest Projects</a>
+          <a class="tab" href="index.html#about-me">About Me</a>
+        </div>
+        <div class="nav-secondary">
+          <a class="tab" href="#contact">Contact</a>
+          <a class="tab" href="assets/resume-denys-2026.pdf" download="Denys-Zagorodny-Resume-2026.pdf">Resume <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M7.33464 2.66797V10.7846L3.6013 7.0513L2.66797 8.0013L8.0013 13.3346L13.3346 8.0013L12.4013 7.0513L8.66797 10.7846V2.66797H7.33464Z" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- body -->
+  <main class="body">
+
+    <!-- Hero -->
+    <section class="project-hero wrap" id="hero">
+      <h1 class="h1" data-reveal style="--d:0ms">HQ Design System</h1>
+      <p class="intro ds-lead" data-reveal style="--d:160ms">Building a scalable design system for an existing corporate mobility platform</p>
+    </section>
+
+    <!-- About Project -->
+    <section class="section" id="about-project">
+      <h2 class="h2-header h2">About Project</h2>
+      <div class="about ds-about" data-reveal style="--d:100ms">
+        <div class="about__text">
+          <div class="copy">
+            <p class="lg">HQ’s existing design system was incomplete and outdated, creating the need for a more consistent and maintainable foundation.</p>
+            <span class="rule"></span>
+            <p>I was responsible for building a new Figma component library and organizing the design foundations, including colors, typography, effects, and design tokens.</p>
+          </div>
+        </div>
+        <div class="shot ds-about__image shot--top" data-label="HQ design system overview"><img src="assets/hq-ds/about.png" alt="Pages of the HQ Figma library: typography, buttons, inputs, colors and tabs"></div>
+      </div>
+    </section>
+
+    <!-- The Challenge -->
+    <section class="section" id="challenge">
+      <h2 class="h2-header h2">The Challenge</h2>
+      <div class="intro-block ds-text center">
+        <p class="lg">My task was to establish a more structured and maintainable design foundation while working within the constraints of an existing product.</p>
+        <span class="rule"></span>
+        <p>Rather than designing a system from scratch for a new interface, I needed to organize and standardize existing patterns, identify missing components, and create a library that could support both the current product and future improvements.</p>
+      </div>
+    </section>
+
+    <!-- Foundations & Design Tokens -->
+    <section class="section" id="foundations">
+      <h2 class="h2-header h2">Foundations &amp; Design Tokens</h2>
+      <div class="intro-block ds-text center">
+        <p class="lg">I organized HQ’s visual foundations, including colors, typography, shadows, spacing, and border radius, into a structured system of reusable styles and consistent values.</p>
+        <span class="rule"></span>
+        <p>I established naming conventions and organized design tokens into logical layers, separating foundational values from their intended usage. This structure improves maintainability, ensures consistency across components, and simplifies system-wide visual updates.</p>
+      </div>
+      <div class="ds-media" data-reveal style="--d:100ms">
+        <div class="ds-media__col ds-media__col--end" data-zoom-scope>
+          <div class="shot shot--top ds-media__shot" data-label="Foundations"><img src="assets/hq-ds/foundations.png" alt="HQ foundations in Figma: color palettes, typography scale, spacing and border radius"></div>
+          <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+        </div>
+        <div class="ds-media__col" data-zoom-scope>
+          <div class="shot shot--left ds-media__shot" data-label="Design tokens"><img src="assets/hq-ds/tokens.png" alt="HQ design tokens in Figma, organized into primitive and semantic layers"></div>
+          <div class="ds-media__foot">
+            <p class="ds-note">The new token system currently supports the light theme only. HQ’s existing dark theme is scheduled for a redesign, so it isn’t included yet.</p>
+            <button class="icon-btn zoom" type="button" data-zoom aria-label="Enlarge screenshot"><img src="assets/icon/zoom-in.svg" alt=""></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Component Library -->
+    <section class="section" id="component-library">
+      <h2 class="h2-header h2">Component Library</h2>
+      <p class="lg ds-text center">The goal was to create a flexible system that supports HQ’s existing interface while making future design work faster, more consistent, and easier to maintain.</p>
+      <div class="ds-row" data-reveal style="--d:100ms">
+        <div class="ds-row__text">
+          <h3 class="h3">Component Structure &amp; Properties</h3>
+          <p>I used Figma’s component properties and variants to simplify configuration, reduce duplication, and avoid detaching instances.</p>
+        </div>
+        <div class="shot ds-row__shot ds-row__shot--layers" data-label="Layers and properties"><img src="assets/hq-ds/layers-and-properties.png" alt="A component's layer structure and its properties panel in Figma"></div>
+      </div>
+      <div class="ds-row" data-reveal style="--d:100ms">
+        <div class="ds-row__text">
+          <h3 class="h3">Consistency &amp; Maintainability</h3>
+          <p>I connected reusable components to shared styles and design tokens, so changes to colors, typography, spacing, and other properties are managed centrally and reflected across all instances.</p>
+        </div>
+        <div class="shot ds-row__shot ds-row__shot--styles" data-label="Tokens and styles"><img src="assets/hq-ds/tokens-and-styles.png" alt="Components such as a date picker and a select, linked to shared styles and tokens"></div>
+      </div>
+    </section>
+
+    <!-- Starter Pages -->
+    <section class="section" id="starter-pages">
+      <h2 class="h2-header h2">Starter Pages &amp; Practical Application</h2>
+      <div class="intro-block ds-text center">
+        <p class="lg">Beyond the original project requirements, I created a separate Figma file containing starter examples of HQ’s main product pages, built entirely using components from the new library.</p>
+        <span class="rule"></span>
+        <p>These pages demonstrate how individual components work together in real product layouts while providing a reusable starting point for future designs, reducing repetitive work and ensuring consistency through established patterns.</p>
+      </div>
+      <div class="shot ds-wide ds-wide--starter" data-reveal style="--d:100ms" data-label="Starter pages"><img src="assets/hq-ds/starter-pages.png" alt="Figma file with starter pages of HQ's main product screens built from library components"></div>
+    </section>
+
+    <!-- Outcome -->
+    <section class="section" id="outcome">
+      <h2 class="h2-header h2">Outcome</h2>
+      <p class="lg ds-text center">The project delivered a structured design system for HQ, including reusable Figma components, organized visual foundations, design tokens, and starter pages, with the library already in use by HQ’s product designer to improve consistency and reduce repetitive work.</p>
+      <div class="shot ds-wide ds-wide--outcome" data-reveal style="--d:100ms" data-label="Design system overview"><img src="assets/hq-ds/outcome.png" alt="Overview of the HQ design system: foundations, tokens, components and starter pages"></div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="footer" id="contact">
+    <p class="h1">Let’s
+Connect</p>
+    <div class="contacts">
+      <a class="btn btn--outline" href="mailto:hello@denyszag.com">hello@denyszag.com</a>
+      <a class="btn btn--outline" href="https://www.linkedin.com/in/denyszagorodny" target="_blank" rel="noopener">LinkedIn <img src="assets/icon/arrow-outward.svg" alt="" width="20" height="20"></a>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M10 9.0013L6.16667 12.8346L5 11.668L10 6.66797L15 11.668L13.8333 12.8346L10 9.0013Z" fill="currentColor"/></svg>
+  </button>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
