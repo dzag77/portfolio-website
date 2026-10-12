@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>HQ Enterprise Product Redesign — Denys Zagorodny</title>
-<meta name="description" content="Case study: reorganizing the information architecture and booking workflow of HQ, an enterprise ground transportation platform.">
+<meta name="description" content="Case study: reorganizing the information architecture and booking workflow of HQ, a corporate mobility platform.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Denys Zagorodny">
 <meta property="og:title" content="HQ Enterprise Product Redesign — Denys Zagorodny">
-<meta property="og:description" content="Case study: reorganizing the information architecture and booking workflow of HQ, an enterprise ground transportation platform.">
+<meta property="og:description" content="Case study: reorganizing the information architecture and booking workflow of HQ, a corporate mobility platform.">
 <meta property="og:url" content="https://denyszag.com/project">
 <meta name="twitter:card" content="summary">
 <link rel="canonical" href="https://denyszag.com/project">
@@ -60,14 +60,14 @@
       <div class="about" data-reveal style="--d:100ms">
         <div class="about__text">
           <div class="copy">
-            <p class="lg">HQ is a complex enterprise ground transportation platform serving employees, travel bookers, administrators, and corporate mobility teams.</p>
+            <p class="lg">HQ is a complex corporate mobility platform serving employees who book for themselves, assistants, travel managers, and administrators.</p>
             <span class="rule"></span>
             <p>The redesign explores how the product could be reorganized to simplify complex workflows, reduce duplication, improve discoverability, and create a scalable foundation for future growth.</p>
           </div>
           <div class="card-group cols-2">
             <div class="card">
-              <div class="card__head label">Team</div><div class="card__sep"></div>
-              <div class="card__body"><ul class="list"><li>Product manager</li><li>Engineers</li><li>Product designer (me)</li></ul></div>
+              <div class="card__head label">Role</div><div class="card__sep"></div>
+              <div class="card__body"><ul class="list"><li>Product designer (solo)</li></ul></div>
             </div>
             <div class="card">
               <div class="card__head label">Scope</div><div class="card__sep"></div>
@@ -85,7 +85,7 @@
       <div class="intro-block narrow center">
         <p class="lg">As HQ expanded, related features became scattered across the product, increasing navigation complexity and making core workflows harder to understand.</p>
         <span class="rule"></span>
-        <p>The challenge was to simplify the experience without redesigning the entire platform, focusing on the information architecture and the primary booking workflow.</p>
+        <p>My goal was to simplify the experience without redesigning the entire platform, focusing on the information architecture and the primary booking workflow.</p>
       </div>
     </section>
 
@@ -103,7 +103,7 @@
         <div class="card-group cols-5">
           <div class="card"><div class="card__head label">New Booking</div><div class="card__sep"></div><div class="card__body">Create a ground transportation booking</div></div>
           <div class="card"><div class="card__head label">Manage Booking</div><div class="card__sep"></div><div class="card__body">Manage upcoming and past rides</div></div>
-          <div class="card"><div class="card__head label">Manage Employees</div><div class="card__sep"></div><div class="card__body">Manage passenger profiles and preferences</div></div>
+          <div class="card"><div class="card__head label">Manage Employees</div><div class="card__sep"></div><div class="card__body">Manage employee profiles and preferences</div></div>
           <div class="card"><div class="card__head label">Admin Settings</div><div class="card__sep"></div><div class="card__body">Configure administrative functionality</div></div>
           <div class="card"><div class="card__head label">Search Receipts</div><div class="card__sep"></div><div class="card__body">Find receipts for completed rides</div></div>
         </div>
@@ -118,7 +118,7 @@
           </div>
           <div class="persona" data-reveal style="--d:0ms">
             <div class="persona__who"><span class="avatar avatar--warm" data-initials="AS"><img src="assets/image/avatar-assistant.png" alt=""></span>Assistant</div>
-            <div class="bubble"><div class="bubble__tip"><img src="assets/icon/pointer.svg" alt=""></div><p class="bubble__body">“I need to arrange and manage transportation for other employees.”</p></div>
+            <div class="bubble"><div class="bubble__tip"><img src="assets/icon/pointer.svg" alt=""></div><p class="bubble__body">“I need to arrange and manage transportation for another employee.”</p></div>
           </div>
           <div class="persona" data-reveal style="--d:0ms">
             <div class="persona__who"><span class="avatar avatar--warm" data-initials="TM"><img src="assets/image/avatar-travel-manager.png" alt=""></span>Travel Manager</div>
@@ -137,11 +137,11 @@
       <h2 class="h2-header h2">The Problems</h2>
       <div class="card-group cols-3" data-reveal style="--d:100ms">
         <div class="card"><div class="card__head label">Navigation</div><div class="card__sep"></div>
-          <div class="card__body"><ul class="list"><li>Features organized around pages, not tasks</li><li>Related tools spread across the product</li><li>Competing primary and supporting actions</li></ul></div></div>
+          <div class="card__body"><ul class="list"><li>Features organized around pages, not tasks</li><li>Inconsistent terminology</li><li>Competing primary and supporting actions</li></ul></div></div>
         <div class="card"><div class="card__head label">Booking</div><div class="card__sep"></div>
           <div class="card__body"><ul class="list"><li>Ambiguous roles and labels</li><li>Closely related decisions split across steps</li><li>Secondary content adds complexity</li></ul></div></div>
         <div class="card"><div class="card__head label">Scalability</div><div class="card__sep"></div>
-          <div class="card__body"><ul class="list"><li>Duplicate administrative areas</li><li>Inconsistent terminology</li><li>Limited room for future growth</li></ul></div></div>
+          <div class="card__body"><ul class="list"><li>Duplicate administrative areas</li><li>Related tools spread across the product</li><li>Limited room for future growth</li></ul></div></div>
       </div>
     </section>
 
@@ -171,7 +171,7 @@
         <h3 class="h3 center">Existing Information Architecture</h3>
         <div class="trees-scroll">
           <div class="trees trees--old">
-            <div class="tree"><div class="tree__title">New Booking</div><ul><li>Passenger</li><li>Date and Location</li><li>Car and Payment</li><li class="end">Summary</li></ul></div>
+            <div class="tree"><div class="tree__title">New Booking</div><ul><li>Passenger Info</li><li>Date and Location</li><li>Car and Payment</li><li class="end">Summary</li></ul></div>
             <div class="tree"><div class="tree__title">Manage Booking</div><ul><li>Upcoming Rides</li><li>Ride History</li><li class="end">Favorites</li></ul></div>
             <div class="tree"><div class="tree__title">Coverage Map</div><ul><li class="end">Coverage Map</li></ul></div>
             <div class="tree"><div class="tree__title">Manage Employees</div><ul><li>Manage Employees</li><li class="end">Approve Book-on-behalf Request</li></ul></div>
@@ -194,7 +194,7 @@
               <li class="l2 pl">Ride Details</li><li class="l2 pl">Date and Location</li><li class="l2 pl">Car and Service</li><li class="l2 pl end">Summary</li>
               <li>Request Event Transport</li><li>Favorites</li><li class="end">Coverage Map</li>
             </ul></div>
-            <div class="tree"><div class="tree__title">Rides</div><ul><li>Upcoming Rides</li><li>Ride History</li><li class="end">Receipts</li></ul></div>
+            <div class="tree"><div class="tree__title">Rides</div><ul><li>Upcoming Rides</li><li>Outstanding Charges</li><li>Ride History</li><li class="end">Receipts</li></ul></div>
             <div class="tree"><div class="tree__title">User Management</div><ul><li>Manage Users</li><li>Blocked Users</li><li class="end">Approve Book-on-behalf Request</li></ul></div>
             <div class="tree"><div class="tree__title">Insights</div><ul>
               <li>Ride Analytics</li><li>Sustainability Analytics</li><li class="end">Reports</li>
@@ -271,12 +271,12 @@
           <div class="step__details">
             <div data-variant="before"><p class="label">Problems</p><ul class="list">
               <li>Unclear whose payment methods are being used</li>
-              <li>Booking-level actions can unexpectedly change account-level defaults (e.g. a newly added credit card becomes the default payment method)</li>
+              <li>Booking-level actions can unexpectedly change account-level defaults (e.g., a newly added credit card becomes the default payment method)</li>
               <li>The “Special Offer” tag doesn’t provide the type of information it represents</li>
               <li>Important information that can affect the choice of service is hidden, with no visual cue when the section is collapsed</li></ul></div>
             <div data-variant="after" hidden><p class="label">Key UX Decisions</p><ul class="list">
               <li>Payment method moved to the Ride Details step, next to the authorizing employee it belongs to</li>
-              <li>New credit cards can now be added only in Account Settings</li>
+              <li>New credit cards can now be added only in account settings</li>
               <li>Offers and additional conditions are shown as badges with clear labels</li></ul></div>
           </div>
           <div class="step__media" data-zoom-scope>
@@ -291,7 +291,7 @@
           <div class="toggle" role="group" aria-label="Version"><button type="button" data-state="before" aria-pressed="true">Before</button><button type="button" data-state="after" aria-pressed="false">After</button></div>
           <div class="step__details">
             <div data-variant="before"><p class="label">Problems</p><ul class="list">
-              <li>Important conditions are missing. Cancellation policy, possible extra charges and the implications of a metered price should be visible before confirmation</li></ul></div>
+              <li>Important conditions, such as the cancellation policy, possible extra charges, and the implications of metered pricing, aren’t shown before confirmation</li></ul></div>
             <div data-variant="after" hidden><p class="label">Key UX Decisions</p><ul class="list">
               <li>Added a short Preview and a full Details view</li>
               <li>Important conditions are shown in both the Preview and Details views</li></ul></div>
