@@ -138,6 +138,8 @@
       } else {
         var big = document.createElement('img');
         big.src = img.src; big.alt = img.alt;
+        // Scopes marked data-zoom-2x hold 2x exports: show them no wider than half their pixel width so they stay sharp on retina screens.
+        if (scope.hasAttribute('data-zoom-2x') && img.naturalWidth) big.style.maxWidth = Math.round(img.naturalWidth / 2) + 'px';
         inner.appendChild(big);
       }
     });
