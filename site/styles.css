@@ -497,6 +497,6 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
   .ds-about { gap: 40px; }
   .ds-about .ds-about__image { order: -1; aspect-ratio: 552 / 344; }
   .ds-media { grid-template-columns: minmax(0, 1fr); gap: 24px; }
-  .ds-message { font-size: 12px; line-height: 16px; max-width: none; width: 100%; }
+  .ds-message { width: 100%; }
   .ds-row__text { gap: 24px; }
 }
