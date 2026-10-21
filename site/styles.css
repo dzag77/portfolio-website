@@ -439,18 +439,30 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
   .final .zoom { display: none; }
 }
 
-/* Lightbox */
+/* Lightbox: light frosted overlay, step title on top, close at top right, Before/After toggle when the step has both */
 .lightbox {
-  position: fixed; inset: 0; z-index: 50; background: rgba(28, 28, 28, 0.88);
-  display: flex; align-items: center; justify-content: center; padding: 56px 16px 24px;
+  position: fixed; inset: 0; z-index: 50;
+  background: rgba(248, 248, 248, 0.8); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 40px;
+  padding: 40px 24px;
 }
-.lightbox__inner { display: flex; gap: 24px; max-width: 100%; max-height: 100%; overflow: auto; align-items: flex-start; background-color: transparent }
-.lightbox__inner img { max-height: calc(100vh - 96px); width: 100%; max-width: 100%; background-color: transparent; }
-.lightbox__inner .shot { width: min(80vw, 900px); aspect-ratio: 16 / 10; }
+.lightbox__head { display: flex; flex-direction: column; align-items: center; gap: 24px; flex: none; }
+.lightbox__title { margin: 0; font-size: var(--h3); line-height: var(--h3-lh); font-weight: 700; color: var(--text); text-align: center; }
 .lightbox__close {
-  position: absolute; top: 12px; right: 12px; height: 32px; padding: 0 12px;
-  font: 600 var(--sm)/32px var(--font); background: var(--white); color: var(--text); border: 0; cursor: pointer;
+  position: absolute; top: 16px; right: 24px; width: 32px; height: 32px; padding: 0;
+  display: grid; place-items: center; border: 0; background: #f8f8f8; color: var(--text); cursor: pointer;
 }
+.lightbox__close:hover { background: var(--toggle-hover); }
+.lightbox__close:active { background: var(--toggle); }
+.lightbox__close:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+.lightbox__close svg { width: 16px; height: 16px; }
+.lightbox__media { flex: 0 1 auto; min-height: 0; width: 100%; display: flex; align-items: center; justify-content: center; }
+.lightbox__media img { display: block; max-width: 100%; width: auto; height: auto; object-fit: contain;
+  /* viewport minus: 80px padding, 32px title, 40px gap (plus 24px gap and 32px toggle for Before/After) */
+  max-height: calc(100vh - 152px); max-height: calc(100dvh - 152px); }
+.lightbox--toggle .lightbox__media img { max-height: calc(100vh - 208px); max-height: calc(100dvh - 208px); }
+.lightbox__media .shot { width: min(80vw, 900px); aspect-ratio: 16 / 10; }
+.lightbox .toggle { flex: none; }
 
 /* ---------- Reveal from bottom ---------- */
 /* Only hidden once the script has run, so text is never lost if JS is off. */

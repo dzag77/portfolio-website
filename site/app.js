@@ -113,41 +113,108 @@
     });
   });
 
-  // Lightbox for zoom buttons: shows the screenshots of the column the button belongs to.
-  var box = null;
-  function close() { if (box) { box.remove(); box = null; document.body.style.overflow = ''; } }
+  // Lightbox for zoom buttons: title of the current step or tab, the enlarged screenshot,
+  // a close button, and a Before/After toggle when the step has both versions.
+  var box = null, lastFocus = null;
+  var CLOSE_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5l5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19Z" fill="currentColor"/></svg>';
+  function close() {
+    if (!box) return;
+    box.remove(); box = null; document.body.style.overflow = '';
+    if (lastFocus) lastFocus.focus();
+  }
+  function visibleText(el) {
+    if (!el) return '';
+    var spans = el.querySelectorAll('[data-variant]');
+    if (!spans.length) return el.textContent.trim();
+    var v = Array.prototype.filter.call(spans, function (s) { return !s.hidden; })[0];
+    return v ? v.textContent.trim() : '';
+  }
+  function shotImage(shot) {
+    var img = shot && shot.querySelector('img');
+    if (!img || shot.classList.contains('missing')) {
+      var ph = document.createElement('div');
+      ph.className = 'shot missing';
+      ph.dataset.label = (shot && shot.dataset.label) || 'Image';
+      return ph;
+    }
+    var big = document.createElement('img');
+    big.src = img.src; big.alt = img.alt;
+    return big;
+  }
   document.addEventListener('click', function (e) {
     var btn = e.target.closest('[data-zoom]');
     if (!btn) return;
     var scope = btn.closest('[data-zoom-scope]');
-    var shots = scope ? Array.prototype.filter.call(scope.querySelectorAll('.shot'), function (s) { return !s.closest('[hidden]'); }) : [];
+    if (!scope) return;
+    var step = btn.closest('[data-step]');
+    var panel = btn.closest('.final-panel');
+    var shots = Array.prototype.filter.call(scope.querySelectorAll('.shot'), function (s) { return !s.closest('[hidden]'); });
+    var before = step && scope.querySelector('.shot[data-variant="before"]');
+    var after = step && scope.querySelector('.shot[data-variant="after"]');
+    var hasToggle = !!(before && after);
+
+    lastFocus = btn;
     box = document.createElement('div');
-    box.className = 'lightbox';
+    box.className = 'lightbox' + (hasToggle ? ' lightbox--toggle' : '');
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
-    box.setAttribute('aria-label', 'Enlarged screenshots');
-    var inner = document.createElement('div');
-    inner.className = 'lightbox__inner';
-    shots.forEach(function (s) {
-      var img = s.querySelector('img');
-      if (s.classList.contains('missing') || !img) {
-        var ph = document.createElement('div');
-        ph.className = 'shot missing';
-        ph.dataset.label = s.dataset.label || 'Image';
-        inner.appendChild(ph);
-      } else {
-        var big = document.createElement('img');
-        big.src = img.src; big.alt = img.alt;
-        // Scopes marked data-zoom-2x hold 2x exports: show them no wider than half their pixel width so they stay sharp on retina screens.
-        if (scope.hasAttribute('data-zoom-2x') && img.naturalWidth) big.style.maxWidth = Math.round(img.naturalWidth / 2) + 'px';
-        inner.appendChild(big);
-      }
-    });
+    box.setAttribute('aria-labelledby', 'lightbox-title');
+
+    var title = document.createElement('h2');
+    title.className = 'lightbox__title'; title.id = 'lightbox-title';
     var x = document.createElement('button');
-    x.className = 'lightbox__close'; x.type = 'button'; x.textContent = 'Close';
+    x.className = 'lightbox__close'; x.type = 'button'; x.setAttribute('aria-label', 'Close'); x.innerHTML = CLOSE_ICON;
     x.addEventListener('click', close);
-    box.addEventListener('click', function (ev) { if (ev.target === box) close(); });
-    box.appendChild(x); box.appendChild(inner);
+    var media = document.createElement('div');
+    media.className = 'lightbox__media';
+
+    function show(state) {
+      media.textContent = '';
+      if (hasToggle) {
+        var shown = shotImage(state === 'after' ? after : before);
+        // Before screenshots are 2x exports and would open larger than After ones;
+        // cap both at the After image's width so switching keeps the same size.
+        var afterImg = after.querySelector('img');
+        var cap = (afterImg && afterImg.naturalWidth) || 1440;
+        if (shown.tagName === 'IMG') shown.style.maxWidth = 'min(100%, ' + cap + 'px)';
+        media.appendChild(shown);
+        var t = step.querySelector('.step__title [data-variant="' + state + '"]');
+        title.textContent = t ? t.textContent.trim() : visibleText(step.querySelector('.step__title'));
+      } else {
+        shots.forEach(function (s) { media.appendChild(shotImage(s)); });
+        title.textContent = step ? visibleText(step.querySelector('.step__title')) : (panel ? visibleText(panel.querySelector('h3')) : '');
+      }
+    }
+
+    // Title and (when present) the Before/After toggle sit together above the image.
+    var head = document.createElement('div');
+    head.className = 'lightbox__head';
+    head.appendChild(title);
+    box.appendChild(head); box.appendChild(x); box.appendChild(media);
+    if (hasToggle) {
+      var current = after.hidden ? 'before' : 'after';
+      var tg = document.createElement('div');
+      tg.className = 'toggle'; tg.setAttribute('role', 'group'); tg.setAttribute('aria-label', 'Version');
+      ['before', 'after'].forEach(function (state) {
+        var b = document.createElement('button');
+        b.type = 'button'; b.dataset.state = state; b.textContent = state === 'before' ? 'Before' : 'After';
+        b.setAttribute('aria-pressed', String(state === current));
+        b.addEventListener('click', function () {
+          tg.querySelectorAll('button').forEach(function (o) { o.setAttribute('aria-pressed', String(o === b)); });
+          show(state);
+          // Keep the page in step with the lightbox, so closing it shows the same version.
+          var pageBtn = step.querySelector('.toggle button[data-state="' + state + '"]');
+          if (pageBtn && pageBtn.getAttribute('aria-pressed') !== 'true') pageBtn.click();
+        });
+        tg.appendChild(b);
+      });
+      head.appendChild(tg);
+      show(current);
+    } else {
+      show();
+    }
+    if (!title.textContent) title.hidden = true;
+
     document.body.appendChild(box);
     document.body.style.overflow = 'hidden';
     x.focus();
